@@ -410,26 +410,6 @@
 					<div class="col-md-12">
 
 						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zl22.png" alt="zocalo de madera zl22">
-							<p>ZL22</p>
-						</div>
-
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zl33.png" alt="zocalo de madera zl33">
-							<p>ZL33</p>
-						</div>
-
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zm23.png" alt="zocalo de madera zm23">
-							<p>ZM23</p>
-						</div>
-
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zm34.png" alt="zocalo de madera zm34">
-							<p>ZM34</p>
-						</div>
-
-						<div class="perfil text-center">
 							<img class="img-fluid" src="img/zocalo-zfl.png" alt="zocalo de madera zfl">
 							<p>ZFL</p>
 						</div>
@@ -522,11 +502,6 @@
 						<div class="perfil text-center">
 							<img class="img-fluid" src="img/contramarco-cl22.png" alt="contramarco de madera cl22">
 							<p>CL22</p>
-						</div>
-
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/contramarco-cm23.png" alt="contramarco de madera cm23">
-							<p>CM23</p>
 						</div>
 
 					</div>

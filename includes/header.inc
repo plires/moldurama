@@ -19,10 +19,6 @@
 			          Productos
 			        </a>
 			        <div class="dropdown-menu transition" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item transition" href="zocalo-moldurado-zm34.php">Zócalo Moldurado ZM34</a>
-			          <a class="dropdown-item transition" href="zocalo-moldurado-zm23.php">Zócalo Moldurado ZM23</a>
-			          <a class="dropdown-item transition" href="zocalo-liso-zl33.php">Zócalo Liso ZL33</a>
-			          <a class="dropdown-item transition" href="zocalo-liso-zl22.php">Zócalo Liso ZL22</a>
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item transition" href="zocalo-mdf-zfl.php">Zócalo MDF Curvo ZFL</a>
 			          <a class="dropdown-item transition" href="zocalo-mdf-zfr.php">Zócalo MDF Recto ZFR</a>
@@ -31,7 +27,6 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item transition" href="cubrezocalo-cz.php">Cubre Zócalo CZ</a>
 			          <div class="dropdown-divider"></div>
-			          <!-- <a class="dropdown-item transition" href="contramarco-moldurado-cm23.php">Contramarco Moldurado CM23</a> -->
 			          <a class="dropdown-item transition" href="contramarco-liso-cl22.php">Contramarco Lisos CL22</a>
 			        </div>
 			      </li>

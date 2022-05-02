@@ -71,7 +71,7 @@
 		    </div>
 
 		    <div class="cta col-md-6 mb-3">
-		    	<a href="zocalo-liso-zl22.php">
+		    	<a href="zocalo-mdf-zff.php">
 	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/cta-zocalos.jpg" alt="zocalos">
 		    		<div class="font-weight-bold bg-azul text-white text-center p-2">ZÓCALOS</div>
 		    	</a>
