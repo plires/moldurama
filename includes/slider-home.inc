@@ -13,60 +13,60 @@
 	  <div class="carousel-inner">
 
 	  	<div class="carousel-item active">
-		  <img class="img-fluid" src="img/slide/slide-a.jpg" alt="colores zocalos de mdf blanco">
-		  <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
-		  	<div class="row">
-		  		<div class="col-sm-9">
-				    <h1>ZÓCALOS EN MDF</h1>
-						<p>
-							Zócalos de alta calidad listos para colocar.<br>Medidas y colores personalizables.
-						</p>
-						<a href="zocalo-mdf-zff.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>							
-		  		</div>
-		  	</div>
-		  </div>
-		</div>
+			  <img class="img-fluid" src="img/slide/slide-a.jpg" alt="colores zocalos de mdf blanco">
+			  <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
+			  	<div class="row">
+			  		<div class="col-sm-9">
+					    <h1>ZÓCALOS EN MDF</h1>
+							<p>
+								Zócalos de alta calidad listos para colocar.<br>Medidas y colores personalizables.
+							</p>
+							<a href="zocalo-mdf-zff.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>							
+			  		</div>
+			  	</div>
+			  </div>
+			</div>
 
 	    <div class="carousel-item">
-		  <img class="img-fluid" src="img/slide/slide-b.jpg" alt="colores zocalos de madera">
-		  <div class="carousel-caption carousel-caption_add carousel-caption_menor">
-		  	<div class="row">
-		  		<div class="col-sm-9">
-				    <h1>EXPLORÁ NUEVOS COLORES</h1>
-						<p>
-							Dale color a tus ambientes.
-						</p>
-						<a href="contacto.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>							
-		  		</div>
-		  	</div>
-		  </div>
-		</div>
+			  <img class="img-fluid" src="img/slide/slide-b.jpg" alt="colores zocalos de madera">
+			  <div class="carousel-caption carousel-caption_add carousel-caption_menor">
+			  	<div class="row">
+			  		<div class="col-sm-9">
+					    <h1>EXPLORÁ NUEVOS COLORES</h1>
+							<p>
+								Dale color a tus ambientes.
+							</p>
+							<a href="contacto.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>							
+			  		</div>
+			  	</div>
+			  </div>
+			</div>
 
-		<div class="carousel-item ">
-		  <img class="img-fluid" src="img/slide/slide-d.jpg" alt="contramarcos de madera">
-		  <div class="carousel-caption carousel-caption_add">
-		  	<div class="row">
-		  		<div class="col-sm-8">
-				    <h1>CONTRAMARCOS <br>EN MADERA</h1>
-						<p>Descubrí nuestra línea de <br> contramarcos y embellece <br>tus ambientes.</p>
-						<a href="contramarco-liso-cl22.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
-		  		</div>
-		  	</div>
-		  </div>
-		</div>
+			<div class="carousel-item ">
+			  <img class="img-fluid" src="img/slide/slide-d.jpg" alt="contramarcos de madera">
+			  <div class="carousel-caption carousel-caption_add">
+			  	<div class="row">
+			  		<div class="col-sm-8">
+					    <h1>CONTRAMARCOS <br>EN MADERA</h1>
+							<p>Descubrí nuestra línea de <br> contramarcos y embellece <br>tus ambientes.</p>
+							<a href="contramarco-liso-cl22.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
+			  		</div>
+			  	</div>
+			  </div>
+			</div>
 
-		<div class="carousel-item">
-		  <img class="img-fluid" src="img/slide/slide-c.jpg" alt="zocalos de madera">
-		  <div class="carousel-caption carousel-caption_add">
-		  	<div class="row">
-		  		<div class="col-sm-7">
-				    <h1>ZÓCALOS EN <br>MADERA</h1>
-						<p>Conocé nuestra línea de <br>zócalos para darle la terminación <br>ideal a tus ambientes.</p>
-						<a href="zocalo-moldurado-zm23.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
-		  		</div>
-		  	</div>
-		  </div>
-		</div>
+			<div class="carousel-item">
+			  <img class="img-fluid" src="img/slide/slide-c.jpg" alt="zocalos de madera">
+			  <div class="carousel-caption carousel-caption_add">
+			  	<div class="row">
+			  		<div class="col-sm-7">
+					    <h1>CUBREZÓCALOS EN MDF</h1>
+							<p>Conocé nuestra línea de <br>cubrezócalos. Se colocan sobre los <br>existentes y se pueden ocultar cables en su interior.</p>
+							<a href="zocalo-moldurado-zm23.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
+			  		</div>
+			  	</div>
+			  </div>
+			</div>
 
 	  </div>
 
