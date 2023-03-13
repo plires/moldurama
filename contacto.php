@@ -92,7 +92,7 @@
 					<span>
 						<a class="transition" href="https://goo.gl/tSXWCM" target="blank">
 							<i class="transition fas fa-map-marker-alt mb-3"></i>
-							La Paz 4552 Villa Ballester. Buenos Aires - Argentina
+							La Paz 4546 Villa Ballester. Buenos Aires - Argentina
 						</a>
 					</span>
 
@@ -145,7 +145,7 @@
 		<section class="container-fluid mb-1">
 
 			<div class="row">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.532171952324!2d-58.56779328477128!3d-34.56539868046934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9e600965a2f%3A0x17a60cab14e0567a!2sLa+Paz+4552%2C+Villa+Ballester%2C+Buenos+Aires!5e0!3m2!1ses-419!2sar!4v1534529345346" width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.543068758062!2d-58.56725478424993!3d-34.56512286296499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9c5391491e3%3A0xbe6b266f2cbfde71!2sMoldurama!5e0!3m2!1ses-419!2sar!4v1678744449852!5m2!1ses-419!2sar" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 
 		</section>
