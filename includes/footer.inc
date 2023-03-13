@@ -8,9 +8,9 @@
 			</div>
 
 			<ul class="col-md-6 d-flex justify-content-around align-items-center">
-				<li><a class="transition text-white" href="#">Nosotros</a></li>
-				<li><a class="transition text-white" href="#">Productos</a></li>
-				<li><a class="transition text-white" href="#">Contacto</a></li>
+				<li><a class="transition text-white" href="./nosotros.php">Nosotros</a></li>
+				<li><a class="transition text-white" href="./zocalo-mdf-zfl.php">Productos</a></li>
+				<li><a class="transition text-white" href="./contacto.php">Contacto</a></li>
 			</ul>
 
 	  </div>
@@ -32,8 +32,8 @@
 	  	</div>
 
 	  	<div class="col-md-4">
-	  		<a class="transition text-white" href="https://goo.gl/tSXWCM" target="blank">
-		  		<span><i class="transition fas fa-map-marker-alt mb-3"></i>La Paz 4552 Villa Ballester</span>
+	  		<a class="transition text-white" href="https://goo.gl/maps/toKmrUcCNkKDDKV2A" target="blank">
+		  		<span><i class="transition fas fa-map-marker-alt mb-3"></i>La Paz 4546 - Villa Ballester</span>
 		  	</a>			  		
 	  	</div>
 
