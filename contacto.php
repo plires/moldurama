@@ -90,7 +90,7 @@
 					</span>
 
 					<span>
-						<a class="transition" href="https://goo.gl/tSXWCM" target="blank">
+						<a class="transition" href="https://goo.gl/maps/toKmrUcCNkKDDKV2A" target="blank">
 							<i class="transition fas fa-map-marker-alt mb-3"></i>
 							La Paz 4546 Villa Ballester. Buenos Aires - Argentina
 						</a>
