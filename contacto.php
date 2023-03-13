@@ -76,9 +76,9 @@
 				<div class="contacto_datos col-md-6">
 
 					<span>
-						<a class="transition" href="tel:1177237758">
+						<a class="transition" href="tel:1147675100">
 							<i class="transition fas fa-phone mb-3"></i>
-							7723-7758
+							11 4767-5100
 						</a>
 					</span>
 
