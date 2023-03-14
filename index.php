@@ -26,7 +26,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
 
 		<!-- Fontawesome -->
 		<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
@@ -49,7 +49,7 @@
 		<!-- Header -->
 		<?php include_once('includes/header.inc'); ?>
 
-		<!-- Header -->
+		<!-- Slide -->
 		<?php include_once('includes/slider-home.inc'); ?>
 
 		<!-- Texto y CTA -->
