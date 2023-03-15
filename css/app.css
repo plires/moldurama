@@ -8,7 +8,7 @@
 /* Variables end */
 
 body {font-family: 'Ubuntu', sans-serif; font-size: 16px;}
-a{ text-decoration: none!important; color: #004876; }
+a{ text-decoration: none!important; color: var(--secondary-color); }
 
 ul{ list-style: none; }
 
@@ -18,14 +18,24 @@ ul{ list-style: none; }
 	transition: all ease-in-out .3s;
 }
 .btn_site_white { background-color: rgba(0, 0, 0, 0); color: #ffffff!important; font-size: 1.5em; border: solid 2px #ffffff; }
-.btn_site_white:hover { background-color: rgba(255, 255, 255); color: #004876!important; }
+.btn_site_white:hover { background-color: rgba(255, 255, 255); color: var(--secondary-color)!important; }
 .btn_site { background-color: rgba(0, 0, 0, 0); color: var(--primary-color)!important; font-size: 1.5em; border: solid 2px var(--primary-color); }
 .btn_site:hover { background-color: rgba(2, 128, 144, 0.7)!important; color: #ffffff!important; border: solid 2px #ffffff!important; }
+.btn_site_grey {
+	border: solid 1px var(--dark-color)!important;
+	background-color: var(--dark-color);
+	color: white!important;
+}
+
+.btn_site_grey:hover {
+	background-color: white;
+	color: var(--dark-color)!important;
+}
 .font_1em{ font-size: 1em!important; }
 
 .shadow-sm { box-shadow: 0 .125rem .25rem rgba(0,0,0,0.15) !important;}
 
-.bg-azul{ background-color: #004876; }
+.bg-azul{ background-color: var(--secondary-color); }
 .bg-azul-oscuro{ background-color: #00263d; }
 .bg-gris{ background-color: #dbd9d6; }
 .bg-gris-claro{ background-color: #f6f6f6; padding: 3rem 0; }
@@ -36,7 +46,7 @@ ul{ list-style: none; }
 .bg-nogal{ background-color: #331e12; }
 .bg-aluminio{ background-color: #b2b2b2; }
 
-.color-azul{ color: #004876; }
+.color-azul{ color: var(--secondary-color); }
 
 /*.SEGUIDOR */
 #seguidor{
@@ -110,10 +120,10 @@ ul{ list-style: none; }
 /* HEADER */
 .navbar-brand:hover{ opacity: 0.7; }
 .navbar-nav{ margin-left: 50px; }
-.nav-link{ font-size: 1.3em; color: #004876!important; font-weight: 500; }
+.nav-link{ font-size: 1.3em; color: var(--secondary-color)!important; font-weight: 500; }
 .nav-link:hover, header i:hover, .phone:hover, .mail:hover{ color: #0077ac!important; }
 .nav-item{ padding: 0 15px; }
-header i{ font-size: 24px; color: #004876; }
+header i{ font-size: 24px; color: var(--secondary-color); }
 span a.phone{ color: #004473; font-size: 1.4em; font-weight: 700; text-decoration: none; }
 span a.mail{ color: #004473; font-size: 1em; margin-bottom: 5px; font-weight: 400; text-decoration: none; }
 .active a{ color: #0077ac!important; }
@@ -131,7 +141,7 @@ span a.mail{ color: #004473; font-size: 1em; margin-bottom: 5px; font-weight: 40
 .carousel-caption_menor { top:28%!important; left: -30%; }
 .carousel-caption_mdf { top:20%!important; left: -30% }
 .carousel-caption_add h1,
-.carousel-caption_add h2 { color: #004876; }
+.carousel-caption_add h2 { color: var(--secondary-color); }
 .carousel-caption_add p { color: #4c4a4a!important; font-size: 1.5em; margin: 0; }
 .btn-slide { background-color: var( --dark-color)!important; color: #ffffff!important; font-size: 1.125em; margin-top: 10px; }
 .btn-slide i { font-size: 0.75rem; }
@@ -141,8 +151,12 @@ a.btn-slide { color: #ffffff!important; }
 /* SLIDE HOME END */
 
 /* HOME */
-.cta img:hover{ filter:sepia(100%); }
-.madera_reforestacion h4{ margin-left: 60px; font-size: 1.75em; font-weight: normal!important; }
+.cta img:hover{ filter:sepia(50%); }
+.faja_reforestacion {
+	background-color: var(--light-color);
+}
+.madera_reforestacion h4 { color: var(--secondary-color); margin-left: 60px; font-size: 1.25em; font-weight: normal!important; margin-bottom:0; }
+.madera_reforestacion img { height: 295px; object-fit: cover; }
 .home_madera_mobile{ display: none; }
 .ventajas h3{ font-size: 1.75em; }
 .distribuidor h3{ font-size: 2em; }
@@ -276,7 +290,7 @@ footer a{ font-size: 1em; }
 	.colores_plenos a { width: 100%; }
 	/* Home - Colores Plenos end */
 
-	.madera_reforestacion h4{ margin: 0; text-align: center; font-size: 1.25em; }
+	.madera_reforestacion h4{ margin: 0; text-align: center; font-size: 1em; }
 	.home_madera_mobile{ display: inline-block; }
 	.distribuidor h3{ font-size: 1.5em; }
 	.footer_logo { display: flex; justify-content: center; }
@@ -342,7 +356,7 @@ footer a{ font-size: 1em; }
 /* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
 	.header_datos {display: none; visibility: hidden;}
-	.madera_reforestacion h4{ margin: 0; text-align: center; font-size: 1.5em; }
+	.madera_reforestacion h4{ margin: 0; text-align: center; font-size: 1.25em; }
 	.madera_reforestacion { padding: 35px!important; }
 	.home_madera_mobile{ display: inline-block; }
 	.footer_logo { display: flex; justify-content: center; }

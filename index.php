@@ -64,7 +64,7 @@
 		    <div class="col-md-8 offset-md-2 text-center mb-5">
 		      <p class="wow fadeInUp">
 						Los zócalos y molduras Moldurama permiten ahorrar tiempo y dinero ya que vienen listos para colocar. 
-						Están fabricadas en Pino, disponibles en distintos perfiles y espesores. 
+						Están fabricadas en MDF, disponibles en distintos perfiles y espesores. 
 						Poseen una superficie suave, sin imperfecciones y son fáciles de instalar. 
 						La pintura de fábrica les brinda un acabado final, logrando color, textura y densidad homogénea.
 		      </p>
@@ -80,6 +80,18 @@
 		    	<a href="contramarco-liso-cl22.php">
 	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/cta-contramarcos.jpg" alt="contramarcos">
 		    		<div class="font-weight-bold bg-azul text-white text-center p-2">CONTRAMARCOS</div>
+		    	</a>
+		    </div>
+		    <div class="cta col-md-6 mb-3">
+		    	<a href="#">
+	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/guardasilla.jpg" alt="guardasilla">
+		    		<div class="font-weight-bold bg-azul text-white text-center p-2">GUARDASILLAS</div>
+		    	</a>
+		    </div>
+		    <div class="cta col-md-6 mb-3">
+		    	<a href="#">
+	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/cubrezocalo.jpg" alt="cubrezocalo">
+		    		<div class="font-weight-bold bg-azul text-white text-center p-2">CUBREZÓCALOS</div>
 		    	</a>
 		    </div>
 
@@ -104,16 +116,10 @@
 		    	<h4>ZÓCALOS EN MDF<br>Blanco Premium</h4>
 		    	<span class="listos_colocar">LISTOS PARA COLOCAR</span>
 		    	<p>
-			    	Medidas estándar (alto): <br>
-						<strong>50 mm | 70 mm | 100 mm</strong> <br>
-						12 mm de espesor 
+		    		<strong>ALTURA:</strong><br>50 mm, 70 mm, 82 mm, 100 mm y 120 mm<br>
+		    		<strong>ESPESOR:</strong><br>12 mm<br>
+		    		<strong>COLORES:</strong><br>Blanco, gris, negro y personalizados a pedido<br>
 					</p>
-					<p class="moldurado">¡AHORA TAMBIEN <br>MOLDURADOS!</p>
-					<p>
-						<strong>Medidas y colores<br>
-						personalizables a pedido.</strong>
-					</p>
-
 		    </div>
 
 		  </div>
@@ -136,12 +142,7 @@
 			    	<img class="plenos_mobile img-fluid" src="img/home/colores-plenos.png" alt="zocalos colores plenos mobile">
 			    	<h4>DALE UN TOQUE DE COLOR<br>A TUS AMBIENTES</h4>
 			    	<p>
-				    	Gracias a nuestro exclusivo proceso 
-							de pintura con secado en horno de alta 
-							temperatura, logramos colores plenos 
-							y bien definidos, que perduran en el tiempo,
-							animate a explorar nuevos colores, pedinos 
-							el que necesites. 
+				    	Gracias a nuestro exclusivo proceso de pintura con secado en horno de alta temperatura, logramos colores plenos y bien definidos, que perduran en el tiempo, animate a explorar nuevos colores. Pedinos el que mejor combine con tus proyectos.  
 						</p>
 
 						<div class="text-right">
@@ -162,22 +163,22 @@
 		<!-- Colores Plenos end -->
 
 		<!-- Faja madera de reforestacion -->
-		<section class="container-fluid bg-azul text-white mb-5">
+		<section class="container-fluid bg-azul text-white mb-5 faja_reforestacion">
 
 			<div class="row">
 
 		    <div class="madera_reforestacion col-sm-12 col-md-7 p-4 d-flex flex-row align-items-center">
 		    	<h4 class="wow fadeInLeft">
-		    		Usamos madera de reforestación pensando en la Sustentabilidad del Medio Ambiente y en nuestras Generaciones Futuras.
+		    		Utilizamos <strong>MDF</strong> (fibropanel de densidad media), pensando en la <strong>sustentabilidad del medio ambiente</strong> y en nuestras generaciones futuras. <br>El <strong>MDF</strong> es un producto de madera reconstituida que se obtiene descomponiendo residuos de madera dura o blanda en fibras de madera, combinándolo con cera y un aglutinante de resina, formando paneles mediante alta temperatura y presión
 		    	</h4>
 		    </div>
 
 		    <div class="col-sm-12 col-md-5 p-0 d-flex flex-row-reverse">
-		    	<img class="d-none d-md-block transition wow fadeInUp img-fluid" src="img/home/maderas.png" alt="madera virgen">
+		    	<img class="d-none d-md-block transition wow fadeInUp img-fluid" src="img/home/madera-mdf.png" alt="madera mdf">
 		    </div>
 
 		    <div class="home_madera_mobile p-0 col-sm-12">
-		    	<img class="transition wow fadeInUp img-fluid" src="img/home/madera-mobile.jpg" alt="madera virgen mobile">
+		    	<img class="transition wow fadeInUp img-fluid" src="img/home/madera-mobile.jpg" alt="madera mdf mobile">
 		    </div>
 
 		  </div>
@@ -200,7 +201,7 @@
 		    	<img class="mb-4 wow fadeInUp" src="img/home/resistencia.png" alt="madera resistencia">
 		    	<h3 class="font-weight-bold color-azul wow fadeInLeft">RESISTENCIA</h3>
 		    	<p class="wow fadeInLeft">
-		    		Por su mayor peso específico. Debido a que al direccionar en el CORTE LATERAL la incisión de la hoja siguiendo la conicidad natural del árbol logramos unificar y juntar la mayor cantidad de anillos de crecimiento o VETAS en forma homogénea y de muy alta densidad debido a que en este lugar es donde se encuentra el leño tardío maduro del árbol.
+		    		Su estructura uniforme y homogénea y una textura fina permite que sus caras y cantos tengan un acabado perfecto. Se trabaja prácticamente igual que la madera maciza, pudiéndose fresar y tallar en su totalidad. La estabilidad dimensional, al contrario que la madera maciza, es óptima, pero su peso es muy elevado
 		    	</p>
 		    </div>
 
@@ -208,7 +209,7 @@
 		    	<img class="mb-4 wow fadeInUp" src="img/home/aspecto-visual.png" alt="madera aspecto visual">
 		    	<h3 class="font-weight-bold color-azul wow fadeInLeft">ASPECTO VISUAL</h3>
 		    	<p class="wow fadeInLeft">
-		    		El aspecto visual de la madera es sin duda diferente y atractivo para la confección de un sin número de productos fabricados en madera de alta calidad ya que la madera CLEAR da un aspecto de solidez, luce el veteado natural de la madera permitiendo así las excelentes terminaciones.
+		    		Constituye una base excelente para las chapas de madera. Es perfecto para lacar o pintar. También se puede barnizar, aunque debido a sus características no es necesario. Se encola con cola blanca fácilmente y sin problemas. Suele ser de color marrón medio oscuro y es un tablero de bajo costo económico en el mercado actual
 		    	</p>
 		    </div>
 
@@ -216,7 +217,7 @@
 		    	<img class="mb-4 wow fadeInUp" src="img/home/continuidad.png" alt="madera continuidad">
 		    	<h3 class="font-weight-bold color-azul wow fadeInLeft">CONTINUIDAD</h3>
 		    	<p class="wow fadeInLeft">
-		    		Al ser madera de reforestación (montes implantados artificiales), el pino garantiza la producción continua y sistemática a través del tiempo, este atributo no es un detalle menor, ya que en caso de las especies de "montes nativos" suelen ser el principal problema en el desarrollo y continuidad de productos a parte del problema ambiental que genera su explotación.
+		    		El MDF es un producto de madera reconstituida que se obtiene descomponiendo residuos de madera dura o blanda en fibras de madera, combinándolo con cera y un aglutinante de resina, formando paneles mediante alta temperatura y presión
 		    	</p>
 		    </div>
 
