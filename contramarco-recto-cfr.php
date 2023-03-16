@@ -10,7 +10,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Contramarco liso cl22. trabajamos zócalos y contramarcos que permiten ahorrar tiempo y dinero ya que vienen listos para colocar.">
+		<meta name="description" content="contramarco recto CFR. trabajamos zócalos y contramarcos que permiten ahorrar tiempo y dinero ya que vienen listos para colocar.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" href="img/apple-icon.png">

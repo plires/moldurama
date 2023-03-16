@@ -44,10 +44,10 @@
 
 		<div class="wow fadeInLeft col-md-3 col-6 text-center mb-3">
 			<div class="card">
-				<a class="transition" href="zocalo-mdf-zrc.php">
+				<a class="transition" href="zocalo-mdf-zfc.php">
 			  	<img class="card-img-top" src="img/productos/zocalo-zrc.gif" alt="zocalo moldurado zrc">
 				  <div class="card-body">
-				    <h3 class="card-text">ZRC</h3>
+				    <h3 class="card-text">ZFC</h3>
 				  </div>
 			  </a>
 			</div>
@@ -70,7 +70,7 @@
 		
 		<div class="wow fadeInUp col-md-3 col-6 text-center mb-3">
 			<div class="card">
-				<a class="transition" href="contramarco-liso-cl22.php">
+				<a class="transition" href="contramarco-recto-cfr.php">
 			  	<img class="card-img-top" src="img/productos/contramarco-cl22.gif" alt="contramarco cl22">
 				  <div class="card-body">
 				    <h3 class="card-text">CL22</h3>

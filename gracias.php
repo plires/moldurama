@@ -68,8 +68,6 @@
 		</section>
 		<!-- Slider Gracias end -->
 
-		
-
 		<!-- Texto y CTA -->
 		<section class="container mb-5">
 
@@ -95,7 +93,7 @@
 		    	</a>
 		    </div>
 		    <div class="cta col-md-6 mb-3">
-		    	<a href="contramarco-liso-cl22.php">
+		    	<a href="contramarco-recto-cfr.php">
 	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/cta-contramarcos.jpg" alt="contramarcos">
 		    		<div class="font-weight-bold bg-azul text-white text-center p-2">CONTRAMARCOS</div>
 		    	</a>

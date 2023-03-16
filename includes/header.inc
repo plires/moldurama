@@ -22,12 +22,16 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item transition" href="zocalo-mdf-zfl.php">Zócalo MDF Curvo ZFL</a>
 			          <a class="dropdown-item transition" href="zocalo-mdf-zfr.php">Zócalo MDF Recto ZFR</a>
-			          <a class="dropdown-item transition" href="zocalo-mdf-zrc.php">Zócalo MDF Con Calle ZRC</a>
+			          <a class="dropdown-item transition" href="zocalo-mdf-zfc.php">Zócalo MDF Con Calle Recto ZFC</a>
 			          <a class="dropdown-item transition" href="zocalo-mdf-zff.php">Zócalo MDF Fantasía ZFF</a>
+			          <a class="dropdown-item transition" href="zocalo-mdf-zfm.php">Zócalo MDF Moldurado ZFM</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item transition" href="cubrezocalo-cz.php">Cubre Zócalo CZ</a>
+			          <a class="dropdown-item transition" href="cubrezocalo-cz.php">Cubre Zócalo MDF CZ</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item transition" href="contramarco-liso-cl22.php">Contramarco Lisos CL22</a>
+			          <a class="dropdown-item transition" href="contramarco-recto-cfr.php">Contramarco MDF Recto CFR</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item transition" href="guardasilla-liso-gfm.php">Guardasilla MDF Liso GFM</a>
+			          <a class="dropdown-item transition" href="guardasilla-recto-gfr.php">Guardasilla MDF Liso GFR</a>
 			        </div>
 			      </li>
 			    	
