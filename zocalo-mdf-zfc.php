@@ -10,7 +10,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Zócalo en mdf blanco zrc. trabajamos zócalos y contramarcos que permiten ahorrar tiempo y dinero ya que vienen listos para colocar.">
+		<meta name="description" content="Zócalo en mdf blanco zfc. trabajamos zócalos y contramarcos que permiten ahorrar tiempo y dinero ya que vienen listos para colocar.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" href="img/apple-icon.png">
@@ -37,7 +37,7 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 
-		<title>Zócalo MDF Blanco Curvo ZRC - Zocalos, molduras y contramarcos de madera.</title>
+		<title>Zócalo MDF Blanco Curvo ZFC - Zocalos, molduras y contramarcos de madera.</title>
 	</head>
 	
 	<body>
@@ -59,23 +59,23 @@
 
 				<div class="col-lg-6 mb-5 parent-container">
 
-					<a class="transition productos_mini popup-img" href="img/productos/zocalo-zrc/zocalo-zrc-principal.jpg" title="Zocalo mdf ZRC">
-						<img id="principal" class="wow fadeInUp img-fluid" src="img/productos/zocalo-zrc/zocalo-zrc-principal.jpg" alt="Zocalo mdf ZRC">
+					<a class="transition productos_mini popup-img" href="img/productos/zocalo-zfc/zocalo-zfc-principal.jpg" title="Zocalo mdf ZFC">
+						<img id="principal" class="wow fadeInUp img-fluid" src="img/productos/zocalo-zfc/zocalo-zfc-principal.jpg" alt="Zocalo mdf ZFC">
 					</a>
 
 					<div class="row">
 
-						<div class="col-4">
-							<a class="transition productos_mini popup-img" title="Zocalo ZRC" href="img/productos/zocalo-zrc/zocalo-zrc-perfil.jpg">
-								<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/zocalo-zrc/zocalo-zrc-perfil.jpg" 
-								alt="zocalo ZRC perfil">
+						<div class="col-4 offset-2">
+							<a class="transition productos_mini popup-img" title="Zocalo ZFC" href="img/productos/zocalo-zfc/zocalo-zfc-perfil.jpg">
+								<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/zocalo-zfc/zocalo-zfc-perfil.jpg" 
+								alt="zocalo ZFC perfil">
 							</a>
 						</div>
 
 						<div class="col-4">
-							<a class="transition productos_mini popup-img" title="Zocalo ZRC" href="img/productos/zocalo-zrc/zocalo-zrc-render.jpg">
-								<img id="render" class="wow fadeInRight img-fluid" src="img/productos/zocalo-zrc/zocalo-zrc-render.jpg" 
-								alt="zocalo ZRC render">
+							<a class="transition productos_mini popup-img" title="Zocalo ZFC" href="img/productos/zocalo-zfc/zocalo-zfc-render.jpg">
+								<img id="render" class="wow fadeInRight img-fluid" src="img/productos/zocalo-zfc/zocalo-zfc-render.jpg" 
+								alt="zocalo ZFC render">
 							</a>
 						</div>
 
@@ -84,19 +84,24 @@
 				</div>
 
 				<div class="productos col-lg-5 offset-lg-1 mb-5">
-					<h1 class="wow fadeInUp">ZÓCALO</h1>
-					<h2 class="wow fadeInLeft">MDF CON CALLE</h2>
+					<h1 class="wow fadeInUp">ZÓCALO CON CALLE MDF</h1>
+					<h2 class="wow fadeInLeft">MDF ZFC</h2>
+					
 					<p class="wow fadeInUp">
 						<span class="font-weight-bold">Descripción:</span> <br>
-						Fabricados en MDF<br>
-						Acabado con pintura secada a <br>
-						horno de alta temperatura.
+						Fabricados en MDF. <br>
+						Acabado con pintura secada <br>
+						a horno de alta temperatura.
 					</p>
 
 					<p class="wow fadeInUp">
 						<span class="font-weight-bold">Medidas:</span> <br>
-						50 mm | 70 mm | 100 mm  de Altura <br>
-						12 mm de espesor
+						50 mm, 70 mm, 100 mm y 120 mm
+					</p>
+
+					<p class="wow fadeInUp">
+						<span class="font-weight-bold">Espesor:</span> <br>
+						12 mm
 					</p>
 
 					<p class="wow fadeInUp">
@@ -104,68 +109,17 @@
 					</p>
 
 					<div class="row">
-						
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-blank text-blank">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">BLANCO PREMIUM</p>
-							  </div>
-							</div>
-						</div>
 
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-negro text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">NEGRO</p>
-							  </div>
+						<div class="content_colors col-md-12">
+							<div class="colors bg-blank">
+								&nbsp;
 							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-aluminio text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">ALUMINIO</p>
-							  </div>
+							<div class="colors bg-gris">
+								&nbsp;
 							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-roble text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">ROBLE</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-cedro text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">CEDRO</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-yatoba text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">YATOBÁ</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-nogal text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">NOGAL</p>
-							  </div>
-							</div>
+							<div class="colors bg-negro">
+								&nbsp;
+							</div>							
 						</div>
 
 					</div>
