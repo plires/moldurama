@@ -102,7 +102,7 @@
 					</p>
 
 					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Medidas:</span> <br>
+						<span class="font-weight-bold">Altura:</span> <br>
 						70 mm, 100 mm y 120 mm
 					</p>
 
