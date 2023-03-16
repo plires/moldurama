@@ -37,7 +37,7 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 
-		<title>Contramarco liso CL22 - Zocalos, molduras y contramarcos de madera.</title>
+		<title>Contramarco liso ZFM - Zocalos, molduras y contramarcos de madera.</title>
 	</head>
 	
 	<body>
@@ -60,30 +60,30 @@
 
 				<div class="col-lg-6 mb-5 parent-container">
 
-					<a class="transition productos_mini popup-img" href="img/productos/contramarco-cl22/contramarco-cl22-principal.jpg" title="Contramarco Liso CL22">
-						<img id="principal" class="wow fadeInUp img-fluid" src="img/productos/contramarco-cl22/contramarco-cl22-principal.jpg" alt="contramarco cl22 principal">
+					<a class="transition productos_mini popup-img" href="img/productos/contramarco-zfm/contramarco-zfm-principal.jpg" title="Contramarco Liso ZFM">
+						<img id="principal" class="wow fadeInUp img-fluid" src="img/productos/contramarco-zfm/contramarco-zfm-principal.jpg" alt="contramarco zfm principal">
 					</a>
 
 					<div class="row">
 
 						<div class="col-4">
-							<a class="transition productos_mini popup-img" title="Contramarco Liso CL22" href="img/productos/contramarco-cl22/contramarco-cl22-perfil.gif">
-								<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/contramarco-cl22/contramarco-cl22-perfil.gif" 
-								alt="contramarco cl22 perfil">
+							<a class="transition productos_mini popup-img" title="Contramarco Liso ZFM" href="img/productos/contramarco-zfm/contramarco-zfm-perfil.gif">
+								<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/contramarco-zfm/contramarco-zfm-perfil.gif" 
+								alt="contramarco zfm perfil">
 							</a>
 						</div>
 
 						<div class="col-4">
-							<a class="transition productos_mini popup-img" title="Contramarco Liso CL22" href="img/productos/contramarco-cl22/contramarco-cl22-render.jpg">
-								<img id="render" class="wow fadeInRight img-fluid" src="img/productos/contramarco-cl22/contramarco-cl22-render.jpg" 
-								alt="contramarco cl22 render">
+							<a class="transition productos_mini popup-img" title="Contramarco Liso ZFM" href="img/productos/contramarco-zfm/contramarco-zfm-render.jpg">
+								<img id="render" class="wow fadeInRight img-fluid" src="img/productos/contramarco-zfm/contramarco-zfm-render.jpg" 
+								alt="contramarco zfm render">
 							</a>
 						</div>
 
 						<div class="col-4">
-							<a class="transition productos_mini popup-img" title="Contramarco Liso CL22" href="img/productos/contramarco-cl22/contramarco-cl22-aplicado.jpg">
-								<img id="aplicado" class="wow fadeInRight img-fluid" src="img/productos/contramarco-cl22/contramarco-cl22-aplicado.jpg" 
-								alt="contramarco cl22 aplicado">
+							<a class="transition productos_mini popup-img" title="Contramarco Liso ZFM" href="img/productos/contramarco-zfm/contramarco-zfm-aplicado.jpg">
+								<img id="aplicado" class="wow fadeInRight img-fluid" src="img/productos/contramarco-zfm/contramarco-zfm-aplicado.jpg" 
+								alt="contramarco zfm aplicado">
 							</a>
 						</div>
 
@@ -92,18 +92,24 @@
 				</div>
 
 				<div class="productos col-lg-5 offset-lg-1 mb-5">
-					<h1 class="wow fadeInUp">CONTRAMARCO</h1>
-					<h2 class="wow fadeInLeft">Liso CL22</h2>
+					<h1 class="wow fadeInUp">CONTRAMARCO RECTO MDF</h1>
+					<h2 class="wow fadeInLeft">MDF CFR</h2>
+					
 					<p class="wow fadeInUp">
 						<span class="font-weight-bold">Descripción:</span> <br>
-						Fabricados en pino<br>
-						Acabado con pintura secada a <br>
-						horno de alta temperatura.
+						Fabricados en MDF. <br>
+						Acabado con pintura secada <br>
+						a horno de alta temperatura.
 					</p>
 
 					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Medidas:</span> <br>
-						8 x 44 mm
+						<span class="font-weight-bold">Altura:</span> <br>
+						42 mm, 50 mm y 70 mm
+					</p>
+
+					<p class="wow fadeInUp">
+						<span class="font-weight-bold">Espesor:</span> <br>
+						12 mm
 					</p>
 
 					<p class="wow fadeInUp">
@@ -111,68 +117,17 @@
 					</p>
 
 					<div class="row">
-						
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-blank text-blank">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">BLANCO PREMIUM</p>
-							  </div>
-							</div>
-						</div>
 
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-negro text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">NEGRO</p>
-							  </div>
+						<div class="content_colors col-md-12">
+							<div class="colors bg-blank">
+								&nbsp;
 							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-aluminio text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">ALUMINIO</p>
-							  </div>
+							<div class="colors bg-gris">
+								&nbsp;
 							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-roble text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">ROBLE</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-cedro text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">CEDRO</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-yatoba text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">YATOBÁ</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-nogal text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">NOGAL</p>
-							  </div>
-							</div>
+							<div class="colors bg-negro">
+								&nbsp;
+							</div>							
 						</div>
 
 					</div>
