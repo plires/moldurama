@@ -65,7 +65,7 @@
 
 					<div class="row">
 
-						<div class="col-4">
+						<div class="col-4 offset-2">
 							<a class="transition productos_mini popup-img" title="Zocalo ZFR" href="img/productos/zocalo-zfr/zocalo-zfr-perfil.gif">
 								<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/zocalo-zfr/zocalo-zfr-perfil.gif" 
 								alt="zocalo ZFR perfil">
@@ -84,19 +84,24 @@
 				</div>
 
 				<div class="productos col-lg-5 offset-lg-1 mb-5">
-					<h1 class="wow fadeInUp">ZÓCALO</h1>
+					<h1 class="wow fadeInUp">ZÓCALO RECTO MDF</h1>
 					<h2 class="wow fadeInLeft">MDF ZFR</h2>
+
 					<p class="wow fadeInUp">
 						<span class="font-weight-bold">Descripción:</span> <br>
-						Fabricados en MDF<br>
-						Acabado con pintura secada a <br>
-						horno de alta temperatura.
+						Fabricados en MDF. <br>
+						Acabado con pintura secada <br>
+						a horno de alta temperatura.
 					</p>
 
 					<p class="wow fadeInUp">
 						<span class="font-weight-bold">Medidas:</span> <br>
-						50 mm | 70 mm | 100 mm  de Altura <br>
-						12 mm de espesor
+						50 mm, 70 mm, 100 mm y 120 mm
+					</p>
+
+					<p class="wow fadeInUp">
+						<span class="font-weight-bold">Espesor:</span> <br>
+						12 mm
 					</p>
 
 					<p class="wow fadeInUp">
@@ -104,68 +109,17 @@
 					</p>
 
 					<div class="row">
-						
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-blank text-blank">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">BLANCO PREMIUM</p>
-							  </div>
-							</div>
-						</div>
 
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-negro text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">NEGRO</p>
-							  </div>
+						<div class="content_colors col-md-12">
+							<div class="colors bg-blank">
+								&nbsp;
 							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-aluminio text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">ALUMINIO</p>
-							  </div>
+							<div class="colors bg-gris">
+								&nbsp;
 							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-roble text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">ROBLE</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-cedro text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">CEDRO</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-yatoba text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">YATOBÁ</p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="wow fadeInLeft productos_colores col-6 col-sm-4 text-center mb-3">
-							<div class="card shadow-sm bg-nogal text-white">
-							  <img class="card-img" src="img/productos/transparent.png" alt="transparente color blanco">
-							  <div class="card-img-overlay">
-							    <p class="card-title">NOGAL</p>
-							  </div>
-							</div>
+							<div class="colors bg-negro">
+								&nbsp;
+							</div>							
 						</div>
 
 					</div>
@@ -175,7 +129,7 @@
 							<h5 class="wow fadeInUp mb-3">Consultá por colores personalizados.</h5>
 							<a href="contacto.php" class="btn btn_site font_1em wow fadeInLeft">CONTACTO</a>
 						</div>
-					</div>
+					</div>					
 
 				</div>
 
