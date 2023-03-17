@@ -104,12 +104,13 @@
 					</p>
 
 					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Colores:</span>
+						<span class="font-weight-bold">Colores:</span> <br>
+						Blanco, gris, negro
 					</p>
 
 					<div class="row">
 
-						<div class="content_colors col-md-12">
+						<div class="wow fadeInUp content_colors col-md-12">
 							<div class="colors bg-blank">
 								&nbsp;
 							</div>
