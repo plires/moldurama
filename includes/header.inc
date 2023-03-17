@@ -30,8 +30,8 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item transition" href="contramarco-recto-cfr.php">Contramarco MDF Recto CFR</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item transition" href="guardasilla-liso-gfm.php">Guardasilla MDF Liso GFM</a>
-			          <a class="dropdown-item transition" href="guardasilla-recto-gfr.php">Guardasilla MDF Liso GFR</a>
+			          <a class="dropdown-item transition" href="guardasilla-liso-gfm.php">Guardasilla MDF Moldurado GFM</a>
+			          <a class="dropdown-item transition" href="guardasilla-recto-gfr.php">Guardasilla MDF Recto GFR</a>
 			        </div>
 			      </li>
 			    	
