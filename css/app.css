@@ -224,7 +224,7 @@ a.btn-slide { color: #ffffff!important; }
 
 .card a{ color:#00263d; text-decoration: none; }
 
-.card-title{ font-size: 0.75em!important; }
+.otros_productos .card-title{ font-size: 0.75em!important; }
 .card-img-overlay p{ margin: 0; }
 .productos_mini:hover, .card a:hover{ opacity: 0.7; }
 
@@ -282,6 +282,22 @@ footer a i, .contacto_datos i { margin-right: 10px; }
 footer a{ font-size: 1em; }
 .libre {font-size: 0.75em; color: #cccccc;}
 .libre:hover { color: #ffffff; opacity: 1; }
+
+/* Otros Productos */
+.otros_productos .card-body { 
+	padding: 5px;
+	background: black;
+}
+
+.otros_productos .card-body h3,
+.otros_productos .card-body p { 
+	color: white;
+}
+
+.otros_productos .card-body p { 
+	margin-bottom: 0;
+}
+/* Otros Productos end */
 
 /* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
 @media (max-width: 575.98px) {
@@ -342,8 +358,8 @@ footer a{ font-size: 1em; }
 	.productos h1 { font-size: 1.75em; }
 	.productos h2, .otros_productos_h3 { font-size: 1.5em; }
 	.productos_colores{ max-width: 55%; margin: auto; }
-	.card-title, .card-text{ font-size: 1em!important; }
-	.card-text{ font-size: 1.25em!important; }
+	.otros_productos .card-title { font-size: 1em!important; }
+	.otros_productos .card-text{ font-size: 1.25em!important; }
 
 	/* SLIDE */
 	#carousel_desktop{ display: none; visibility: hidden; }
@@ -393,7 +409,7 @@ footer a{ font-size: 1em; }
 	.proyectos{ height: 400px; }
 	.proyectos h1{ font-size: 2em; }
 	.proyectos h2{ font-size: 1.5em; }
-	.card-title, .card-text{ font-size: 1.25em!important; }
+	.otros_productos .card-title, .otros_productos .card-text{ font-size: 1.25em!important; }
 
 	/* SLIDE */
 	.carousel-caption_add { top:5%; }
@@ -471,7 +487,7 @@ footer a{ font-size: 1em; }
 	.proyectos{ height: 480px; }
 	.proyectos h1{ font-size: 2.5em; }
 	.proyectos h2{ font-size: 1.75em; }
-	.card-title{ font-size: 1.25em!important; }
+	.otros_productos .card-title{ font-size: 1.25em!important; }
 
 	/* SLIDE */
 	.carousel-caption_add { top:10%; }
