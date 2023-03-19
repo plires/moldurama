@@ -83,13 +83,13 @@
 		    	</a>
 		    </div>
 		    <div class="cta col-md-6 mb-3">
-		    	<a href="#">
+		    	<a href="guardasilla-liso-gfm.php">
 	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/guardasilla.jpg" alt="guardasilla">
 		    		<div class="font-weight-bold bg-azul text-white text-center p-2">GUARDASILLAS</div>
 		    	</a>
 		    </div>
 		    <div class="cta col-md-6 mb-3">
-		    	<a href="#">
+		    	<a href="cubrezocalo-cz.php">
 	    			<img class="transition wow fadeInLeft img-fluid" src="img/home/cubrezocalo.jpg" alt="cubrezocalo">
 		    		<div class="font-weight-bold bg-azul text-white text-center p-2">CUBREZÓCALOS</div>
 		    	</a>

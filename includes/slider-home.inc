@@ -56,13 +56,13 @@
 			</div>
 
 			<div class="carousel-item">
-			  <img class="img-fluid" src="img/slide/slide-c.jpg" alt="zocalos de madera">
+			  <img class="img-fluid" src="img/slide/slide-c.jpg" alt="cubrezocalo mdf">
 			  <div class="carousel-caption carousel-caption_add">
 			  	<div class="row">
 			  		<div id="text_cuarto_slide" class="col-sm-8 col-md-9">
 					    <h2>CUBREZÓCALOS EN MDF</h2>
 							<p>Se colocan sobre los existentes <br>y se pueden ocultar cables en su interior.</p>
-							<a href="zocalo-moldurado-zm23.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
+							<a href="cubrezocalo-cz.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
 			  		</div>
 			  	</div>
 			  </div>
@@ -75,7 +75,7 @@
 			  		<div id="text_cuarto_slide" class="col-sm-8">
 					    <h2>GUARDASILLAS EN MDF</h2>
 							<p>Protección y estilo para tus ambientes.</p>
-							<a href="#" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
+							<a href="guardasilla-liso-gfm.php" class="transition btn btn-slide"><i class="transition fas fa-plus"></i>&nbsp;Info</a>
 			  		</div>
 			  	</div>
 			  </div>
