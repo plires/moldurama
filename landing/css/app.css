@@ -100,7 +100,7 @@ p { color: var(--text-color); }
   /* Formulario end*/
 
   /* Facil Instalación */
-  .facil_instalacion { margin-bottom: 30px; }
+  .facil_instalacion { margin-bottom: 60px; }
   .facil_instalacion .col-md-12 { margin-bottom: 15px; }
   .facil_instalacion h3 { color: var(--primary-color-bis); }
   .facil_instalacion p { font-weight: 700; }
@@ -159,26 +159,43 @@ p { color: var(--text-color); }
 
   /* Línea de Zócalos Completa */
   .linea_zocalos_completa { background: var(--tertiary-color); padding: 30px 0; margin-bottom: 30px; }
-  .linea_zocalos_completa h4 { color: var(--primary-color-bis) }
-  .linea_zocalos_completa .col-md-12 { text-align: center; }
-  .linea_zocalos_completa .col-md-12:last-child { 
-    display: flex; 
-    flex-flow: row wrap;
-    justify-content: space-between; 
-    align-items: center; 
+  .linea_zocalos_completa h4 { 
+    margin-bottom: 30px;
+    color: var(--primary-color-bis) 
   }
-  .linea_zocalos_completa .col-md-12 .perfil {
-    display: flex; 
-    flex: 1 1 auto;
+  .linea_zocalos_completa .col-md-12 { 
+    text-align: center; 
+  }
+  
+
+  .content_line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .content_line .perfil {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-width: 90px;
-    margin: 15px 10px 0 10px;
+    justify-content: center;
+    padding: 15px;
+    min-width: 150px;
+    width: 150px;
     border-radius: 3px;
     border: solid 1px var(--primary-color-bis);
+    margin-bottom: 30px;
   }
-  .linea_zocalos_completa .col-md-12 .perfil p { margin-bottom: 5px; font-weight: 700; }
+
+  .content_line .perfil .title {
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .content_line .perfil .description {
+    margin-bottom: 0;
+    display: none;
+  }
   /* Línea de Zócalos Completa end */
 
   /* Línea Contramarcos */
@@ -222,30 +239,9 @@ p { color: var(--text-color); }
 
   .linea_contramarcos .frase { margin-bottom: 30px; }
   .linea_contramarcos .frase p { color: var(--primary-color); margin: 0; font-size: 1.25rem; text-align: center; font-weight: 700; }
-  /* Línea Contramarcos end */
-
-  /* Línea de Contramarco Completa */
   .linea_contramarcos_completa { background: var(--tertiary-color); padding: 30px 0; margin-bottom: 30px; }
   .linea_contramarcos_completa h4 { color: var(--primary-color-bis) }
   .linea_contramarcos_completa .col-md-12 { text-align: center; }
-  .linea_contramarcos_completa .col-md-12:last-child { 
-    display: flex; 
-    flex-flow: row wrap;
-    justify-content: space-between; 
-    align-items: center; 
-  }
-  .linea_contramarcos_completa .col-md-12 .perfil {
-    display: flex; 
-    flex: 1 1 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 90px;
-    margin: 15px 10px 0 10px;
-    border-radius: 3px;
-    border: solid 1px var(--primary-color-bis);
-  }
-  .linea_contramarcos_completa .col-md-12 .perfil p { margin: 0; font-weight: 700; }
   /* Línea de Contramarco Completa end */
   
   /* Medidas y Colores Personalizados */
@@ -553,6 +549,36 @@ p { color: var(--text-color); }
   }
   /* Formulario end */
 
+  /* Pago */
+  .content_pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content_pay div,
+  .content_pay img {
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+  }
+
+  .content_pay div {
+    margin-right: 30px;
+  }
+  /* Pago end */
+
+  /* Línea de Zócalos Completa */
+  .content_line .perfil {
+    margin-bottom: 0;
+  }
+
+  .content_line .perfil .description {
+    display: inline-block;
+    color: gray;
+    font-size: 0.75rem;
+  }
+  /* Línea de Zócalos Completa end */
+
   /* Línea de Contramarco Completa */
   .linea_contramarcos_completa .col-md-12:last-child { justify-content: center; }
   .linea_contramarcos_completa .col-md-12 .perfil { flex: 0; }
@@ -601,6 +627,21 @@ p { color: var(--text-color); }
     top: 31%;
   }
   /* Slide end */
+
+  /* Línea de Zócalos Completa */
+  .content_line .perfil {
+    min-width: 160px;
+    width: 160px;
+  }
+
+  .content_line .perfil .title {
+    font-size: 1.25rem;
+  }
+
+  .content_line .perfil .description {
+    font-size: 1rem;
+  }
+  /* Línea de Zócalos Completa end */
 
   /* Gracias */
   .gracias h1 { font-size: 2rem; }

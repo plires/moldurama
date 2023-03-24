@@ -83,11 +83,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Zocalos en MDF blanco, negro y de varios colores. Contramarcos de madera.">
+	<meta name="description" content="Zocalos en MDF blanco, negro y de varios colores. Contramarcos de MDF.">
 	<meta name="author" content="Librecomunicacion">
     <!-- Favicons -->
     <?php include('includes/favicon.inc.php'); ?>
-	<title>Zócalos y Contramarcos de Madera y MDF</title>
+	<title>Zócalos, Cubrezócalos, Contramarcos y Guardasillas en MDF</title>
 
 	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -271,7 +271,7 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-12 text-center">
+					<div class="col-md-12 text-center content_pay">
 						<div>
 							<img class="img-fluid" src="img/tarjetas.png" alt="tarjetas de credito">
 							<p>PAGÁ CON TARJETA<br>DE CRÉDITO Y DÉBITO</p>
@@ -291,7 +291,7 @@
 			<div class="row">
 
 				<div class="col-md-8 offset-md-2 text-center">
-					<h3>LÍNEA ZÓCALOS - BLANCO PREMIUM</h3>
+					<h3>LÍNEA ZÓCALOS</h3>
 					<p>
 						Nuestros zócalos o rodapies son fabricados en MDF y poseen un acabado con pintura a horno de alta temperatura, que le brinda excelente vista y gran durabilidad. Estos zócalos permiten resolver los remates de piso pared con suma facilidad y son ideales para acompañar pisos flotantes o de madera.
 					</p>
@@ -314,7 +314,7 @@
 					<div class="medidas">
 						<p>
 							MEDIDAS ESTÁNDAR: <br>
-							Alto: 50 mm | 70 mm | 82 mm | 100 mm | 120 mm<br>
+							Altura: 50 mm | 70 mm | 82 mm | 100 mm | 120 mm<br>
 							<span>Espesor: 12 mm</span> <br>
 							<span>Colores: Blanco, gris, negro y personalizados a pedido</span>
 						</p>
@@ -330,7 +330,7 @@
 
 	<!-- Línea de Zócalos Completa -->
 	<section class="linea_zocalos_completa">
-		<div class="container-fluid">
+		<div class="container-fluid p-0">
 			<div class="container">
 				<div class="row">
 
@@ -340,29 +340,44 @@
 
 					<div class="col-md-12">
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zfl.png" alt="zocalo de madera zfl">
-							<p>ZFL</p>
-						</div>
+						<div class="content_line">
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zfr.png" alt="zocalo de madera zfr">
-							<p>ZFR</p>
-						</div>
+							<div class="perfil">
+								<img class="img-fluid" src="img/zocalo-zfl.png" alt="zocalo de MDF zfl">
+								<p class="title">ZFL</p>
+								<p class="description">Zócalo Curvo</p>
+							</div>
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zff.png" alt="zocalo de madera zff">
-							<p>ZFF</p>
-						</div>
+							<div class="perfil">
+								<img class="img-fluid" src="img/zocalo-zfr.png" alt="zocalo de MDF zfr">
+								<p class="title">ZFR</p>
+								<p class="description">Zócalo Recto</p>
+							</div>
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/zocalo-zrc.png" alt="zocalo de madera zrc">
-							<p>ZRC</p>
-						</div>
+							<div class="perfil">
+								<img class="img-fluid" src="img/zocalo-zff.png" alt="zocalo de MDF zff">
+								<p class="title">ZFF</p>
+								<p class="description">Zócalo Fantasía</p>
+							</div>
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/cubrezocalo-cz.png" alt="cubrezocalo de madera cz">
-							<p>CZ</p>
+							<div class="perfil">
+								<img class="img-fluid" src="img/zocalo-zff.png" alt="zocalo de MDF zff">
+								<p class="title">ZFC</p>
+								<p class="description">Zócalo con Calle</p>
+							</div>
+
+							<div class="perfil">
+								<img class="img-fluid" src="img/zocalo-zrc.png" alt="zocalo de MDF zrc">
+								<p class="title">CZ</p>
+								<p class="description">Cubrezócalo</p>
+							</div>
+
+							<div class="perfil">
+								<img class="img-fluid" src="img/cubrezocalo-cz.png" alt="cubrezocalo de MDF cz">
+								<p class="title">ZFM</p>
+								<p class="description">Zócalo Moldurado</p>
+							</div>
+							
 						</div>
 
 					</div>
@@ -388,7 +403,7 @@
 			<div class="row">
 
 				<div class="col-md-6">
-					<img class="img-fluid" src="img/contramarco-principal.jpg" alt="contramarcos de madera">
+					<img class="img-fluid" src="img/contramarco-principal.jpg" alt="contramarcos de MDF">
 				</div>
 
 				<div class="col-md-6">
@@ -416,7 +431,7 @@
 
 	<!-- Línea de Contramarcos Completa -->
 	<section class="linea_contramarcos_completa">
-		<div class="container-fluid">
+		<div class="container-fluid p-0">
 			<div class="container">
 				<div class="row">
 
@@ -425,10 +440,13 @@
 					</div>
 
 					<div class="col-md-12">
-						
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/icono-contramarco.gif" alt="contramarco de mdf CFR">
-							<p>CFR</p>
+
+						<div class="content_line">
+							<div class="perfil">
+								<img class="img-fluid" src="img/icono-contramarco.gif" alt="contramarco de mdf CFR">
+								<p class="title">CFR</p>
+								<p class="description">Contramarco Recto</p>
+							</div>
 						</div>
 
 					</div>
@@ -446,6 +464,12 @@
 
 				<div class="col-md-8 offset-md-2 text-center">
 					<h3>LÍNEA GUARDASILLAS</h3>
+					<p>
+						Los guardasillas de MDF son utilizados principalmente como elementos decorativos y protectores en paredes. Estas molduras se colocan en la parte inferior de las paredes para protegerlas de golpes y para darles un acabado estético y atractivo.
+					</p>
+					<p>
+						Además de proteger las paredes, los guardasillas de MDF también pueden ocultar imperfecciones en las paredes y pueden servir como una transición suave entre diferentes tipos de revestimientos de pared. Por lo tanto, los guardasillas de MDF son una excelente opción para darle un toque decorativo a cualquier espacio y al mismo tiempo proteger las paredes.
+					</p>
 				</div>
 
 			</div>
@@ -459,7 +483,7 @@
 				<div class="col-md-6">
 
 					<div class="titulo">
-						<h2>GUARDASILLA MOLDURADO Y RECTO <span>LISTOS PARA COLOCAR</span></h2>
+						<h2>GUARDASILLA MOLDURADO Y RECTO<span>LISTOS PARA COLOCAR</span></h2>
 					</div>
 
 					<div class="medidas">
@@ -491,14 +515,20 @@
 
 					<div class="col-md-12">
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/icono-guardasilla-gfm.png" alt="guardasilla gfm">
-							<p>GFM</p>
-						</div>
+						<div class="content_line">
 
-						<div class="perfil text-center">
-							<img class="img-fluid" src="img/icono-guardasilla-gfr.png" alt="guardasilla gfr">
-							<p>GFR</p>
+							<div class="perfil">
+								<img class="img-fluid" src="img/icono-guardasilla-gfm.png" alt="guardasilla gfm">
+								<p class="title">GFM</p>
+								<p class="description">Guardasilla Moldurado</p>
+							</div>
+
+							<div class="perfil">
+								<img class="img-fluid" src="img/icono-guardasilla-gfr.png" alt="guardasilla gfr">
+								<p class="title">GFR</p>
+								<p class="description">Guardasilla Recto</p>
+							</div>
+
 						</div>
 
 					</div>
@@ -509,12 +539,78 @@
 	</section>
 	<!-- Línea de Guardasillas Completa end -->
 
+	<!-- Línea Cubrezócalos -->
+	<section class="linea_contramarcos">
+		<div class="container">
+			<div class="row">
 
+				<div class="col-md-8 offset-md-2 text-center">
+					<h3>LÍNEA CUBREZÓCALOS</h3>
+					<p>
+						Al momento de realizar un upgrade en tus ambientes, podés empezar por los detalles. Como por ejemplo cubrir los zócalos actuales sin las complicaciones de una obra.
+						Otra de las ventajas que ofrecen es que se pueden pintar y de esta forma lograr emparejarlos con la decoración de tu hogar.
+						También se utilizan para ocultar cables e instalaciones.
+					</p>
+				</div>
 
+			</div>
 
+			<div class="row">
 
+				<div class="col-md-6">
+					<img class="img-fluid" src="img/cubrezocalo-mdf.jpg" alt="cubrezocalo de MDF">
+				</div>
 
+				<div class="col-md-6">
 
+					<div class="titulo">
+						<h2>CUBREZÓCALOS EN MDF <span>LISTOS PARA COLOCAR</span></h2>
+					</div>
+
+					<div class="medidas">
+						<p>
+							MEDIDAS ESTÁNDAR: <br>
+							Alto: 70 mm | 100 mm | 120 mm <br>
+							<span>Espesor: 12 mm</span> <br>
+							<span>Colores: Blanco, gris, negro y personalizados a pedido</span>
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- Línea Cubrezócalos end -->
+
+	<!-- Línea de Cubrezócalos Completa -->
+	<section class="linea_contramarcos_completa">
+		<div class="container-fluid p-0">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						<h4>LÍNEA COMPLETA</h4>
+					</div>
+
+					<div class="col-md-12">
+
+						<div class="content_line">
+							<div class="perfil">
+								<img class="img-fluid" src="img/icono-cubrezocalo.png" alt="cubrezocalo de mdf CZ">
+								<p class="title">CZ</p>
+								<p class="description">Cubrezócalo</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Línea de Cubrezócalos Completa end -->
 
 	<!-- Medidas y Colores Personalizados -->
 	<section class="medidas_colores_custom">
