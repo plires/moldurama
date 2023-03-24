@@ -118,104 +118,66 @@
 	<!-- Slide -->
 	<section class="slide container-fluid">
 		<div class="row">
+
 			<div class="col-md-12">
 
 				<div id="carouselCaptions" class="carousel slide" data-ride="carousel">
 				  <div class="carousel-inner">
 
 				    <div class="carousel-item active">
-				      <img src="img/slide-a.jpg" class="d-block w-100" alt="zocalos en mdf blancos">
-
-				      <div class="wow fadeInUp">
+				      <img src="img/slide-1.jpg" class="d-block w-100" alt="zocalos en mdf blancos">
+				      <div id="frase_1" class="data wow fadeInUp">
 		      			<h1>Zócalos en MDF</h1>
 				      	<p>BRINDAMOS ASESORAMIENTO INTEGRAL A: <br><span>CONSTRUCTORAS - ARQUITECTOS - CONSUMIDOR FINAL</span> </p>
 				      </div>
-				      <div class="datos container">
-					      <div class="row">
-
-					      	<div class="col-12 col-sm-6 col-lg-12">
-				      			<img class="img-fluid" src="img/zocalo-a.png" alt="zocalos en mdf blanco">
-					      		
-					      	</div>
-					      	
-					      </div>
-				      </div>
-				      
 				    </div>
 
 				    <div class="carousel-item">
-				      <img src="img/slide-b.jpg" class="d-block w-100" alt="zocalos en mdf de colores">
-
-				      <div>
+				      <img src="img/slide-2.jpg" class="d-block w-100" alt="zocalos en mdf varios colores">
+				      <div id="frase_2" class="data">
 		      			<h2>Zócalos de colores</h2>
-		      			<p>BRINDAMOS ASESORAMIENTO INTEGRAL A: <br><span>CONSTRUCTORAS - ARQUITECTOS - CONSUMIDOR FINAL</span> </p>
+		      			<p>Personalizá tus ambientes.</p>
 				      </div>
-
-				      <div class="datos container">
-					      <div class="row">
-
-					      	<div class="col-12 col-sm-6 col-lg-12">
-				      			<img class="img-fluid" src="img/zocalo-b.png" alt="zocalos en mdf de colores">
-					      	</div>
-					      	
-					      </div>
-				      </div>
-				      
 				    </div>
 
 				    <div class="carousel-item">
-				      <img src="img/slide-c.jpg" class="d-block w-100" alt="zocalos de madera">
-
-				      <div>
-		      			<h2>Zócalos de madera</h2>
-		      			<p>BRINDAMOS ASESORAMIENTO INTEGRAL A: <br><span>CONSTRUCTORAS - ARQUITECTOS - CONSUMIDOR FINAL</span> </p>
+				      <img src="img/slide-3.jpg" class="d-block w-100" alt="Contramarcos en MDF">
+				      <div id="frase_3" class="data">
+		      			<h2>Contramarcos en MDF</h2>
+		      			<p>Detalles que hacen que tus ambientes sean diferentes.</p>
 				      </div>
-
-				      <div class="datos container">
-					      <div class="row">
-
-					      	<div class="col-12 col-sm-6 col-lg-12">
-				      			<img class="img-fluid" src="img/zocalo-c.png" alt="zocalos de madera vista">
-					      	</div>
-					      	
-					      </div>
-				      </div>
-				      
 				    </div>
 
 				    <div class="carousel-item">
-				      <img src="img/slide-d.jpg" class="d-block w-100" alt="contramarco de madera">
-
-				      <div>
-		      			<h2>Contramarcos en madera</h2>
-		      			<p>BRINDAMOS ASESORAMIENTO INTEGRAL A: <br><span>CONSTRUCTORAS - ARQUITECTOS - CONSUMIDOR FINAL</span> </p>
+				      <img src="img/slide-4.jpg" class="d-block w-100" alt="Cubrezócalo en MDF">
+				      <div id="frase_4" class="data">
+		      			<h2>Cubrezócalo en MDF</h2>
+		      			<p>Se colocan sobre los existentes y se pueden <br>ocultar cables en su interior.</p>
 				      </div>
-				      
-				      <div class="datos container">
-					      <div class="row">
-
-					      	<div class="col-12 col-sm-6 col-lg-12">
-				      			<img class="img-fluid" src="img/contramarco-d.png" alt="vista contramarco de madera">
-					      	</div>
-					      	
-					      </div>
-				      </div>
-				      
 				    </div>
 
-				  </div>
+				    <div class="carousel-item">
+				      <img src="img/slide-5.jpg" class="d-block w-100" alt="Guardasillas en MDF">
+				      <div id="frase_5" class="data">
+		      			<h2>Guardasillas en MDF</h2>
+		      			<p>Protección y estilo para tus ambientes.</p>
+				      </div>
+				    </div>
+				      
+			    </div>
 
-				  <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
-				</div>
+			  </div>
 
+			  <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
 			</div>
+
 		</div>
 
 		<div class="content_formulario">
@@ -329,8 +291,10 @@
 			<div class="row">
 
 				<div class="col-md-8 offset-md-2 text-center">
-					<h3>LÍNEA ZÓCALOS</h3>
-					<p>Nuestros Zócalos o Rodapie de madera son fabricados en pino y  MDF y poseen un acabado con pintura secada a horno de alta temperatura, que le brinda excelente vista y gran durabilidad. Estos Zócalos permiten resolver los remates de piso pared con suma facilidad y son ideales para acompañar pisos flotantes o de madera.</p>
+					<h3>LÍNEA ZÓCALOS - BLANCO PREMIUM</h3>
+					<p>
+						Nuestros zócalos o rodapies son fabricados en MDF y poseen un acabado con pintura a horno de alta temperatura, que le brinda excelente vista y gran durabilidad. Estos zócalos permiten resolver los remates de piso pared con suma facilidad y son ideales para acompañar pisos flotantes o de madera.
+					</p>
 				</div>
 
 			</div>
@@ -350,45 +314,12 @@
 					<div class="medidas">
 						<p>
 							MEDIDAS ESTÁNDAR: <br>
-							Alto: 50 mm | 70 mm | 100 mm <br>
-							<span>Espesor: 12 mm</span>
+							Alto: 50 mm | 70 mm | 82 mm | 100 mm | 120 mm<br>
+							<span>Espesor: 12 mm</span> <br>
+							<span>Colores: Blanco, gris, negro y personalizados a pedido</span>
 						</p>
 					</div>
 
-					<div class="frase">
-						<p>
-							¡AHORA TAMBIEN <br>MOLDURADOS!
-						</p>
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="row">
-				
-				<div class="col-md-6">
-					<div class="titulo">
-						<h2>ZÓCALOS EN MADERA <span>LISTOS PARA COLOCAR</span></h2>
-					</div>
-
-					<div class="medidas">
-						<p>
-							MEDIDAS ESTÁNDAR: <br>
-							Alto: 50 mm | 70 mm | 100 mm <br>
-							<span>Espesor: 12 mm</span>
-						</p>
-					</div>
-
-					<div class="frase">
-						<p>
-							RECTOS, CURVOS <br>Y MOLDURADOS
-						</p>
-					</div>
-				</div>
-
-				<div class="col-md-6">
-					<img class="img-fluid" src="img/zocalos-madera.jpg" alt="zocalos en madera">
 				</div>
 
 			</div>
@@ -449,7 +380,7 @@
 
 				<div class="col-md-8 offset-md-2 text-center">
 					<h3>LÍNEA CONTRAMARCOS</h3>
-					<p>Contramarcos fabricados en pino, son ideales para dar el toque final a cualquier obra, brindan una solución estética a las uniones entre marcos y paredes. Poseen acabado con pintura secada a horno de alta temperatura, que le brinda excelente vista y gran durabilidad.</p>
+					<p>Contramarcos fabricados en MDF, son ideales para dar el toque final a cualquier obra, brindan una solución estética a las uniones entre marcos y paredes. Poseen acabado con pintura secada a horno de alta temperatura, que le brinda excelente vista y gran durabilidad.</p>
 				</div>
 
 			</div>
@@ -457,28 +388,24 @@
 			<div class="row">
 
 				<div class="col-md-6">
-					<img class="img-fluid" src="img/contramarcos-madera.jpg" alt="contramarcos de madera">
+					<img class="img-fluid" src="img/contramarco-principal.jpg" alt="contramarcos de madera">
 				</div>
 
 				<div class="col-md-6">
 
 					<div class="titulo">
-						<h2>CONTRAMARCOS EN MADERA <span>LISTOS PARA COLOCAR</span></h2>
+						<h2>CONTRAMARCOS EN MDF <span>LISTOS PARA COLOCAR</span></h2>
 					</div>
 
 					<div class="medidas">
 						<p>
 							MEDIDAS ESTÁNDAR: <br>
-							Alto: 50 mm | 70 mm | 100 mm <br>
-							<span>Espesor: 12 mm</span>
+							Alto: 42 mm | 50 mm | 70 mm <br>
+							<span>Espesor: 12 mm</span> <br>
+							<span>Colores: Blanco, gris, negro y personalizados a pedido</span>
 						</p>
 					</div>
 
-					<div class="frase">
-						<p>
-							DISPONIBLES LISOS <br>Y MOLDURADOS
-						</p>
-					</div>
 				</div>
 
 			</div>
@@ -500,8 +427,8 @@
 					<div class="col-md-12">
 						
 						<div class="perfil text-center">
-							<img class="img-fluid" src="img/contramarco-cl22.png" alt="contramarco de madera cl22">
-							<p>CL22</p>
+							<img class="img-fluid" src="img/icono-contramarco.gif" alt="contramarco de mdf CFR">
+							<p>CFR</p>
 						</div>
 
 					</div>
@@ -511,6 +438,83 @@
 		</div>
 	</section>
 	<!-- Línea de Contramarcos Completa end -->
+
+	<!-- Línea Guardasillas -->
+	<section class="linea_zocalos">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8 offset-md-2 text-center">
+					<h3>LÍNEA GUARDASILLAS</h3>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<img class="img-fluid" src="img/guardasillas-mdf.jpg" alt="guardasillas en mdf">
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="titulo">
+						<h2>GUARDASILLA MOLDURADO Y RECTO <span>LISTOS PARA COLOCAR</span></h2>
+					</div>
+
+					<div class="medidas">
+						<p>
+							MEDIDAS ESTÁNDAR: <br>
+							Alto: 50 mm | 70 mm | 100 mm | 120 mm<br>
+							<span>Espesor: 12 mm</span> <br>
+							<span>Colores: Blanco, gris, negro y personalizados a pedido</span>
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- Línea Guardasillas end -->
+
+	<!-- Línea de Guardasillas Completa -->
+	<section class="linea_zocalos_completa">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						<h4>LÍNEA COMPLETA</h4>
+					</div>
+
+					<div class="col-md-12">
+
+						<div class="perfil text-center">
+							<img class="img-fluid" src="img/icono-guardasilla-gfm.png" alt="guardasilla gfm">
+							<p>GFM</p>
+						</div>
+
+						<div class="perfil text-center">
+							<img class="img-fluid" src="img/icono-guardasilla-gfr.png" alt="guardasilla gfr">
+							<p>GFR</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Línea de Guardasillas Completa end -->
+
+
+
+
+
+
+
 
 	<!-- Medidas y Colores Personalizados -->
 	<section class="medidas_colores_custom">
@@ -564,25 +568,6 @@
 				</div>
 
 				<div class="col-md-12">
-					<div class="color text-center">
-						<img class="img-fluid" src="img/cedro.jpg" alt="color cedro">
-						<p>cedro</p>
-					</div>
-
-					<div class="color text-center">
-						<img class="img-fluid" src="img/nogal.jpg" alt="color nogal">
-						<p>nogal</p>
-					</div>
-
-					<div class="color text-center">
-						<img class="img-fluid" src="img/roble.jpg" alt="color roble">
-						<p>roble</p>
-					</div>
-
-					<div class="color text-center">
-						<img class="img-fluid" src="img/yatoba.jpg" alt="color yatoba">
-						<p>yatoba</p>
-					</div>
 
 					<div class="color text-center">
 						<img class="img-fluid" src="img/aluminio.jpg" alt="color aluminio">
@@ -615,9 +600,10 @@
 				</div>
 
 				<div class="col-md-6 text-center">
-					<h4>EXPLORÁ <br>NUEVOS COLORES</h4>
+					<h4>COLORES PERSONALIZADOS A PEDIDO</h4>
 					<p>
-						Gracias a nuestro exclusivo proceso de pintura con secado en horno de alta temperatura, logramos colores plenos y bien definidos, que perduran en el tiempo.
+						Dale un toque de color a tus ambiente <br>
+						Gracias a nuestro exclusivo proceso de pintura con secado en horno de alta temperatura, logramos colores plenos y bien definidos, que perduran en el tiempo, animate a explorar nuevos colores. Pedinos el que mejor combine con tus proyectos. 
 					</p>
 				</div>
 

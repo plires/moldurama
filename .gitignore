@@ -5,6 +5,10 @@
 /vendor
 /videos
 /img
+/landing/img
+/landing/node_modules
+/landing/vendor
+/landing/includes/config.inc.php
 /includes/config.inc.php
 **/.DS_Store into
 
