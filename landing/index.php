@@ -10,7 +10,18 @@
 	$email = '';
 	$phone = '';
 	$comments = '';
-	$origin = 'Consulta desde Google Ads';
+
+	if ( isset($_GET['utm_source']) ) {
+		$origin = $_GET['utm_source'];
+	} else {
+		$origin = "google";
+	}
+
+	if ( isset($_GET['utm_campaign']) ) {
+		$campaign = $_GET['utm_campaign'];
+	} else {
+		$campaign = "Moldurama-Landings-Google";
+	}
 
 	// Envio del formulario de contacto
 	if (isset($_POST["send"])) {
@@ -183,6 +194,7 @@
 		<div class="content_formulario">
 			<form id="formulario" method="post" class="needs-validation" novalidate>
 				<input type="hidden" name="origin" value="<?= $origin ?>">
+				<input type="hidden" name="campaign" value="<?= $campaign ?>">
 
 				<!-- Errores Formulario -->
 					<?php if ($errors): ?>

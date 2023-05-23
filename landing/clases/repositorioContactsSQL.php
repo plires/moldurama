@@ -20,12 +20,13 @@ class RepositorioContactsSQL extends repositorioContacts
       $newsletter = 'No';
     }
 
-    $sql = "INSERT INTO landings values(default, :name, :email, :comments, :origin, :newsletter, :date)";
+    $sql = "INSERT INTO landings values(default, :name, :email, :comments, :origin, :campaign, :newsletter, :date)";
         $stmt = $this->conexion->prepare($sql);
         $stmt->bindValue(":name", $post['name'], PDO::PARAM_STR);
         $stmt->bindValue(":email", $post['email'], PDO::PARAM_STR);
         $stmt->bindValue(":comments", $post['comments'], PDO::PARAM_STR);
         $stmt->bindValue(":origin", $post['origin'], PDO::PARAM_STR);
+        $stmt->bindValue(":campaign", $post['campaign'], PDO::PARAM_STR);
         $stmt->bindValue(":newsletter", $newsletter, PDO::PARAM_STR);
         $stmt->bindValue(":date", date("F j, Y, g:i a"), PDO::PARAM_STR);
         
