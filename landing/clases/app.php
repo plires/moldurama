@@ -102,7 +102,7 @@ use \DrewM\MailChimp\MailChimp;
 
         $mail->SMTPOptions = array(
             'ssl' => array(
-                'verify_peer' => true,
+                'verify_peer' => false,
                 'verify_peer_name' => false,
                 'allow_self_signed' => true
             )
