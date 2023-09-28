@@ -19,9 +19,19 @@
 
 	  <div class="row mb-3">
 
-	  	<div class="col-md-4">
+	  	<div class="col-md-4 content_phone">
 	  		<a class="transition text-white" href="tel:1147675100">
 		  		<span><i class="transition fas fa-phone mb-3"></i>11.4767.5100</span>
+		  	</a>
+				<a class="transition text-white" href="tel:77237758">
+		  		<span><i class="transition fas fa-phone mb-3"></i>11.7723.7758</span>
+		  	</a>
+				<a 
+					class="transition text-white" 
+					target="_blank" 
+					rel="nofollow noopener noreferrer"
+					href="https://web.whatsapp.com/send?phone=+5491135968714&text=Hola!%20Necesito%20hacer%20una%20consulta!">
+		  			<span><i class="transition fab fa-whatsapp mb-3"></i>11.3596.8714</span>
 		  	</a>			  		
 	  	</div>
 

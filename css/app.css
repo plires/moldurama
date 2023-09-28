@@ -7,49 +7,101 @@
 }
 /* Variables end */
 
-body {font-family: 'Ubuntu', sans-serif; font-size: 16px;}
-a{ text-decoration: none!important; color: var(--secondary-color); }
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none !important;
+  color: var(--secondary-color);
+}
 
-ul{ list-style: none; }
+ul {
+  list-style: none;
+}
 
 /* COMUNES */
-.transition{
-  -webkit-transition: all ease-in-out .3s; /* Safari */
-	transition: all ease-in-out .3s;
+.transition {
+  -webkit-transition: all ease-in-out 0.3s; /* Safari */
+  transition: all ease-in-out 0.3s;
 }
-.btn_site_white { background-color: rgba(0, 0, 0, 0); color: #ffffff!important; font-size: 1.5em; border: solid 2px #ffffff; }
-.btn_site_white:hover { background-color: rgba(255, 255, 255); color: var(--secondary-color)!important; }
-.btn_site { background-color: rgba(0, 0, 0, 0); color: var(--primary-color)!important; font-size: 1.5em; border: solid 2px var(--primary-color); }
-.btn_site:hover { background-color: rgba(2, 128, 144, 0.7)!important; color: #ffffff!important; border: solid 2px #ffffff!important; }
+.btn_site_white {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff !important;
+  font-size: 1.5em;
+  border: solid 2px #ffffff;
+}
+.btn_site_white:hover {
+  background-color: rgba(255, 255, 255);
+  color: var(--secondary-color) !important;
+}
+.btn_site {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--primary-color) !important;
+  font-size: 1.5em;
+  border: solid 2px var(--primary-color);
+}
+.btn_site:hover {
+  background-color: rgba(2, 128, 144, 0.7) !important;
+  color: #ffffff !important;
+  border: solid 2px #ffffff !important;
+}
 .btn_site_grey {
-	border: solid 1px var(--dark-color)!important;
-	background-color: var(--dark-color);
-	color: white!important;
+  border: solid 1px var(--dark-color) !important;
+  background-color: var(--dark-color);
+  color: white !important;
 }
 
 .btn_site_grey:hover {
-	background-color: white;
-	color: var(--dark-color)!important;
+  background-color: white;
+  color: var(--dark-color) !important;
 }
-.font_1em{ font-size: 1em!important; }
+.font_1em {
+  font-size: 1em !important;
+}
 
-.shadow-sm { box-shadow: 0 .125rem .25rem rgba(0,0,0,0.15) !important;}
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15) !important;
+}
 
-.bg-azul{ background-color: var(--secondary-color); }
-.bg-azul-oscuro{ background-color: #00263d; }
-.bg-gris{ background-color: #dbd9d6; }
-.bg-gris-claro{ background-color: #f6f6f6; padding: 3rem 0; }
-.bg-negro{ background-color: #000000; }
-.bg-roble{ background-color: #7d4e24; }
-.bg-cedro{ background-color: #4c2b0d; }
-.bg-yatoba{ background-color: #561e17; }
-.bg-nogal{ background-color: #331e12; }
-.bg-aluminio{ background-color: #b2b2b2; }
+.bg-azul {
+  background-color: var(--secondary-color);
+}
+.bg-azul-oscuro {
+  background-color: #00263d;
+}
+.bg-gris {
+  background-color: #dbd9d6;
+}
+.bg-gris-claro {
+  background-color: #f6f6f6;
+  padding: 3rem 0;
+}
+.bg-negro {
+  background-color: #000000;
+}
+.bg-roble {
+  background-color: #7d4e24;
+}
+.bg-cedro {
+  background-color: #4c2b0d;
+}
+.bg-yatoba {
+  background-color: #561e17;
+}
+.bg-nogal {
+  background-color: #331e12;
+}
+.bg-aluminio {
+  background-color: #b2b2b2;
+}
 
-.color-azul{ color: var(--secondary-color); }
+.color-azul {
+  color: var(--secondary-color);
+}
 
 /*.SEGUIDOR */
-#seguidor{
+#seguidor {
   position: fixed;
   width: 150px;
   height: 150px;
@@ -62,13 +114,15 @@ ul{ list-style: none; }
   left: auto;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
-  -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
-  box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
   padding: 45px 10px 10px;
 }
 
-.fa-whatsapp { color: #ffffff; }
+.fa-whatsapp {
+  color: #ffffff;
+}
 
 .click-to-call-mobile {
   width: 60px;
@@ -81,544 +135,1176 @@ ul{ list-style: none; }
   margin-left: -30px;
   border-radius: 50%;
   font-size: 2.3em;
-  -webkit-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
-  -moz-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
-  box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(119, 119, 119, 0.48);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(119, 119, 119, 0.48);
+  box-shadow: 1px 1px 3px 1px rgba(119, 119, 119, 0.48);
 }
 
-#cerrar-seguidor{position: absolute; top: 0; right: 5px; border: none; background-color: #ffffff; margin-top: 5px;}
-#cerrar-seguidor:hover{opacity: 0.6;}
-#modal{top: 150px;}
-#envia{clear: both;  margin-top: 15px; }
-#envia:hover{background-color: #8C8989; color: #ffffff;}
-
-#seguidor-tel{display: none;}
-#seguidor-tel a{ color: #3c3c3c;}
-#seguidor-tel a:hover{ color: #ffffff;}
-#seguidor-tel h5{ font-size: 14px; margin: 0px!important;}
-#cerrar-seguidor-tel{ display: inline; text-align: right; background-color: #03e97e!important; border: none; }
-#cerrar-seguidor-tel:hover{ opacity: 0.6;}
-
-.btn-yellow{
-	position: absolute; right: 42px;
-	bottom: -18px;
-	border: none!important;
-	background-color: #03e97e;
-	border-radius: 5px;
-	color: #ffffff;
-	text-shadow: 0px 0px 2px grey;
-	-webkit-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
-	-moz-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
-	box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+#cerrar-seguidor {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  border: none;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+#cerrar-seguidor:hover {
+  opacity: 0.6;
+}
+#modal {
+  top: 150px;
+}
+#envia {
+  clear: both;
+  margin-top: 15px;
+}
+#envia:hover {
+  background-color: #8c8989;
+  color: #ffffff;
 }
 
-.btn-yellow:hover{border: none!important; background-color: #3c3c3c; color: #ffffff!important;}
+#seguidor-tel {
+  display: none;
+}
+#seguidor-tel a {
+  color: #3c3c3c;
+}
+#seguidor-tel a:hover {
+  color: #ffffff;
+}
+#seguidor-tel h5 {
+  font-size: 14px;
+  margin: 0px !important;
+}
+#cerrar-seguidor-tel {
+  display: inline;
+  text-align: right;
+  background-color: #03e97e !important;
+  border: none;
+}
+#cerrar-seguidor-tel:hover {
+  opacity: 0.6;
+}
 
-#cerrar-seguidor{position: absolute; top: 0; right: 5px;}
-#cerrar-seguidor:hover{opacity: 0.6;}
+.btn-yellow {
+  position: absolute;
+  right: 42px;
+  bottom: -18px;
+  border: none !important;
+  background-color: #03e97e;
+  border-radius: 5px;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px grey;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(119, 119, 119, 0.48);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(119, 119, 119, 0.48);
+  box-shadow: 1px 1px 3px 1px rgba(119, 119, 119, 0.48);
+}
+
+.btn-yellow:hover {
+  border: none !important;
+  background-color: #3c3c3c;
+  color: #ffffff !important;
+}
+
+#cerrar-seguidor {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+#cerrar-seguidor:hover {
+  opacity: 0.6;
+}
 
 /* HEADER */
-.navbar-brand:hover{ opacity: 0.7; }
-.navbar-nav{ margin-left: 50px; }
-.nav-link{ font-size: 1.3em; color: var(--secondary-color)!important; font-weight: 500; }
-.nav-link:hover, header i:hover, .phone:hover, .mail:hover{ color: #0077ac!important; }
-.nav-item{ padding: 0 15px; }
-header i{ font-size: 24px; color: var(--secondary-color); }
-span a.phone{ color: #004473; font-size: 1.4em; font-weight: 700; text-decoration: none; }
-span a.mail{ color: #004473; font-size: 1em; margin-bottom: 5px; font-weight: 400; text-decoration: none; }
-.active a{ color: #0077ac!important; }
-.navbar-light{ color: rgba(0,0,0,.5); border-color: rgba(0,0,0,.1); }
-.dropdown-menu { border: none; background-color: #F6F6F6; }
-.nav-item.dropdown.show { background-color: #F6F6F6; }
-.dropdown-item:hover { background-color: #ffffff; }
+.navbar-brand:hover {
+  opacity: 0.7;
+}
+/*.navbar-nav{ margin-left: 50px; }*/
+.nav-link {
+  font-size: 1.3em;
+  color: var(--secondary-color) !important;
+  font-weight: 500;
+}
+
+header .header_top {
+  background: var(--secondary-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+header i {
+  color: white !important;
+}
+
+header .header_top .phone:hover,
+header .header_top .mail:hover,
+header .headet_top i:hover {
+  color: white !important;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+header i {
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+
+.header_top a {
+  color: white;
+  font-size: 0.875em;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.header_top a:hover {
+  opacity: 0.7;
+}
+
+.header_top a:last-child {
+  margin-right: 0;
+}
+
+.header_top a.mail {
+  color: white;
+  font-size: 0.875em;
+  margin-bottom: 5px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.active a {
+  color: #0077ac !important;
+}
+.navbar-light {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.dropdown-menu {
+  border: none;
+  background-color: #f6f6f6;
+}
+.nav-item.dropdown.show {
+  background-color: #f6f6f6;
+}
+.dropdown-item:hover {
+  background-color: #ffffff;
+}
+header #navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+header .redes {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* SLIDE HOME */
-#carousel_mobile{ display: none; visibility: hidden; }
-.slide_caption_mobile{ background-color: var(--secondary-color); padding: 5px 10px; text-align: center; color: #ffffff; }
-.slide_caption_mobile p { margin: 0; }
+#carousel_mobile {
+  display: none;
+  visibility: hidden;
+}
+.slide_caption_mobile {
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  text-align: center;
+  color: #ffffff;
+}
+.slide_caption_mobile p {
+  margin: 0;
+}
 
-.carousel-caption_add { top:15%; text-align: right; }
-.carousel-caption_menor { top:28%!important; left: -30%; }
-.carousel-caption_mdf { top:20%!important; left: -30% }
+.carousel-caption_add {
+  top: 15%;
+  text-align: right;
+}
+.carousel-caption_menor {
+  top: 28% !important;
+  left: -30%;
+}
+.carousel-caption_mdf {
+  top: 20% !important;
+  left: -30%;
+}
 .carousel-caption_add h1,
-.carousel-caption_add h2 { color: var(--secondary-color); }
-.carousel-caption_add p { color: #4c4a4a!important; font-size: 1.5em; margin: 0; }
-.btn-slide { background-color: var( --dark-color)!important; color: #ffffff!important; font-size: 1.125em; margin-top: 10px; }
-.btn-slide i { font-size: 0.75rem; }
-.btn-slide:hover { background-color: #ffffff!important; color: var( --dark-color)!important; }
-.btn-slide-menor { padding: 0; padding: 5px; background-color: var(--primary-color)!important; color: #ffffff!important; font-size: 1.25em; margin-top: 10px; }
-a.btn-slide { color: #ffffff!important; }
+.carousel-caption_add h2 {
+  color: var(--secondary-color);
+}
+.carousel-caption_add p {
+  color: #4c4a4a !important;
+  font-size: 1.5em;
+  margin: 0;
+}
+.btn-slide {
+  background-color: var(--dark-color) !important;
+  color: #ffffff !important;
+  font-size: 1.125em;
+  margin-top: 10px;
+}
+.btn-slide i {
+  font-size: 0.75rem;
+}
+.btn-slide:hover {
+  background-color: #ffffff !important;
+  color: var(--dark-color) !important;
+}
+.btn-slide-menor {
+  padding: 0;
+  padding: 5px;
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  font-size: 1.25em;
+  margin-top: 10px;
+}
+a.btn-slide {
+  color: #ffffff !important;
+}
 /* SLIDE HOME END */
 
 /* HOME */
-.cta img:hover{ filter:sepia(50%); }
-.faja_reforestacion {
-	background-color: var(--light-color);
+.cta img:hover {
+  filter: sepia(50%);
 }
-.madera_reforestacion h4 { color: var(--secondary-color); margin-left: 60px; font-size: 1.25em; font-weight: normal!important; margin-bottom:0; }
-.madera_reforestacion img { height: 295px; object-fit: cover; }
-.home_madera_mobile{ display: none; }
-.ventajas h3{ font-size: 1.75em; }
-.distribuidor h3{ font-size: 2em; }
+.faja_reforestacion {
+  background-color: var(--light-color);
+}
+.madera_reforestacion h4 {
+  color: var(--secondary-color);
+  margin-left: 60px;
+  font-size: 1.25em;
+  font-weight: normal !important;
+  margin-bottom: 0;
+}
+.madera_reforestacion img {
+  height: 295px;
+  object-fit: cover;
+}
+.home_madera_mobile {
+  display: none;
+}
+.ventajas h3 {
+  font-size: 1.75em;
+}
+.distribuidor h3 {
+  font-size: 2em;
+}
 
 /* Home - MDF Blancos */
-.mdf_blancos .row { display: flex; align-items: center; }
-.mdf_blancos .info { display: flex; flex-direction: column; }
-.mdf_blancos .moldurado { color: #194273; font-weight: 700; }
-.mdf_blancos .nuevo_desktop,
-.mdf_blancos .nuevo_mobile { 
-	align-self: flex-end; 
-	display: inline-block; 
-	color: #004473; 
-	border: solid 2px #004473;
-	border-radius: 10px; 
-	padding: 3px 5px;
-	font-weight: 700;
-	font-size: 1.5rem;
-	margin-right: 60px;
-	margin-bottom: 15px;
+.mdf_blancos .row {
+  display: flex;
+  align-items: center;
 }
-.mdf_blancos .nuevo_mobile { display: none; }
-.mdf_blancos h4 { font-size: 2.25rem; color:#3c3c3b; font-weight: 500; }
-.mdf_blancos .listos_colocar { width: 60%; border-radius: 10px; text-align: center; padding: 3px 5px; font-size: 1.375rem; color:white; background-color: #2374ab; margin-bottom: 15px; }
-.mdf_blancos p { color: #868687; font-size: 1.125rem; }
+.mdf_blancos .info {
+  display: flex;
+  flex-direction: column;
+}
+.mdf_blancos .moldurado {
+  color: #194273;
+  font-weight: 700;
+}
+.mdf_blancos .nuevo_desktop,
+.mdf_blancos .nuevo_mobile {
+  align-self: flex-end;
+  display: inline-block;
+  color: #004473;
+  border: solid 2px #004473;
+  border-radius: 10px;
+  padding: 3px 5px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 60px;
+  margin-bottom: 15px;
+}
+.mdf_blancos .nuevo_mobile {
+  display: none;
+}
+.mdf_blancos h4 {
+  font-size: 2.25rem;
+  color: #3c3c3b;
+  font-weight: 500;
+}
+.mdf_blancos .listos_colocar {
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3px 5px;
+  font-size: 1.375rem;
+  color: white;
+  background-color: #2374ab;
+  margin-bottom: 15px;
+}
+.mdf_blancos p {
+  color: #868687;
+  font-size: 1.125rem;
+}
 /* Home - MDF Blancos end */
 
 /* Home - Colores Plenos */
-.colores_plenos { background-color: #ececec; padding: 30px 0; }
-.colores_plenos .plenos_mobile { display: none; }
-.colores_plenos .row { display: flex; justify-content: center; align-items: center; }
-.colores_plenos h3 { font-size: 2rem; color: #004473; margin-bottom: 30px; font-weight: 700; }
-.colores_plenos h4 { text-align: right; font-size: 1.5rem; color: #004473; margin-bottom: 15px; font-weight: 700; }
-.colores_plenos p { font-size: 1.065rem; color: #706f6f; margin-bottom: 15px; text-align: right; width: 70%; margin-left: auto; font-weight: 500; }
-.colores_plenos a { display: inline-block; border: solid 2px var(--primary-color); font-size: 0.85rem; width: 40%; color: var(--primary-color); }
+.colores_plenos {
+  background-color: #ececec;
+  padding: 30px 0;
+}
+.colores_plenos .plenos_mobile {
+  display: none;
+}
+.colores_plenos .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colores_plenos h3 {
+  font-size: 2rem;
+  color: #004473;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.colores_plenos h4 {
+  text-align: right;
+  font-size: 1.5rem;
+  color: #004473;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.colores_plenos p {
+  font-size: 1.065rem;
+  color: #706f6f;
+  margin-bottom: 15px;
+  text-align: right;
+  width: 70%;
+  margin-left: auto;
+  font-weight: 500;
+}
+.colores_plenos a {
+  display: inline-block;
+  border: solid 2px var(--primary-color);
+  font-size: 0.85rem;
+  width: 40%;
+  color: var(--primary-color);
+}
 /* Home - Colores Plenos end */
 
 /* NOSOTROS */
-.nosotros{ background-image: url('../img/nosotros/nosotros-header.jpg')!important; }
-.nosotros_h3{ font-size: 1.5em; font-weight: 400; }
+.nosotros {
+  background-image: url("../img/nosotros/nosotros-header.jpg") !important;
+}
+.nosotros_h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
 
 /* PRODUCTOS */
-.productos h1 { font-size: 2em; color: #ffffff; background-color: #2374ab; padding: 5px 15px; }
-.productos h2 { color: #3c3c3b; margin-bottom: 30px;}
-
-.productos .content_colors { 
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	margin-bottom: 60px;
+.productos h1 {
+  font-size: 2em;
+  color: #ffffff;
+  background-color: #2374ab;
+  padding: 5px 15px;
+}
+.productos h2 {
+  color: #3c3c3b;
+  margin-bottom: 30px;
 }
 
-.productos .colors { 
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 1px solid rgba(0,0,0,.125);
-	box-shadow: 0 .125rem .25rem rgba(0,0,0,0.15) !important;
-	margin-right: 15px;
+.productos .content_colors {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
-.productos .colors:last-child { 
-	margin-right: 0;
+.productos .colors {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15) !important;
+  margin-right: 15px;
 }
 
-.card a{ color:#00263d; text-decoration: none; }
+.productos .colors:last-child {
+  margin-right: 0;
+}
 
-.otros_productos .card-title{ font-size: 0.75em!important; }
-.card-img-overlay p{ margin: 0; }
-.productos_mini:hover, .card a:hover{ opacity: 0.7; }
+.card a {
+  color: #00263d;
+  text-decoration: none;
+}
+
+.otros_productos .card-title {
+  font-size: 0.75em !important;
+}
+.card-img-overlay p {
+  margin: 0;
+}
+.productos_mini:hover,
+.card a:hover {
+  opacity: 0.7;
+}
 
 /* PROYECTOS */
-.proyectos{
-	background-image: url('../img/proyectos/header-proyectos-sin-faja.jpg');
+.proyectos {
+  background-image: url("../img/proyectos/header-proyectos-sin-faja.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 680px;
 }
 
-.header_faja{
-	background-image: url('../img/proyectos/punta-faja.png');
+.header_faja {
+  background-image: url("../img/proyectos/punta-faja.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   max-width: 70%;
   position: relative;
   top: 150px;
-  padding: 80px 200px 80px 80px!important;
+  padding: 80px 200px 80px 80px !important;
 }
 
-.proyectos h1{ color: #004473; font-size: 3em; }
-.proyectos h2{ color: var(--primary-color); font-size: 2em; font-weight: 400; }
-.proyectos_imagenes_parrafo{ 
-	position: absolute; 
-	color: #ffffff; 
-	bottom: 0; 
-	left: 0; 
-	margin: 0;
-	padding: 10px;
-	background-color: rgba(0, 68, 115, 0.6);
-	width: 100%;
+.proyectos h1 {
+  color: #004473;
+  font-size: 3em;
+}
+.proyectos h2 {
+  color: var(--primary-color);
+  font-size: 2em;
+  font-weight: 400;
+}
+.proyectos_imagenes_parrafo {
+  position: absolute;
+  color: #ffffff;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0, 68, 115, 0.6);
+  width: 100%;
 }
 
 /* CONTACTO */
-.contacto_header{ background-image: url('../img/contacto/header-contacto.jpg'); }
-.contacto_datos span { display: block; }
-.contacto form .g-recaptcha { margin: 10px auto; display: table; }
-.error { font-size: 0.75em; color: red; }
-.error ul { padding: 0; }
+.contacto_header {
+  background-image: url("../img/contacto/header-contacto.jpg");
+}
+
+.contacto_datos span {
+  display: block;
+}
+
+.contacto_datos .fa-whatsapp {
+  color: var(--secondary-color);
+}
+
+.contacto form .g-recaptcha {
+  margin: 10px auto;
+  display: table;
+}
+.error {
+  font-size: 0.75em;
+  color: red;
+}
+.error ul {
+  padding: 0;
+}
 
 /* GRACIAS */
-.gracias{ background-image: url('../img/slide/slide-a.jpg')!important; }
-.gracias_contenedor_frase { height: 680px; }
-.gracias_frase { background-color: rgb(255 ,255 ,255 ,0.8); padding: 30px 10px; border-radius: 5px; box-shadow:3px 3px 3px grey; }
-
+.gracias {
+  background-image: url("../img/slide/slide-a.jpg") !important;
+}
+.gracias_contenedor_frase {
+  height: 680px;
+}
+.gracias_frase {
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 30px 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px grey;
+}
 
 /* FOOTER */
-footer{ border-top: solid 2px #C8C8C8; }
-.footer_logo { display: flex; justify-content: flex-start; }
-.footer_menu { display: flex; justify-content: space-around; }
-footer ul li a, footer a, .contacto_datos a { text-decoration: none!important; }
-footer ul li a:hover, footer a:hover, footer a i:hover, .contacto_datos a:hover { opacity: 0.7; }
-footer a i, .contacto_datos i { margin-right: 10px; }
-footer a{ font-size: 1em; }
-.libre {font-size: 0.75em; color: #cccccc;}
-.libre:hover { color: #ffffff; opacity: 1; }
+footer {
+  border-top: solid 2px #c8c8c8;
+}
+.footer_logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer_menu {
+  display: flex;
+  justify-content: space-around;
+}
+footer ul li a,
+footer a,
+.contacto_datos a {
+  text-decoration: none !important;
+}
+footer ul li a:hover,
+footer a:hover,
+footer a i:hover,
+.contacto_datos a:hover {
+  opacity: 0.7;
+}
+footer a i,
+.contacto_datos i {
+  margin-right: 10px;
+}
+footer a {
+  font-size: 1em;
+}
+
+footer .content_phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.libre {
+  font-size: 0.75em;
+  color: #cccccc;
+}
+.libre:hover {
+  color: #ffffff;
+  opacity: 1;
+}
 
 /* Otros Productos */
-.otros_productos .card-body { 
-	padding: 5px;
-	background: black;
+.otros_productos .card-body {
+  padding: 5px;
+  background: black;
 }
 
 .otros_productos .card-body h3,
-.otros_productos .card-body p { 
-	color: white;
+.otros_productos .card-body p {
+  color: white;
 }
 
-.otros_productos .card-body p { 
-	margin-bottom: 0;
+.otros_productos .card-body p {
+  margin-bottom: 0;
 }
 /* Otros Productos end */
 
 /* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
 @media (max-width: 575.98px) {
-	nav{ padding: 8 0px!important; }
-	.navbar-brand{margin: 0;}
-	.logo{width: 70%;}
-	.header_datos {display: none; visibility: hidden;}
-
-	/* Home - MDF Blancos */
-	.mdf_blancos { margin-top: -30px; }
-	.mdf_blancos .info { display: flex; align-items: center; }
-	.mdf_blancos .nuevo_desktop { display: none; }
-	.mdf_blancos .nuevo_mobile { display: inline-block; font-size: 1.25rem; margin: 0; position: relative; top: 10px; left: 15px; z-index: 999; }
-	.mdf_blancos h4 { font-size: 1.75rem; }
-	.mdf_blancos .listos_colocar { width: 75%; font-size: 1.25rem; }
-	.mdf_blancos p { font-size: 1.125rem; }
-	/* Home - MDF Blancos end */
-
-	/* Home - Colores Plenos */
-	.colores_plenos .plenos_desktop { display: none; }
-	.colores_plenos .plenos_mobile { display: inline-block; margin-bottom: 15px; text-align: center; }
-	.colores_plenos .col-md-6 { display: flex; justify-content: center; }
-	.colores_plenos h3 { font-size: 1.5rem; text-align: center; }
-	.colores_plenos h4 { font-size: 1.25rem; text-align: center; }
-	.colores_plenos p { font-size: 1rem; width: 100%; text-align: center; margin-bottom: 15px; }
-	.colores_plenos .col-md-6 { display: flex; flex-direction: column; justify-content: center; align-items: center; }
-	.colores_plenos a { width: 100%; }
-	/* Home - Colores Plenos end */
-
-	.madera_reforestacion h4{ margin: 0; text-align: center; font-size: 1em; }
-	.home_madera_mobile{ display: inline-block; }
-	.distribuidor h3{ font-size: 1.5em; }
-	.footer_logo { display: flex; justify-content: center; }
-	.footer_logo img { max-width: 50%; }
-	.header_faja{
-		box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
-		background-image: none;
-		background-color: rgba(255,255,255,.8);
-	  max-width: 100%;
-	  top: 60px;
-	  padding: 0!important;
-	  padding: 10px 15px!important;
-	  text-align: center;
-	}
-	.proyectos{ height: 350px; }
-	.proyectos h1{ font-size: 2em; }
-	.proyectos h2{ font-size: 1.5em; }
-	.proyectos_imagenes_parrafo{ 
-		position: relative; 
-		color: #ffffff; 
-		bottom: 0; 
-		left: 0; 
-		margin-bottom: 30px; 
-		padding: 10px; 
-		background-color: #004473; 
-	}
-	.nosotros_h3{ font-size: 1.25em; }
-	.productos h1 { font-size: 1.75em; }
-	.productos h2, .otros_productos_h3 { font-size: 1.5em; }
-	.productos_colores{ max-width: 55%; margin: auto; }
-	.otros_productos .card-title { font-size: 1em!important; }
-	.otros_productos .card-text{ font-size: 1.25em!important; }
-
-	/* SLIDE */
-	#carousel_desktop{ display: none; visibility: hidden; }
-	#carousel_mobile { display: inline-block; visibility: visible; }
-	.slide_caption_mobile p, .slide_caption_mobile h5 { font-size: 1em; }
-	.slide_caption_mobile h5 { font-size: 1em; margin: 0; }
-
-	.gracias{ background-position: 75%; }
-	.gracias_contenedor_frase { height: 350px; }
-	.navbar-nav { margin-left: -10px; }
-
-	/* Seguidor */
-  #seguidor{display: none;}
-
-  #seguidor-tel{
-   display: inline-block; 
-   position: fixed;
-   background-color: #03e97e;
-   border-radius: 5px;
-   bottom: 20px;
-   right: 20px; 
-   z-index: 30;
-   padding: 15px;
-   -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
-   -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
-   box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  nav {
+    padding: 8 0px !important;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .logo {
+    width: 70%;
   }
 
+  .header_datos,
+  .header_top {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* Home - MDF Blancos */
+  .mdf_blancos {
+    margin-top: -30px;
+  }
+  .mdf_blancos .info {
+    display: flex;
+    align-items: center;
+  }
+  .mdf_blancos .nuevo_desktop {
+    display: none;
+  }
+  .mdf_blancos .nuevo_mobile {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    z-index: 999;
+  }
+  .mdf_blancos h4 {
+    font-size: 1.75rem;
+  }
+  .mdf_blancos .listos_colocar {
+    width: 75%;
+    font-size: 1.25rem;
+  }
+  .mdf_blancos p {
+    font-size: 1.125rem;
+  }
+  /* Home - MDF Blancos end */
+
+  /* Home - Colores Plenos */
+  .colores_plenos .plenos_desktop {
+    display: none;
+  }
+  .colores_plenos .plenos_mobile {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .colores_plenos .col-md-6 {
+    display: flex;
+    justify-content: center;
+  }
+  .colores_plenos h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .colores_plenos h4 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .colores_plenos p {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .colores_plenos .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .colores_plenos a {
+    width: 100%;
+  }
+  /* Home - Colores Plenos end */
+
+  .madera_reforestacion h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+  .home_madera_mobile {
+    display: inline-block;
+  }
+  .distribuidor h3 {
+    font-size: 1.5em;
+  }
+  .footer_logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_logo img {
+    max-width: 50%;
+  }
+  .header_faja {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    top: 60px;
+    padding: 0 !important;
+    padding: 10px 15px !important;
+    text-align: center;
+  }
+  .proyectos {
+    height: 350px;
+  }
+  .proyectos h1 {
+    font-size: 2em;
+  }
+  .proyectos h2 {
+    font-size: 1.5em;
+  }
+  .proyectos_imagenes_parrafo {
+    position: relative;
+    color: #ffffff;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #004473;
+  }
+  .nosotros_h3 {
+    font-size: 1.25em;
+  }
+  .productos h1 {
+    font-size: 1.75em;
+  }
+  .productos h2,
+  .otros_productos_h3 {
+    font-size: 1.5em;
+  }
+  .productos_colores {
+    max-width: 55%;
+    margin: auto;
+  }
+  .otros_productos .card-title {
+    font-size: 1em !important;
+  }
+  .otros_productos .card-text {
+    font-size: 1.25em !important;
+  }
+
+  /* SLIDE */
+  #carousel_desktop {
+    display: none;
+    visibility: hidden;
+  }
+  #carousel_mobile {
+    display: inline-block;
+    visibility: visible;
+  }
+  .slide_caption_mobile p,
+  .slide_caption_mobile h5 {
+    font-size: 1em;
+  }
+  .slide_caption_mobile h5 {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .gracias {
+    background-position: 75%;
+  }
+  .gracias_contenedor_frase {
+    height: 350px;
+  }
+  .navbar-nav {
+    margin-left: -10px;
+  }
+
+  /* Seguidor */
+  #seguidor {
+    display: none;
+  }
+
+  #seguidor-tel {
+    display: inline-block;
+    position: fixed;
+    background-color: #03e97e;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 30;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  }
 }
 
 /* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-	.header_datos {display: none; visibility: hidden;}
-	.madera_reforestacion h4{ margin: 0; text-align: center; font-size: 1.25em; }
-	.madera_reforestacion { padding: 35px!important; }
-	.home_madera_mobile{ display: inline-block; }
-	.footer_logo { display: flex; justify-content: center; }
-	.header_faja{
-		box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
-		background-image: none;
-		background-color: rgba(255,255,255,.8);
-	  max-width: 100%;
-	  top: 80px;
-	  padding: 0!important;
-	  padding: 40px!important;
-	}
-	.proyectos{ height: 400px; }
-	.proyectos h1{ font-size: 2em; }
-	.proyectos h2{ font-size: 1.5em; }
-	.otros_productos .card-title, .otros_productos .card-text{ font-size: 1.25em!important; }
-
-	/* SLIDE */
-	.carousel-caption_add { top:5%; }
-	.carousel-caption_menor { top:20%!important; }
-	.carousel-caption_add h1,
-	.carousel-caption_add h2 { font-size: 1em; }
-	.carousel-caption_add p { font-size: 0.85em; }
-	.carousel-caption_add span a { font-size: 1em; }
-	.btn-slide { font-size: 0.8em; padding: 0; padding: 5px; }
-	
-	.carousel-caption #text_tercer_slide {
-		padding-top: 10px;
-	}
-
-	.carousel-caption #text_cuarto_slide {
-		padding-top: 30px;
-	}
-	/* SLIDE end */
-
-	/* Home - MDF Blancos */
-	.mdf_blancos { margin-top: -30px; }
-	.mdf_blancos .info { display: flex; align-items: center; }
-	.mdf_blancos .nuevo_desktop { display: none; }
-	.mdf_blancos .nuevo_mobile { display: inline-block; font-size: 1.25rem; margin: 0; position: relative; top: 10px; left: 15px; z-index: 999; }
-	.mdf_blancos h4 { font-size: 1.75rem; text-align: center; }
-	.mdf_blancos .listos_colocar { width: 50%; font-size: 1.25rem; text-align: center; }
-	.mdf_blancos p { font-size: 1.125rem; text-align: center; }
-	/* Home - MDF Blancos end */
-
-	/* Home - Colores Plenos */
-	.colores_plenos .plenos_desktop { display: none; }
-	.colores_plenos .plenos_mobile { display: inline-block; margin-bottom: 15px; text-align: center; }
-	.colores_plenos .col-md-6 { display: flex; justify-content: center; }
-	.colores_plenos h3 { font-size: 1.75rem; text-align: center; }
-	.colores_plenos h4 { font-size: 1.35rem; text-align: center; }
-	.colores_plenos p { font-size: 1rem; width: 100%; text-align: center; margin-bottom: 15px; }
-	.colores_plenos .col-md-6 { display: flex; flex-direction: column; justify-content: center; align-items: center; }
-	.colores_plenos a { width: 100%; }
-	/* Home - Colores Plenos end */
-
-	.gracias{ background-position: 75%; }
-	.gracias_contenedor_frase { height: 400px; }
-
-	/* Seguidor */
-  #seguidor{display: none;}
-
-  #seguidor-tel{
-   display: inline-block; 
-   position: fixed;
-   background-color: #03e97e;
-   border-radius: 5px;
-   bottom: 20px;
-   right: 20px; 
-   z-index: 30;
-   padding: 15px;
-   -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
-   -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
-   box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header_datos,
+  .header_top {
+    display: none;
+    visibility: hidden;
+  }
+  .madera_reforestacion h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.25em;
+  }
+  .madera_reforestacion {
+    padding: 35px !important;
+  }
+  .home_madera_mobile {
+    display: inline-block;
+  }
+  .footer_logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header_faja {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    top: 80px;
+    padding: 0 !important;
+    padding: 40px !important;
+  }
+  .proyectos {
+    height: 400px;
+  }
+  .proyectos h1 {
+    font-size: 2em;
+  }
+  .proyectos h2 {
+    font-size: 1.5em;
+  }
+  .otros_productos .card-title,
+  .otros_productos .card-text {
+    font-size: 1.25em !important;
   }
 
+  /* SLIDE */
+  .carousel-caption_add {
+    top: 5%;
+  }
+  .carousel-caption_menor {
+    top: 20% !important;
+  }
+  .carousel-caption_add h1,
+  .carousel-caption_add h2 {
+    font-size: 1em;
+  }
+  .carousel-caption_add p {
+    font-size: 0.85em;
+  }
+  .carousel-caption_add span a {
+    font-size: 1em;
+  }
+  .btn-slide {
+    font-size: 0.8em;
+    padding: 0;
+    padding: 5px;
+  }
+
+  .carousel-caption #text_tercer_slide {
+    padding-top: 10px;
+  }
+
+  .carousel-caption #text_cuarto_slide {
+    padding-top: 30px;
+  }
+  /* SLIDE end */
+
+  /* Home - MDF Blancos */
+  .mdf_blancos {
+    margin-top: -30px;
+  }
+  .mdf_blancos .info {
+    display: flex;
+    align-items: center;
+  }
+  .mdf_blancos .nuevo_desktop {
+    display: none;
+  }
+  .mdf_blancos .nuevo_mobile {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    z-index: 999;
+  }
+  .mdf_blancos h4 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .mdf_blancos .listos_colocar {
+    width: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .mdf_blancos p {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  /* Home - MDF Blancos end */
+
+  /* Home - Colores Plenos */
+  .colores_plenos .plenos_desktop {
+    display: none;
+  }
+  .colores_plenos .plenos_mobile {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .colores_plenos .col-md-6 {
+    display: flex;
+    justify-content: center;
+  }
+  .colores_plenos h3 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .colores_plenos h4 {
+    font-size: 1.35rem;
+    text-align: center;
+  }
+  .colores_plenos p {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .colores_plenos .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .colores_plenos a {
+    width: 100%;
+  }
+  /* Home - Colores Plenos end */
+
+  .gracias {
+    background-position: 75%;
+  }
+  .gracias_contenedor_frase {
+    height: 400px;
+  }
+
+  /* Seguidor */
+  #seguidor {
+    display: none;
+  }
+
+  #seguidor-tel {
+    display: inline-block;
+    position: fixed;
+    background-color: #03e97e;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 30;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  }
 }
 
 /* Dispositivos medianos (tabletas, 768px y más) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-	.header_datos {display: none; visibility: hidden;}
-	.header_faja{
-		box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
-		background-image: none;
-		background-color: rgba(255,255,255,.8);
-	  max-width: 100%;
-	  top: 100px;
-	  padding: 0!important;
-	  padding: 40px!important;
-	}
-	.proyectos{ height: 480px; }
-	.proyectos h1{ font-size: 2.5em; }
-	.proyectos h2{ font-size: 1.75em; }
-	.otros_productos .card-title{ font-size: 1.25em!important; }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_datos,
+  .header_top {
+    display: none;
+    visibility: hidden;
+  }
+  .header_faja {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    top: 100px;
+    padding: 0 !important;
+    padding: 40px !important;
+  }
+  .proyectos {
+    height: 480px;
+  }
+  .proyectos h1 {
+    font-size: 2.5em;
+  }
+  .proyectos h2 {
+    font-size: 1.75em;
+  }
+  .otros_productos .card-title {
+    font-size: 1.25em !important;
+  }
 
-	/* SLIDE */
-	.carousel-caption_add { top:10%; }
-	.carousel-caption_menor { top:20%!important; left: -30% }
-	.carousel-caption_add h1,
-	.carousel-caption_add h2 { font-size: 1.25em; }
-	.carousel-caption_add p { font-size: 1.15em; }
-	.carousel-caption_add span a { font-size: 1.25em; }
-	.btn-slide { font-size: 1em; padding: 0; padding: 5px; }
-	/* SLIDE end */
+  /* SLIDE */
+  .carousel-caption_add {
+    top: 10%;
+  }
+  .carousel-caption_menor {
+    top: 20% !important;
+    left: -30%;
+  }
+  .carousel-caption_add h1,
+  .carousel-caption_add h2 {
+    font-size: 1.25em;
+  }
+  .carousel-caption_add p {
+    font-size: 1.15em;
+  }
+  .carousel-caption_add span a {
+    font-size: 1.25em;
+  }
+  .btn-slide {
+    font-size: 1em;
+    padding: 0;
+    padding: 5px;
+  }
+  /* SLIDE end */
 
-	/* Home - MDF Blancos */
-	.mdf_blancos .nuevo_desktop { font-size: 1.25rem; margin-right: 0; }
-	.mdf_blancos h4 { font-size: 1.75rem; }
-	.mdf_blancos .listos_colocar { width: 80%; font-size: 1.25rem; }
-	.mdf_blancos p { font-size: 1.125rem; }
-	/* Home - MDF Blancos end */
+  /* Home - MDF Blancos */
+  .mdf_blancos .nuevo_desktop {
+    font-size: 1.25rem;
+    margin-right: 0;
+  }
+  .mdf_blancos h4 {
+    font-size: 1.75rem;
+  }
+  .mdf_blancos .listos_colocar {
+    width: 80%;
+    font-size: 1.25rem;
+  }
+  .mdf_blancos p {
+    font-size: 1.125rem;
+  }
+  /* Home - MDF Blancos end */
 
-	/* Home - Colores Plenos */
-	.colores_plenos h3 { font-size: 1.75rem; }
-	.colores_plenos h4 { font-size: 1.35rem; }
-	.colores_plenos p { font-size: 1rem; width: 100%; }
-	/* Home - Colores Plenos end */
+  /* Home - Colores Plenos */
+  .colores_plenos h3 {
+    font-size: 1.75rem;
+  }
+  .colores_plenos h4 {
+    font-size: 1.35rem;
+  }
+  .colores_plenos p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  /* Home - Colores Plenos end */
 
-	.gracias{ background-position: 75%; }
-	.gracias_contenedor_frase { height: 480px; }
-
+  .gracias {
+    background-position: 75%;
+  }
+  .gracias_contenedor_frase {
+    height: 480px;
+  }
 }
 
 /* Dispositivos grandes (escritorios, 992px y más) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.nav-item{ padding: 0 5px; }
-	.header_faja{
-		box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
-		background-image: none;
-		background-color: rgba(255,255,255,.8);
-	  max-width: 100%;
-	  top: 120px;
-	  padding: 0!important;
-	  padding: 40px!important;
-	}
-	.proyectos{ height: 480px; }
-	.proyectos h1{ font-size: 2.5em; }
-	.proyectos h2{ font-size: 1.75em; }
+  .nav-item {
+    padding: 0 5px;
+  }
 
-	/* SLIDE */
-	.carousel-caption_add h1,
-	.carousel-caption_add h2 { font-size: 1.5em; }
-	.carousel-caption_add p { font-size: 1.25em; }
-	.carousel-caption_menor { top:25%!important; left: -25%; }
-	.btn-slide { font-size: 1rem; padding: 0; padding: 5px; }
-	.carousel-caption_add a i { font-size: 1rem; }
-	.carousel-caption #text_segundo_slide {
-		margin-top: -37px;
-		padding-right: 35px;
-	}
+  .header_datos,
+  .header_top {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-	.carousel-caption #text_tercer_slide {
-		margin-top: 10px;
-	}
-	/* SLIDE end */
+  .header_faja {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    top: 120px;
+    padding: 0 !important;
+    padding: 40px !important;
+  }
+  .proyectos {
+    height: 480px;
+  }
+  .proyectos h1 {
+    font-size: 2.5em;
+  }
+  .proyectos h2 {
+    font-size: 1.75em;
+  }
 
-	/* Home - Colores Plenos */
-	.colores_plenos h3 { font-size: 1.75rem; }
-	.colores_plenos h4 { font-size: 1.35rem; }
-	.colores_plenos p { font-size: 1rem; width: 100%; }
-	/* Home - Colores Plenos end */
+  /* SLIDE */
+  .carousel-caption_add h1,
+  .carousel-caption_add h2 {
+    font-size: 1.5em;
+  }
+  .carousel-caption_add p {
+    font-size: 1.25em;
+  }
+  .carousel-caption_menor {
+    top: 25% !important;
+    left: -25%;
+  }
+  .btn-slide {
+    font-size: 1rem;
+    padding: 0;
+    padding: 5px;
+  }
+  .carousel-caption_add a i {
+    font-size: 1rem;
+  }
+  .carousel-caption #text_segundo_slide {
+    margin-top: -37px;
+    padding-right: 35px;
+  }
 
-	.gracias{ background-position: 75%; }
-	.gracias_contenedor_frase { height: 480px; }
+  .carousel-caption #text_tercer_slide {
+    margin-top: 10px;
+  }
+  /* SLIDE end */
 
+  /* Home - Colores Plenos */
+  .colores_plenos h3 {
+    font-size: 1.75rem;
+  }
+  .colores_plenos h4 {
+    font-size: 1.35rem;
+  }
+  .colores_plenos p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  /* Home - Colores Plenos end */
+
+  .gracias {
+    background-position: 75%;
+  }
+  .gracias_contenedor_frase {
+    height: 480px;
+  }
 }
 
 /* Dispositivos extragrandes (escritorios grandes, 1200px y más) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
+  .header_top {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
 
-	/* SLIDE */
-	.carousel-caption_add h1, .carousel-caption_add h2 {
-		font-size: 2.25rem;
-	}
+  .header_datos {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-	.carousel-caption #text_segundo_slide {
-		margin-top: -45px;
-		padding-right: 35px;
-	}
+  /* SLIDE */
+  .carousel-caption_add h1,
+  .carousel-caption_add h2 {
+    font-size: 2.25rem;
+  }
 
-	.carousel-caption #text_tercer_slide {
-		padding-right: 35px;
-	}
+  .carousel-caption #text_segundo_slide {
+    margin-top: -45px;
+    padding-right: 35px;
+  }
 
-	.carousel-caption #text_cuarto_slide {
-		padding-right: 50px;
-		padding-top: 20px;
-	}
-	/* SLIDE end */
+  .carousel-caption #text_tercer_slide {
+    padding-right: 35px;
+  }
 
+  .carousel-caption #text_cuarto_slide {
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+  /* SLIDE end */
 }
 
-@media (min-width: 1400px) { 
-	/* SLIDE */
-	.carousel-caption_add h1, .carousel-caption_add h2 {
-		font-size: 2.5rem;
-	}
-	/* SLIDE end */
+@media (min-width: 1400px) {
+  /* SLIDE */
+  .carousel-caption_add h1,
+  .carousel-caption_add h2 {
+    font-size: 2.5rem;
+  }
+  /* SLIDE end */
 }
 
-@media (min-width: 1600px) { 
-	/* SLIDE */
-	.carousel-caption_add h1, .carousel-caption_add h2 {
-		font-size: 2.75rem;
-	}
+@media (min-width: 1600px) {
+  /* SLIDE */
+  .carousel-caption_add h1,
+  .carousel-caption_add h2 {
+    font-size: 2.75rem;
+  }
 
-	.carousel-caption #text_primer_slide {
-		padding-top: 30px;
-	}
+  .carousel-caption #text_primer_slide {
+    padding-top: 30px;
+  }
 
-	.carousel-caption #text_segundo_slide {
-		padding-right: 60px;
-	}
+  .carousel-caption #text_segundo_slide {
+    padding-right: 60px;
+  }
 
-	.carousel-caption #text_tercer_slide {
-		padding-right: 60px;
-		padding-top: 30px;
-	}
+  .carousel-caption #text_tercer_slide {
+    padding-right: 60px;
+    padding-top: 30px;
+  }
 
-	.carousel-caption #text_cuarto_slide {
-		padding-right: 80px;
-		padding-top: 60px;
-	}
-	/* SLIDE end */
+  .carousel-caption #text_cuarto_slide {
+    padding-right: 80px;
+    padding-top: 60px;
+  }
+  /* SLIDE end */
 }
-
-
-

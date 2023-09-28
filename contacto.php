@@ -8,173 +8,197 @@
 
 <!doctype html>
 <html lang="es">
-	<head>
-		<!-- Tag Manager Head -->
-  	<?php include_once("includes/tag_manager_head.inc"); ?>
 
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Contactese con nosotros. zócalos y contramarcos permiten ahorrar tiempo y dinero. Descubrí nuestra línea de productos y dale a tus ambientes un toque de distinción.">
+<head>
+  <!-- Tag Manager Head -->
+  <?php include_once("includes/tag_manager_head.inc"); ?>
 
-		<!-- Favicons -->
-		<link rel="apple-touch-icon" href="img/apple-icon.png">
-		<link rel="icon" href="img/favicon.png">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Contactese con nosotros. zócalos y contramarcos permiten ahorrar tiempo y dinero. Descubrí nuestra línea de productos y dale a tus ambientes un toque de distinción.">
 
-		<!-- Normalize CSS -->
-		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="img/apple-icon.png">
+  <link rel="icon" href="img/favicon.png">
 
-		<!-- Animate CSS -->
-		<link rel="stylesheet" type="text/css" href="css/animate.css">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-		<!-- Fontawesome -->
-		<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
 
-		<!-- Custom CSS -->
-		<link rel="stylesheet" type="text/css" href="css/app.css">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
 
-		<title>Contacto - Zocalos, molduras y contramarcos de madera.</title>
-	</head>
-	
-	<body>
-		<!-- Tag Manager Body -->
-  	<?php include_once("includes/tag_manager_body.inc"); ?>
-	
-		<?php $current = 'contacto'; ?>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/app.css">
 
-		<!-- WhatsApp -->
-  	<?php include_once("includes/wapp.inc"); ?>
-  	
-		<!-- Header -->
-		<?php include_once('includes/header.inc'); ?>
+  <title>Contacto - Zocalos, molduras y contramarcos de madera.</title>
+</head>
 
-		<!-- Slider Estático -->
-		<section class="proyectos contacto_header container-fluid bg-azul text-white text-center p-0 mb-5">
+<body>
+  <!-- Tag Manager Body -->
+  <?php include_once("includes/tag_manager_body.inc"); ?>
 
-			<div class="text-right">
-				<div class="header_faja">
-					<h1>CONTACTO</h1>
-					<h2>Para comunicarse con nosotros por presupuestos o más información complete el siguiente formulario.</h2>
-				</div>
-			</div>
+  <?php $current = 'contacto'; ?>
 
-		</section>
-		<!-- Slider Estático end -->
+  <!-- WhatsApp -->
+  <?php include_once("includes/wapp.inc"); ?>
+
+  <!-- Header -->
+  <?php include_once('includes/header.inc'); ?>
+
+  <!-- Slider Estático -->
+  <section class="proyectos contacto_header container-fluid bg-azul text-white text-center p-0 mb-5">
+
+    <div class="text-right">
+      <div class="header_faja">
+        <h1>CONTACTO</h1>
+        <h2>Para comunicarse con nosotros por presupuestos o más información complete el siguiente formulario.</h2>
+      </div>
+    </div>
+
+  </section>
+  <!-- Slider Estático end -->
 
 
-		<!-- Formulario -->
-		<section class="container mb-5">
+  <!-- Formulario -->
+  <section class="container mb-5">
 
-			<div class="row">
+    <div class="row">
 
-				<div class="contacto_datos col-md-6">
+      <div class="contacto_datos col-md-6">
 
-					<span>
-						<a class="transition" href="tel:1147675100">
-							<i class="transition fas fa-phone mb-3"></i>
-							11 4767-5100
-						</a>
-					</span>
+        <span>
+          <a class="transition" target="_blank" rel="nofollow noopener noreferrer" href="tel:1147675100">
+            <i class="transition fas fa-phone mb-3"></i>
+            11 4767-5100
+          </a>
+        </span>
 
-					<span>
-						<a class="transition" href="mailto:info@moldurama.com.ar">
-							<i class="transition fas fas fa-envelope mb-3"></i>
-							info@moldurama.com.ar
-						</a>
-					</span>
+        <span>
+          <a class="transition" target="_blank" rel="nofollow noopener noreferrer" href="tel:77237758">
+            <i class="transition fas fa-phone mb-3"></i>
+            11 7723 7758
+          </a>
+        </span>
 
-					<span>
-						<a class="transition" href="https://goo.gl/maps/toKmrUcCNkKDDKV2A" target="blank">
-							<i class="transition fas fa-map-marker-alt mb-3"></i>
-							La Paz 4546 Villa Ballester. Buenos Aires - Argentina
-						</a>
-					</span>
+        <span>
+          <a class="transition" target="_blank" rel="nofollow noopener noreferrer"
+            href="https://web.whatsapp.com/send?phone=+5491135968714&text=Hola!%20Necesito%20hacer%20una%20consulta!">
+            <i class="transition fab fa-whatsapp mb-3"></i>
+            11 3596 8714
+          </a>
+        </span>
 
-					<div class="error">
-			      <ul>
-			        <?php foreach ($errors_contacto as $error_contacto) { ?>
-			          <li><?php echo $error_contacto; ?></li>
-			        <?php } ?>
-			      </ul>
-			    </div>
+        <span>
+          <a class="transition" href="mailto:info@moldurama.com.ar">
+            <i class="transition fas fas fa-envelope mb-3"></i>
+            info@moldurama.com.ar
+          </a>
+        </span>
 
-				</div>
+        <span>
+          <a class="transition" href="https://goo.gl/maps/toKmrUcCNkKDDKV2A" target="blank">
+            <i class="transition fas fa-map-marker-alt mb-3"></i>
+            La Paz 4546 Villa Ballester. Buenos Aires - Argentina
+          </a>
+        </span>
 
-				<div class="contacto col-md-6">
+        <div class="error">
+          <ul>
+            <?php foreach ($errors_contacto as $error_contacto) { ?>
+            <li><?php echo $error_contacto; ?></li>
+            <?php } ?>
+          </ul>
+        </div>
 
-					<form method="post" action="">
-					  
-					  <input name="origin" type="hidden" value='Formulario de Contacto'>
+      </div>
 
-					  <div class="form-group">
-					    <input type="text" class="form-control" name="name" placeholder="Nombre" value='<?php echo $name_contacto; ?>'>
-					  </div>
+      <div class="contacto col-md-6">
 
-					  <div class="form-group">
-					    <input type="email" class="form-control" name="email" placeholder="Email" value='<?php echo $email_contacto; ?>'>
-					  </div>
+        <form method="post" action="">
 
-					  <div class="form-group">
-							<textarea class="form-control" rows="5" name="comments" placeholder="Comentarios"><?php echo $comments_contacto; ?></textarea>
-				    </div>
+          <input name="origin" type="hidden" value='Formulario de Contacto'>
 
-				    <!-- reCAPTCHA  -->
-						<div class="form-group">
-							<div id="recaptcha" class="g-recaptcha" data-sitekey="<?= RECAPTCHA_PUBLIC_KEY ?>"></div>
-						</div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Nombre"
+              value='<?php echo $name_contacto; ?>'>
+          </div>
 
-				    <div class="text-right">
-					  	<button id="contacto" name="contacto" type="submit" class="btn btn_site font_1em">Enviar</button>
-				    </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" placeholder="Email"
+              value='<?php echo $email_contacto; ?>'>
+          </div>
 
-					</form>	
-				</div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" name="comments"
+              placeholder="Comentarios"><?php echo $comments_contacto; ?></textarea>
+          </div>
 
-			</div>
+          <!-- reCAPTCHA  -->
+          <div class="form-group">
+            <div id="recaptcha" class="g-recaptcha" data-sitekey="<?= RECAPTCHA_PUBLIC_KEY ?>"></div>
+          </div>
 
-		</section>
-		<!-- Formulario end -->
+          <div class="text-right">
+            <button id="contacto" name="contacto" type="submit" class="btn btn_site font_1em">Enviar</button>
+          </div>
 
-		<!-- Mapa -->
-		<section class="container-fluid mb-1">
+        </form>
+      </div>
 
-			<div class="row">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.543068758062!2d-58.56725478424993!3d-34.56512286296499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9c5391491e3%3A0xbe6b266f2cbfde71!2sMoldurama!5e0!3m2!1ses-419!2sar!4v1678744449852!5m2!1ses-419!2sar" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</div>
+    </div>
 
-		</section>
-		<!-- Mapa end -->
+  </section>
+  <!-- Formulario end -->
 
-		<!-- Distribuidor -->
-		<?php include_once('includes/distribuidores.inc'); ?>
+  <!-- Mapa -->
+  <section class="container-fluid mb-1">
 
-		<!-- Newsletter -->
-		<?php include_once('includes/newsletter.inc'); ?>
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.543068758062!2d-58.56725478424993!3d-34.56512286296499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9c5391491e3%3A0xbe6b266f2cbfde71!2sMoldurama!5e0!3m2!1ses-419!2sar!4v1678744449852!5m2!1ses-419!2sar"
+        width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-		<!-- Mas Información -->
-		<?php include_once('includes/mas-informacion.inc'); ?>
+  </section>
+  <!-- Mapa end -->
 
-		<!-- Footer -->
-		<?php include_once('includes/footer.inc'); ?>
+  <!-- Distribuidor -->
+  <?php include_once('includes/distribuidores.inc'); ?>
 
-		<!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script> 
-		<script type="text/javascript" src="js/popper.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- Newsletter -->
+  <?php include_once('includes/newsletter.inc'); ?>
 
-		<!-- Wow efecto para que aparezcan los objetos cuando se va scroleando -->
-		<script type="text/javascript" src="js/wow.min.js"></script>
+  <!-- Mas Información -->
+  <?php include_once('includes/mas-informacion.inc'); ?>
 
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <!-- Footer -->
+  <?php include_once('includes/footer.inc'); ?>
 
-		<!-- Scripts -->
-		<script type="text/javascript" src="js/app.js"></script>
+  <!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->
+  <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-	</body>
+  <!-- Wow efecto para que aparezcan los objetos cuando se va scroleando -->
+  <script type="text/javascript" src="js/wow.min.js"></script>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
 </html>
