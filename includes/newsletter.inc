@@ -23,7 +23,7 @@
               <input
                 required
                 type="email"
-                name="email_news"
+                name="email"
                 type="text"
                 class="form-control"
                 value="<?php echo $email_news; ?>"

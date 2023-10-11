@@ -11,6 +11,7 @@
 /landing/includes/config.inc.php
 /includes/config.inc.php
 **/.DS_Store into
+.env
 
 #text editors
 *.esproj

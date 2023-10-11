@@ -1,10 +1,11 @@
-<!-- Validaciones Formulario de Contacto -->
-<?php include_once('includes/validaciones-contacts.inc'); ?>
-
-<!-- Validaciones Newsletter -->
-<?php include_once('includes/validaciones-newsletter.inc'); ?>
-
-<?php include_once('includes/config.inc.php'); ?>
+<?php
+  require_once( __DIR__ . '/vendor/autoload.php' );
+  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+  $dotenv->safeLoad();
+  
+  include_once('includes/validaciones-contacts.inc'); 
+  include_once('includes/validaciones-newsletter.inc');
+?>
 
 <!doctype html>
 <html lang="es">
@@ -146,7 +147,7 @@
 
           <!-- reCAPTCHA  -->
           <div class="form-group">
-            <div id="recaptcha" class="g-recaptcha" data-sitekey="<?= RECAPTCHA_PUBLIC_KEY ?>"></div>
+            <div id="recaptcha" class="g-recaptcha" data-sitekey="<?= $_ENV['RECAPTCHA_SITE_KEY'] ?>"></div>
           </div>
 
           <div class="text-right">

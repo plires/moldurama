@@ -39,7 +39,7 @@ define("RECAPTCHA_SECRET_KEY","6LcYmHUUAAAAAF0jXteeFtfqrtUZ76C8cm3fzazT");
 ////////////////////////
 ///Mailchimp
 ////////////////////////
-define('API_KEY_MAILCHIMP', '70db151f81dab9080f21ff0b5670e736-us7');
+define('API_KEY_MAILCHIMP', '8c0077c23b1b34cb71fae336608db822-us7');
 define('LIST_ID', '1b9d60ae05');
 
 ?>
