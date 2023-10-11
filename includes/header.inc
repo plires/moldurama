@@ -99,6 +99,13 @@
                 href="guardasilla-recto-gfr.php"
                 >Guardasilla MDF Recto GFR</a
               >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item transition" href="wall-panel-wpfp.php"
+                >Wall Panel en MDF Prepintado Blanco</a
+              >
+              <a class="dropdown-item transition" href="wall-panel-wpfn.php"
+                >Wall Panel en MDF Color Natural</a
+              >
             </div>
           </li>
 
