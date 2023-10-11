@@ -157,6 +157,42 @@
           </a>
         </div>
       </div>
+
+      <div class="col-md-12 mb-3 mt-5">
+        <h3 class="otros_productos_h3">LÍNEA WALL PANEL</h3>
+      </div>
+
+      <div class="wow fadeInUp col-md-3 col-6 text-center mb-3">
+        <div class="card">
+          <a class="transition" href="wall-panel-wpfn.php">
+            <img
+              class="card-img-top"
+              src="img/productos/wall-panel-wpfn.gif"
+              alt="wall panel wpfn"
+            />
+            <div class="card-body">
+              <h3 class="card-text">WPFN</h3>
+              <p>Wall Panel</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="wow fadeInUp col-md-3 col-6 text-center mb-3">
+        <div class="card">
+          <a class="transition" href="wall-panel-wpfp.php">
+            <img
+              class="card-img-top"
+              src="img/productos/wall-panel-wpfp.gif"
+              alt="wall panel wpfp"
+            />
+            <div class="card-body">
+              <h3 class="card-text">WPFP</h3>
+              <p>Wall Panel</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
