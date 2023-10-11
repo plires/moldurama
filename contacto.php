@@ -113,14 +113,6 @@
           </a>
         </span>
 
-        <div class="error">
-          <ul>
-            <?php foreach ($errors_contacto as $error_contacto) { ?>
-            <li><?php echo $error_contacto; ?></li>
-            <?php } ?>
-          </ul>
-        </div>
-
       </div>
 
       <div class="contacto col-md-6">
@@ -130,18 +122,26 @@
           <input name="origin" type="hidden" value='Formulario de Contacto'>
 
           <div class="form-group">
-            <input type="text" class="form-control" name="name" placeholder="Nombre"
+            <input required type="text" class="form-control" name="name" placeholder="Nombre"
               value='<?php echo $name_contacto; ?>'>
           </div>
 
           <div class="form-group">
-            <input type="email" class="form-control" name="email" placeholder="Email"
+            <input required type="email" class="form-control" name="email" placeholder="Email"
               value='<?php echo $email_contacto; ?>'>
           </div>
 
           <div class="form-group">
-            <textarea class="form-control" rows="5" name="comments"
+            <textarea required class="form-control" rows="5" name="comments"
               placeholder="Comentarios"><?php echo $comments_contacto; ?></textarea>
+          </div>
+
+          <div class="error">
+            <ul>
+              <?php foreach ($errors_contacto as $error_contacto) { ?>
+              <li><?php echo $error_contacto; ?></li>
+              <?php } ?>
+            </ul>
           </div>
 
           <!-- reCAPTCHA  -->

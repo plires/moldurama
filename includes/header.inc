@@ -35,13 +35,15 @@
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation">
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div
         class="collapse navbar-collapse transition"
-        id="navbarSupportedContent">
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav transition">
           <?php $resultado = ($current =='productos') ? "active":" "; ?>
           <li class="nav-item dropdown transition">
@@ -52,12 +54,14 @@
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
-              aria-expanded="false">
+              aria-expanded="false"
+            >
               Productos
             </a>
             <div
               class="dropdown-menu transition"
-              aria-labelledby="navbarDropdown">
+              aria-labelledby="navbarDropdown"
+            >
               <div class="dropdown-divider"></div>
               <a class="dropdown-item transition" href="zocalo-mdf-zfl.php"
                 >Zócalo MDF Curvo ZFL</a

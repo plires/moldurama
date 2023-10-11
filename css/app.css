@@ -8,7 +8,7 @@
 /* Variables end */
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
 }
 a {
@@ -492,7 +492,7 @@ a.btn-slide {
 
 /* NOSOTROS */
 .nosotros {
-  background-image: url("../img/nosotros/nosotros-header.jpg") !important;
+  background-image: url('../img/nosotros/nosotros-header.jpg') !important;
 }
 .nosotros_h3 {
   font-size: 1.5em;
@@ -549,14 +549,14 @@ a.btn-slide {
 
 /* PROYECTOS */
 .proyectos {
-  background-image: url("../img/proyectos/header-proyectos-sin-faja.jpg");
+  background-image: url('../img/proyectos/header-proyectos-sin-faja.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 680px;
 }
 
 .header_faja {
-  background-image: url("../img/proyectos/punta-faja.png");
+  background-image: url('../img/proyectos/punta-faja.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   max-width: 70%;
@@ -587,7 +587,7 @@ a.btn-slide {
 
 /* CONTACTO */
 .contacto_header {
-  background-image: url("../img/contacto/header-contacto.jpg");
+  background-image: url('../img/contacto/header-contacto.jpg');
 }
 
 .contacto_datos span {
@@ -612,7 +612,7 @@ a.btn-slide {
 
 /* GRACIAS */
 .gracias {
-  background-image: url("../img/slide/slide-a.jpg") !important;
+  background-image: url('../img/slide/slide-a.jpg') !important;
 }
 .gracias_contenedor_frase {
   height: 680px;
