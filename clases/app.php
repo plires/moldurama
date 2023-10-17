@@ -107,7 +107,7 @@ $dotenv->safeLoad();
         //Recipients
         $mail->setFrom($_ENV['EMAIL_CLIENT'], $_ENV['NAME_CLIENT']);
         $mail->addAddress($email, $name);
-        $mail->addReplyTo($_ENV['CC_USER'], $_ENV['NAME_CLIENT']);
+        $mail->addReplyTo($_ENV['EMAIL_CLIENT'], $_ENV['NAME_CLIENT']);
       }
 
       //configuro las variables a remplazar en el template
