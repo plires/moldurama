@@ -20,7 +20,7 @@
 	if ( isset($_GET['utm_campaign']) ) {
 		$campaign = $_GET['utm_campaign'];
 	} else {
-		$campaign = "Moldurama-Landings-Google";
+		$campaign = "Landing de Zócalos";
 	}
 
 	// Envio del formulario de contacto
