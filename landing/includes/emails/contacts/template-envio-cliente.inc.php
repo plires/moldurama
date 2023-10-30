@@ -44,6 +44,10 @@ $body='
       </tr>
 
       <tr>
+          <td align="center" valign="top"><p><strong>Rubro: </strong>'.$rubro.'</p></td>
+      </tr>
+
+      <tr>
           <td align="center" valign="top"><p><strong>Nombre: </strong>'.$post['name'].'</p></td>
       </tr>
 
