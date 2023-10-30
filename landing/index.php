@@ -10,6 +10,7 @@
 	$email = '';
 	$phone = '';
 	$comments = '';
+  $rubro = 'Zocalos';
 
 	if ( isset($_GET['utm_source']) ) {
 		$origin = $_GET['utm_source'];
@@ -20,7 +21,7 @@
 	if ( isset($_GET['utm_campaign']) ) {
 		$campaign = $_GET['utm_campaign'];
 	} else {
-		$campaign = "Landing de Zócalos";
+		$campaign = "landing-zocalos";
 	}
 
 	// Envio del formulario de contacto
@@ -66,7 +67,7 @@
 	    $app = new App;
 
 	    // Registramos en Mailchimp el contacto
-	    $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST);
+      $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST, $rubro);
 
 	    $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST);
 
