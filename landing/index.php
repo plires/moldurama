@@ -69,9 +69,9 @@
 	    // Registramos en Mailchimp el contacto
       $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST, $rubro);
 
-	    $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST);
+      $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST, $rubro);
 
-	    $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST);
+      $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST, $rubro);
 
 	    if ($sendClient) {
 	      // Redirigimos a la pagina de gracias
