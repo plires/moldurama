@@ -34,8 +34,7 @@
 	  $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
 	  $responseKeys = json_decode($response,true);
 
-	  // if ($responseKeys['success']) {
-	  if (true) {
+	  if ($responseKeys['success']) {
 	  
 	    // Verificamos si hay errores en el formulario
 	    if (campoVacio($_POST['name'])){
