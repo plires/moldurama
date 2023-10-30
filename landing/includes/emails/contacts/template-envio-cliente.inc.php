@@ -29,10 +29,18 @@ $body='
            <td height="40" style="font-size:10px; line-height:10px;">&nbsp;</td>
       </tr>
       <tr>
-          <td align="center" valign="top" style="font-size:25px; line-height:10px;"><strong>Moldurama - '.$post['origin'].'</strong></td>
+          <td align="center" valign="top" style="font-size:25px; line-height:10px;"><strong>Moldurama</strong></td>
       </tr>
       <tr>
            <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+      </tr>
+
+      <tr>
+          <td align="center" valign="top"><p><strong>Origen de la consulta: </strong>'.$post['origin'].'</p></td>
+      </tr>
+
+      <tr>
+          <td align="center" valign="top"><p><strong>Campaña de la consulta: </strong>'.$post['campaign'].'</p></td>
       </tr>
 
       <tr>

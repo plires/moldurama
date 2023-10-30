@@ -2,14 +2,17 @@
 //incluimos la clase PHPMailer
 require('class.smtp.php');
 require('class.phpmailer.php');
-require_once 'vendor/autoload.php';
+require_once './../vendor/autoload.php';
 
 use \DrewM\MailChimp\MailChimp;
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../../');
+$dotenv->safeLoad();
 
   class App 
     {
 
-      public function registerEmailInMailchimp($api, $listId, $data)
+      public function registerEmailInMailchimp($api, $listId, $data, $rubro)
       {
 
         if (isset($data['newsletter']) != 'on') {
@@ -25,14 +28,15 @@ use \DrewM\MailChimp\MailChimp;
           'merge_fields'    => [
               'FNAME'           => $data['name'],
               'MMERGE6'         => $data['origin'],
-              'MMERGE7'         => 'Landing Page ' . date("F j, Y, g:i a")
+              'MMERGE7'         => 'Landing Page ' . date("F j, Y, g:i a"),
+              'MMERGE8'         => $rubro
           ]
         ]);
 
         return $result;
       }
 
-      public function sendEmail($destinatario, $template, $post)
+      public function sendEmail($destinatario, $template, $post, $rubro)
       {
 
         switch ($destinatario) {
@@ -78,7 +82,13 @@ use \DrewM\MailChimp\MailChimp;
         $pass = EMAIL_PASS;  // Mi contraseña
 
         $mail = new PHPMailer();
-        $mail->IsSMTP();
+
+        if ($_ENV['ENVIRONMENT'] === 'local') {
+          $mail->isSendmail();
+        } else {
+          $mail->isSMTP();
+        }
+        
         $mail->SMTPAuth = true;
         $mail->Port = EMAIL_PORT; 
         $mail->IsHTML(true); 
