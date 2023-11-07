@@ -297,7 +297,7 @@ window.location = 'gracias.php';
               <img class="img-fluid" src="img/tarjetas.png" alt="tarjetas de credito">
               <p>PAGÁ CON TARJETA<br>DE CRÉDITO Y DÉBITO</p>
             </div>
-            <img class="img-fluid mercadopago" src="img/mercadopago.png" alt="tarjetas mercadopago">
+            <img class="img-fluid mercadopago" src="img/mercadopago2.png" alt="tarjetas mercadopago">
           </div>
 
         </div>

@@ -271,7 +271,7 @@ window.location = 'gracias.php';
                 <img class="img-fluid" src="img/tarjetas.png" alt="tarjetas de credito">
                 <p>PAGÁ CON TARJETA<br>DE CRÉDITO Y DÉBITO</p>
               </div>
-              <img class="img-fluid mercadopago" src="img/mercadopago.png" alt="tarjetas mercadopago">
+              <img class="img-fluid mercadopago" src="img/mercadopago2.png" alt="tarjetas mercadopago">
             </div>
 
           </div>
@@ -301,7 +301,7 @@ window.location = 'gracias.php';
         <div class="row">
 
           <div class="col-md-6">
-            <img class="img-fluid" src="img/zocalos-mdf.jpg" alt="zocalos en mdf">
+            <img class="img-fluid" src="img/wall-panel/wall-panel.jpg" alt="wall panel en mdf">
           </div>
 
           <div class="col-md-6">
