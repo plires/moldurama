@@ -78,7 +78,7 @@
 	      // Redirigimos a la pagina de gracias
 	      ?>
 <script type="text/javascript">
-window.location = 'gracias.php';
+window.location = 'gracias-wall-panel.php';
 </script>
 <?php
 	    } else {
