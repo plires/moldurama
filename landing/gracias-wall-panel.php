@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/wall-panel.css">
   <?php include('includes/tag_manager_head.inc') ?>
 </head>
 
@@ -37,90 +38,94 @@
   </header>
   <!-- Header end -->
 
-  <!-- Gracias -->
-  <section class="gracias container-fluid">
-    <div class="row">
-      <div class="col-md-12">
+  <section class="wall-panel">
 
-        <img src="img/wall-panel/header-wall-panel.jpg" class="d-block w-100" alt="wall panel en mdf">
-
-        <div class="mensaje wow fadeInUp">
-          <h1>ENVIO EXITOSO!</h1>
-          <p>Gracias por tu contacto. <br>Te responderemos a la brevedad.</p>
-          <a href="https://moldurama.com.ar/" class="btn btn-primary transition">SEGUIR NAVEGANDO</a>
-        </div>
-
-      </div>
-    </div>
-
-  </section>
-  <!-- Gracias end -->
-
-  <!-- Facil Instalación -->
-  <section class="facil_instalacion text-center">
-    <div class="container">
+    <!-- Gracias -->
+    <section class="gracias container-fluid">
       <div class="row">
-
         <div class="col-md-12">
-          <h3>FÁCIL INSTALACIÓN</h3>
-          <p>Su colocación es sumamente sencilla pueden ser pegados con diferentes tipos de pegamentos o clavados.</p>
-        </div>
 
-        <div class="col-4 text-center">
-          <img class="img-fluid" src="img/adhesivo.png" alt="adhesivo de contacto">
-          <p>Adhesivo de contacto.</p>
-        </div>
-        <div class="col-4 text-center">
-          <img class="img-fluid" src="img/silicona.png" alt="pegamento con silicona">
-          <p>Silicona.</p>
-        </div>
-        <div class="col-4 text-center">
-          <img class="img-fluid" src="img/clavos.png" alt="clavos de acero">
-          <p>Clavos de acero.</p>
-        </div>
+          <img src="img/wall-panel/header-wall-panel.jpg" class="d-block w-100" alt="wall panel en mdf">
 
+          <div class="mensaje wow fadeInUp">
+            <h1>ENVIO EXITOSO!</h1>
+            <p>Gracias por tu contacto. <br>Te responderemos a la brevedad.</p>
+            <a href="https://moldurama.com.ar/" class="btn btn-primary transition">SEGUIR NAVEGANDO</a>
+          </div>
+
+        </div>
       </div>
-    </div>
+
+    </section>
+    <!-- Gracias end -->
+
+    <!-- Facil Instalación -->
+    <section class="facil_instalacion text-center">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+            <h3>FÁCIL INSTALACIÓN</h3>
+            <p>Su colocación es sumamente sencilla pueden ser pegados con diferentes tipos de pegamentos o clavados.</p>
+          </div>
+
+          <div class="col-4 text-center">
+            <img class="img-fluid" src="img/adhesivo.png" alt="adhesivo de contacto">
+            <p>Adhesivo de contacto.</p>
+          </div>
+          <div class="col-4 text-center">
+            <img class="img-fluid" src="img/silicona.png" alt="pegamento con silicona">
+            <p>Silicona.</p>
+          </div>
+          <div class="col-4 text-center">
+            <img class="img-fluid" src="img/clavos.png" alt="clavos de acero">
+            <p>Clavos de acero.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Facil Instalación end -->
+
+    <!-- Imagenes de wall panel instalados -->
+    <section class="instalados">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 text-center">
+            <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-1.jpg" alt="Imagen de wall panel instalado 1">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-2.jpg" alt="Imagen de wall panel instalado 2">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-3.jpg" alt="Imagen de wall panel instalado 3">
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4 text-center">
+            <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-4.jpg" alt="Imagen de wall panel instalado 4">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-5.jpg" alt="Imagen de wall panel instalado 5">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-6.jpg" alt="Imagen de wall panel instalado 6">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Imagenes de wall panel instalados end -->
+
   </section>
-  <!-- Facil Instalación end -->
-
-  <!-- Imagenes de wall panel instalados -->
-  <section class="instalados">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-4 text-center">
-          <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-1.jpg" alt="Imagen de wall panel instalado 1">
-        </div>
-
-        <div class="col-md-4 text-center">
-          <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-2.jpg" alt="Imagen de wall panel instalado 2">
-        </div>
-
-        <div class="col-md-4 text-center">
-          <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-3.jpg" alt="Imagen de wall panel instalado 3">
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4 text-center">
-          <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-4.jpg" alt="Imagen de wall panel instalado 4">
-        </div>
-
-        <div class="col-md-4 text-center">
-          <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-5.jpg" alt="Imagen de wall panel instalado 5">
-        </div>
-
-        <div class="col-md-4 text-center">
-          <img class="img-fluid" src="img/wall-panel/galeria-wall-panel-6.jpg" alt="Imagen de wall panel instalado 6">
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- Imagenes de wall panel instalados end -->
 
   <!-- Footer -->
   <footer>
