@@ -14,13 +14,12 @@
         >info@moldurama.com.ar</a
       >
       <div class="redes">
-        <a target="_blank" rel="noopener" class="transition" href="https://www.facebook.com/profile.php?id=100091756391712"
-          ><i class="transition fab fa-facebook"></i
-        ></a>
-        <a target="_blank" rel="noopener" class="transition" href="https://www.instagram.com/molduramaok/"
-          >
-          ><i class="transition fab fa-instagram"></i
-        ></a>
+        <a target="_blank" rel="noopener" class="transition" href="https://www.facebook.com/profile.php?id=100091756391712">
+          <i class="transition fab fa-facebook"></i>
+        </a>
+        <a target="_blank" rel="noopener" class="transition" href="https://www.instagram.com/molduramaok/">
+          <i class="transition fab fa-instagram"></i>
+        </a>
       </div>
     </div>
   </div>
