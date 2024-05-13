@@ -390,13 +390,7 @@ window.location = 'gracias.php';
               </div>
 
               <div class="perfil">
-                <img class="img-fluid" src="img/zocalo-zrc.png" alt="zocalo de MDF zrc">
-                <p class="title">CZ</p>
-                <p class="description">Cubrezócalo</p>
-              </div>
-
-              <div class="perfil">
-                <img class="img-fluid" src="img/cubrezocalo-cz.png" alt="cubrezocalo de MDF cz">
+                <img class="img-fluid" src="img/zocalo-zfm.png" alt="zocalo de MDF zfm">
                 <p class="title">ZFM</p>
                 <p class="description">Zócalo Moldurado</p>
               </div>
