@@ -407,6 +407,20 @@ header .redes {
 a.btn-slide {
   color: #ffffff !important;
 }
+
+.slide_wallpanel_ranurado {
+  top: -30px;
+}
+
+.slide_wallpanel_acanalado {
+  top: -40px;
+  left: 60px;
+}
+
+.slide_respaldo_cama {
+  top: -45px;
+  left: 60px;
+}
 /* SLIDE HOME END */
 
 /* HOME */
@@ -982,7 +996,7 @@ footer .content_phone {
   }
 
   .carousel-caption #text_cuarto_slide {
-    padding-top: 30px;
+    padding-top: 0;
   }
   /* SLIDE end */
 

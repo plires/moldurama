@@ -9,21 +9,61 @@
       <li data-target="#carousel_desktop" data-slide-to="3"></li>
       <li data-target="#carousel_desktop" data-slide-to="4"></li>
       <li data-target="#carousel_desktop" data-slide-to="5"></li>
+      <li data-target="#carousel_desktop" data-slide-to="6"></li>
+      <li data-target="#carousel_desktop" data-slide-to="7"></li>
     </ol>
 
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
           class="img-fluid"
-          src="img/slide/slide-f.jpg"
-          alt="wall panel mdf"
+          src="./img/slide/slide-wall-panel-ranurado.jpg"
+          alt="wall panel ranurado mdf"
         />
         <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
           <div class="row">
-            <div id="text_primer_slide" class="col-sm-9 col-md-10">
-              <h1>WALL PANEL MDF</h1>
-              <p>Dale personalidad a tus espacios.</p>
+            <div id="text_primer_slide" class="slide_wallpanel_ranurado col-sm-9 col-md-10">
+              <h1>WALL PANEL RANURADO MDF</h1>
+              <p>Para tu espacio más cómodo.</p>
+              <a href="./wall-panel-wpfn.php" class="transition btn btn-slide"
+                ><i class="transition fas fa-plus"></i>&nbsp;Info</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img
+          class="img-fluid"
+          src="./img/slide/slide-wall-panel-acanalado.jpg"
+          alt="wall panel acanalado mdf"
+        />
+        <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
+          <div class="row">
+            <div class="slide_wallpanel_acanalado col-sm-9 col-md-10">
+              <h1>WALL PANEL ACANALADO MDF</h1>
+              <p>Para tu espacio más cómodo.</p>
               <a href="./wall-panel-wpfp.php" class="transition btn btn-slide"
+                ><i class="transition fas fa-plus"></i>&nbsp;Info</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img
+          class="img-fluid"
+          src="./img/slide/slide-resplados-cama.jpg"
+          alt="respaldos de cama"
+        />
+        <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
+          <div class="row">
+            <div class="slide_respaldo_cama col-sm-9 col-md-10">
+              <h1>RESPALDOS DE CAMA MDF</h1>
+              <p>Para tu espacio más cómodo.</p>
+              <a href="./respaldos-cama-1-plaza.php" class="transition btn btn-slide"
                 ><i class="transition fas fa-plus"></i>&nbsp;Info</a
               >
             </div>
@@ -39,7 +79,7 @@
         />
         <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
           <div class="row">
-            <div id="text_primer_slide" class="col-sm-9 col-md-10">
+            <div class="col-sm-9 col-md-10">
               <h2>ZÓCALOS EN MDF</h2>
               <p>
                 Zócalos de alta calidad listos para colocar. <br />Medidas y
@@ -125,7 +165,7 @@
         />
         <div class="carousel-caption carousel-caption_add">
           <div class="row">
-            <div id="text_cuarto_slide" class="col-sm-8">
+            <div class="slide_guardasilla col-sm-8">
               <h2>GUARDASILLAS EN MDF</h2>
               <p>Protección y estilo para tus ambientes.</p>
               <a
@@ -167,12 +207,36 @@
       <div class="carousel-item active">
         <img
           class="img-fluid"
-          src="img/slide/slide-f.jpg"
+          src="img/slide/slide-wall-panel-ranurado.jpg"
           alt="wall pannel en mdf - Dale personalidad a tus espacios"
         />
         <div class="slide_caption_mobile">
-          <h5 class="text-center">WALL PANEL MDF</h5>
-          <p>Dale personalidad a tus espacios.</p>
+          <h5 class="text-center">WALL PANEL RANURADO MDF</h5>
+          <p>Para tu espacio más cómodo.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img
+          class="img-fluid"
+          src="img/slide/slide-wall-panel-acanalado.jpg"
+          alt="wall pannel en mdf acanalado - Dale personalidad a tus espacios"
+        />
+        <div class="slide_caption_mobile">
+          <h5 class="text-center">WALL PANEL ACANALADO MDF</h5>
+          <p>Para tu espacio más cómodo.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img
+          class="img-fluid"
+          src="img/slide/slide-resplados-cama.jpg"
+          alt="respaldos de cama en MDF - Dale personalidad a tus espacios"
+        />
+        <div class="slide_caption_mobile">
+          <h5 class="text-center">RESPALDOS DE CAMA MDF</h5>
+          <p>Para tu espacio más cómodo.</p>
         </div>
       </div>
 
