@@ -11,8 +11,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description"
-    content="Los zócalos y molduras Moldurama permiten ahorrar tiempo y dinero ya que vienen listos para colocar. Descubrí nuestra línea de contramarcos y dale a tus ambientes un toque de distinción.">
+  <meta name="description" content="Los zócalos y molduras Moldurama permiten ahorrar tiempo y dinero ya que vienen listos para colocar. Descubrí nuestra línea de contramarcos y dale a tus ambientes un toque de distinción.">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="img/apple-icon.png">
@@ -54,127 +53,8 @@
   <!-- Slide -->
   <?php include_once('includes/slider-home.inc'); ?>
 
-  <!-- Texto y CTA -->
-  <section class="container mb-5">
-
-    <div class="row">
-
-      <div class="col-md-8 offset-md-2 text-center mb-3">
-        <h2 class="color-azul wow fadeInUp">Fabricamos productos de primera calidad y cuidamos el medio ambiente</h2>
-      </div>
-
-      <div class="col-md-8 offset-md-2 text-center mb-5">
-        <p class="wow fadeInUp">
-          Los zócalos y molduras Moldurama permiten ahorrar tiempo y dinero ya que vienen listos para colocar.
-          Están fabricadas en MDF, disponibles en distintos perfiles y espesores.
-          Poseen una superficie suave, sin imperfecciones y son fáciles de instalar.
-          La pintura de fábrica les brinda un acabado final, logrando color, textura y densidad homogénea.
-        </p>
-      </div>
-
-      <div class="cta col-md-6 mb-3">
-        <a href="zocalo-mdf-zff.php">
-          <img class="transition wow fadeInLeft img-fluid" src="img/home/cta-zocalos.jpg" alt="zocalos">
-          <div class="font-weight-bold bg-azul text-white text-center p-2">ZÓCALOS</div>
-        </a>
-      </div>
-      <div class="cta col-md-6 mb-3">
-        <a href="contramarco-recto-cfr.php">
-          <img class="transition wow fadeInLeft img-fluid" src="img/home/cta-contramarcos.jpg" alt="contramarcos">
-          <div class="font-weight-bold bg-azul text-white text-center p-2">CONTRAMARCOS</div>
-        </a>
-      </div>
-      <div class="cta col-md-6 mb-3">
-        <a href="guardasilla-liso-gfm.php">
-          <img class="transition wow fadeInLeft img-fluid" src="img/home/guardasilla.jpg" alt="guardasilla">
-          <div class="font-weight-bold bg-azul text-white text-center p-2">GUARDASILLAS</div>
-        </a>
-      </div>
-      <div class="cta col-md-6 mb-3">
-        <a href="cubrezocalo-cz.php">
-          <img class="transition wow fadeInLeft img-fluid" src="img/home/cubrezocalo.jpg" alt="cubrezocalo">
-          <div class="font-weight-bold bg-azul text-white text-center p-2">CUBREZÓCALOS</div>
-        </a>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- Texto y CTA end -->
-
-  <!-- Wall Panel en MDF -->
-  <section class="mdf_blancos wall_panel container mb-5 wow fadeInLeft">
-
-    <div class="row">
-
-      <span class="nuevo_mobile text-right">NUEVO</span>
-
-      <div class="col-md-6 mb-3">
-        <img class="img-fluid" src="img/home/wall-panel.jpg" alt="Wall Panel en MDF">
-      </div>
-
-      <div class="info col-md-6 mb-3">
-        <span class="nuevo_desktop text-right">NUEVO</span>
-        <h4>WALL PANEL MDF<br>Prepintado y Natural</h4>
-        <span class="listos_colocar">LISTOS PARA COLOCAR</span>
-        <p>
-          <strong>MEDIDAS:</strong><br>Cada tira mide 110mm de ancho x 2750mm de alto.<br>
-          <strong>ESPESOR:</strong><br>9 mm<br>
-          <strong>PRESENTACIÓN:</strong><br>Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.<br>
-          <strong>COLORES:</strong><br>Prepintado y Natural.
-        </p>
-        <div class="wow fadeInUp content_colors">
-          <div class="colors bg-blank">
-            &nbsp;
-          </div>
-          <div class="colors bg-natural">
-            &nbsp;
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- Wall Panel en MDF end -->
-
-  <!-- Zocalos MDF Blanco -->
-  <section class="mdf_blancos container mb-5 wow fadeInLeft">
-
-    <div class="row">
-
-      <span class="nuevo_mobile text-right">NUEVO</span>
-
-      <div class="col-md-6 mb-3">
-        <img class="img-fluid" src="img/home/zocalo-mdf-blanco.jpg" alt="zocalos mdf blancos">
-      </div>
-
-      <div class="info col-md-6 mb-3">
-        <span class="nuevo_desktop text-right">NUEVO</span>
-        <h4>ZÓCALOS EN MDF<br>Blanco Premium</h4>
-        <span class="listos_colocar">LISTOS PARA COLOCAR</span>
-        <p>
-          <strong>ALTURA:</strong><br>50 mm, 70 mm, 82 mm, 100 mm y 120 mm<br>
-          <strong>ESPESOR:</strong><br>12 mm<br>
-          <strong>COLORES:</strong><br>Blanco, gris, negro y personalizados a pedido<br>
-        </p>
-        <div class="wow fadeInUp content_colors">
-          <div class="colors bg-blank">
-            &nbsp;
-          </div>
-          <div class="colors bg-gris">
-            &nbsp;
-          </div>
-          <div class="colors bg-negro">
-            &nbsp;
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- Zocalos MDF Blanco end -->
+  <!-- Slide Productos -->
+  <?php include_once('includes/slider-productos.inc'); ?>
 
   <!-- Colores Plenos -->
   <section class="colores_plenos container-fluid mb-5 wow fadeInRight">

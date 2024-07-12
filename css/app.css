@@ -720,6 +720,75 @@ footer .content_phone {
 }
 /* Otros Productos end */
 
+/* Home - Carrusel de productos */
+.carrusel_home {
+  margin-bottom: 60px;
+}
+.carrusel_home .carousel-control-prev,
+.carrusel_home .carousel-control-next {
+  border: none;
+  background: transparent;
+}
+
+.carrusel_home .carousel-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carrusel_home .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  cursor: pointer;
+}
+
+.carrusel_home .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='114773' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  cursor: pointer;
+}
+
+.carrusel_home .content_img {
+  text-align: center;
+}
+
+.carrusel_home .content_img img {
+  max-width: 65%;
+}
+
+.carrusel_home .info {
+  text-align: center;
+}
+
+.carrusel_home .info h4 {
+  font-size: 1.25rem;
+}
+
+.carrusel_home .info .listos_colocar {
+  font-size: 1rem;
+  width: auto;
+  padding: 5px 15px;
+}
+
+.carrusel_home .info p {
+  font-size: 1rem;
+}
+
+.carrusel_home .content_colors {
+  margin-bottom: 0;
+}
+
+.carrusel_home .mdf_blancos {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carrusel_home .mdf_blancos .row {
+  height: 100%;
+}
+/* Home - Carrusel de productos end */
+
 /* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
 @media (max-width: 575.98px) {
   nav {
@@ -759,7 +828,7 @@ footer .content_phone {
     z-index: 999;
   }
   .mdf_blancos h4 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   .mdf_blancos .listos_colocar {
     width: 75%;
@@ -1342,4 +1411,86 @@ footer .content_phone {
     padding-top: 60px;
   }
   /* SLIDE end */
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  /* Home - Carrusel de productos */
+  .carrusel_home .mdf_blancos {
+    margin: auto;
+  }
+
+  .carrusel_home .content_img img {
+    margin-bottom: 30px;
+  }
+
+  .carrusel_home .info h4 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  /* Home - Carrusel de productos end */
+}
+
+@media (min-width: 768px) {
+  /* Home - Carrusel de productos */
+  .carrusel_home .content_img img {
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+
+  .carrusel_home .listos_colocar {
+    width: 65% !important;
+  }
+
+  .carrusel_home .info {
+    text-align: left;
+  }
+  /* Home - Carrusel de productos end */
+}
+
+@media (min-width: 992px) {
+  /* Home - Carrusel de productos */
+  .carrusel_home .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Home - Carrusel de productos end */
+}
+
+@media (min-width: 1200px) {
+  /* Home - Carrusel de productos */
+  .carrusel_home .info {
+    align-items: flex-start;
+  }
+
+  .carrusel_home .info h4 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .carrusel_home .info .listos_colocar {
+    width: 50% !important;
+  }
+
+  .carrusel_home .nuevo_desktop {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  /* Home - Carrusel de productos end */
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
+  /* Home - Carrusel de productos */
+  .carrusel_home .info h4 {
+    font-size: 2.5rem;
+  }
+  /* Home - Carrusel de productos end */
+}
+
+@media (min-width: 1800px) {
 }
