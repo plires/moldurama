@@ -3,169 +3,169 @@
 
 <!doctype html>
 <html lang="es">
-	<head>
-		<!-- Tag Manager Head -->
-  	<?php include_once("includes/tag_manager_head.inc"); ?>
 
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="guardasillas GFM. trabajamos zócalos y contramarcos que permiten ahorrar tiempo y dinero ya que vienen listos para colocar.">
+<head>
+	<!-- Tag Manager Head -->
+	<?php include_once("includes/tag_manager_head.inc"); ?>
 
-		<!-- Favicons -->
-		<link rel="apple-touch-icon" href="img/apple-icon.png">
-		<link rel="icon" href="img/favicon.png">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="guardasillas GFM. trabajamos zócalos y contramarcos que permiten ahorrar tiempo y dinero ya que vienen listos para colocar.">
 
-		<!-- Normalize CSS -->
-		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="img/apple-icon.png">
+	<link rel="icon" href="img/favicon.png">
 
-		<!-- Animate CSS -->
-		<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-		<!-- Fontawesome -->
-		<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
 
-		<!-- Plugins magnific popup -->
-		<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
 
-		<!-- Custom CSS -->
-		<link rel="stylesheet" type="text/css" href="css/app.css">
+	<!-- Plugins magnific popup -->
+	<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-		<title>Guardasillas GFM - Zocalos, molduras y contramarcos de madera.</title>
-	</head>
-	
-	<body>
-		<!-- Tag Manager Body -->
-  		<?php include_once("includes/tag_manager_body.inc"); ?>
-	
-		<?php $current = 'productos'; ?>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/app.css">
 
-		<!-- WhatsApp -->
-  		<?php include_once("includes/wapp.inc"); ?>
-  	
-		<!-- Header -->
-		<?php include_once('includes/header.inc'); ?>
+	<title>Guardasillas GFM - Zocalos, molduras y contramarcos de madera.</title>
+</head>
 
-		<!-- Descripcion Producto -->
-		<section class="container mb-5 mt-5">
+<body>
+	<!-- Tag Manager Body -->
+	<?php include_once("includes/tag_manager_body.inc"); ?>
 
-			<div class="row">
+	<?php $current = 'productos'; ?>
 
-				<div class="col-lg-6 mb-5 parent-container">
+	<!-- WhatsApp -->
+	<?php include_once("includes/wapp.inc"); ?>
 
-					<a class="transition productos_mini popup-img" href="img/productos/guardasillas-gfm/guardasillas-gfm-principal.jpg" title="Guardasilla GFM">
-						<img id="principal" class="wow fadeInUp img-fluid" src="img/productos/guardasillas-gfm/guardasillas-gfm-principal.jpg" alt="Guardasilla GFM">
-					</a>
+	<!-- Header -->
+	<?php include_once('includes/header.inc'); ?>
 
-					<div class="row">
+	<!-- Descripcion Producto -->
+	<section class="container mb-5 mt-5">
 
-						<div class="col-4 offset-2">
-							<a class="transition productos_mini popup-img" title="Guardasilla GFM" href="img/productos/guardasillas-gfm/guardasillas-gfm-perfil.gif">
-								<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/guardasillas-gfm/guardasillas-gfm-perfil.gif" 
-								alt="Guardasilla GFM perfil">
-							</a>
-						</div>
+		<div class="row">
 
-						<div class="col-4">
-							<a class="transition productos_mini popup-img" title="Guardasilla GFM" href="img/productos/guardasillas-gfm/guardasillas-gfm-render.jpg">
-								<img id="render" class="wow fadeInRight img-fluid" src="img/productos/guardasillas-gfm/guardasillas-gfm-render.jpg" 
-								alt="Guardasilla GFM render">
-							</a>
-						</div>
+			<div class="col-lg-6 mb-5 parent-container">
 
-					</div>
-					
-				</div>
+				<a class="transition productos_mini popup-img" href="img/productos/guardasillas-gfm/guardasillas-gfm-principal.jpg" title="Guardasilla GFM">
+					<img id="principal" class="wow fadeInUp img-fluid" src="img/productos/guardasillas-gfm/guardasillas-gfm-principal.jpg" alt="Guardasilla GFM">
+				</a>
 
-				<div class="productos col-lg-5 offset-lg-1 mb-5">
-					<h1 class="wow fadeInUp">GUARDASILLA MOLDURADO MDF</h1>
-					<h2 class="wow fadeInLeft">MDF GFM</h2>
-					
-					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Descripción:</span> <br>
-						Fabricados en MDF. <br>
-						Acabado con pintura secada <br>
-						a horno de alta temperatura.
-					</p>
+				<div class="row">
 
-					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Altura:</span> <br>
-						50 mm, 70 mm, 100 mm y 120 mm
-					</p>
-
-					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Espesor:</span> <br>
-						12 mm
-					</p>
-
-					<p class="wow fadeInUp">
-						<span class="font-weight-bold">Colores:</span> <br>
-						Blanco, gris, negro
-					</p>
-
-					<div class="row">
-
-						<div class="wow fadeInUp content_colors col-md-12">
-							<div class="colors bg-blank">
-								&nbsp;
-							</div>
-							<div class="colors bg-gris">
-								&nbsp;
-							</div>
-							<div class="colors bg-negro">
-								&nbsp;
-							</div>							
-						</div>
-
+					<div class="col-4 offset-2">
+						<a class="transition productos_mini popup-img" title="Guardasilla GFM" href="img/productos/guardasillas-gfm/guardasillas-gfm-perfil.gif">
+							<img id="perfil" class="wow fadeInRight img-fluid" src="img/productos/guardasillas-gfm/guardasillas-gfm-perfil.gif" alt="Guardasilla GFM perfil">
+						</a>
 					</div>
 
-					<div class="row">
-						<div class="col-md-12 text-center mb-3">
-							<h5 class="wow fadeInUp mb-3">Consultá por colores personalizados.</h5>
-							<a href="contacto.php" class="btn btn_site font_1em wow fadeInLeft">CONTACTO</a>
-						</div>
+					<div class="col-4">
+						<a class="transition productos_mini popup-img" title="Guardasilla GFM" href="img/productos/guardasillas-gfm/guardasillas-gfm-render.jpg">
+							<img id="render" class="wow fadeInRight img-fluid" src="img/productos/guardasillas-gfm/guardasillas-gfm-render.jpg" alt="Guardasilla GFM render">
+						</a>
 					</div>
 
 				</div>
 
 			</div>
-		</section>
-		<!-- Descripcion Producto end -->
 
-		<!-- Otros Productos -->
-		<?php include_once('includes/otros-productos.inc'); ?>		
+			<div class="productos col-lg-5 offset-lg-1 mb-5">
+				<h1 class="wow fadeInUp">GUARDASILLA MOLDURADO MDF</h1>
+				<h2 class="wow fadeInLeft">MDF GFM</h2>
 
-		<!-- Newsletter -->
-		<?php include_once('includes/newsletter.inc'); ?>
+				<p class="wow fadeInUp">
+					<span class="font-weight-bold">Descripción:</span> <br>
+					Fabricados en MDF. <br>
+					Acabado con pintura secada <br>
+					a horno de alta temperatura.
+				</p>
 
-		<!-- Mas Información -->
-		<?php include_once('includes/mas-informacion.inc'); ?>
+				<p class="wow fadeInUp">
+					<span class="font-weight-bold">Altura:</span> <br>
+					50 mm, 70 mm, 100 mm y 120 mm
+				</p>
 
-		<!-- Footer -->
-		<?php include_once('includes/footer.inc'); ?>
+				<p class="wow fadeInUp">
+					<span class="font-weight-bold">Espesor:</span> <br>
+					12 mm
+				</p>
 
-		<!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script> 
-		<script type="text/javascript" src="js/popper.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+				<p class="wow fadeInUp">
+					<span class="font-weight-bold">Colores:</span> <br>
+					Blanco, gris, negro
+				</p>
 
-		<!-- Wow efecto para que aparezcan los objetos cuando se va scroleando -->
-		<script type="text/javascript" src="js/wow.min.js"></script>
+				<div class="row">
 
-		<!-- Magnific Popup javascript -->
-		<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+					<div class="wow fadeInUp content_colors col-md-12">
+						<div class="colors bg-blank">
+							&nbsp;
+						</div>
+						<div class="colors bg-gris">
+							&nbsp;
+						</div>
+						<div class="colors bg-negro">
+							&nbsp;
+						</div>
+					</div>
 
-		<!-- Pop Up Productos -->
-		<script type="text/javascript" src="js/pop-up-productos.js"></script>
+				</div>
 
-		<!-- Scripts -->
-		<script type="text/javascript" src="js/app.js"></script>
+				<div class="row">
+					<div class="col-md-12 text-center mb-3">
+						<h5 class="wow fadeInUp mb-3">Consultá por colores personalizados.</h5>
+						<a href="contacto.php" class="btn btn_site font_1em wow fadeInLeft">CONTACTO</a>
+					</div>
+				</div>
 
-	</body>
+			</div>
+
+		</div>
+	</section>
+	<!-- Descripcion Producto end -->
+
+	<!-- Línea Guardasillas -->
+	<?php include_once('./includes/linea-guardasillas.php'); ?>
+
+	<!-- Newsletter -->
+	<?php include_once('includes/newsletter.inc'); ?>
+
+	<!-- Mas Información -->
+	<?php include_once('includes/mas-informacion.inc'); ?>
+
+	<!-- Footer -->
+	<?php include_once('includes/footer.inc'); ?>
+
+	<!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- Wow efecto para que aparezcan los objetos cuando se va scroleando -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+
+	<!-- Magnific Popup javascript -->
+	<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+	<!-- Pop Up Productos -->
+	<script type="text/javascript" src="js/pop-up-productos.js"></script>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
 </html>

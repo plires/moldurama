@@ -185,7 +185,9 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./respaldos-cama-kink.php"
+                    <a
+                      class="dropdown-item"
+                      href="./respaldos-cama-king-size.php"
                       >King</a
                     >
                   </li>

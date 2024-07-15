@@ -780,6 +780,13 @@ footer .content_phone {
 }
 /* Home - Carrusel de productos end */
 
+/* Otras lineas de productos */
+.otros_productos .content_lines {
+  justify-content: center;
+  align-items: center;
+}
+/* Otras lineas de productos end */
+
 /* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
 @media (max-width: 575.98px) {
   nav {

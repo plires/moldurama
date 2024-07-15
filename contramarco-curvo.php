@@ -137,8 +137,8 @@
   </section>
   <!-- Descripcion Producto end -->
 
-  <!-- Otros Productos -->
-  <?php include_once('includes/otros-productos.inc'); ?>
+  <!-- Línea Contramarcos -->
+  <?php include_once('./includes/linea-contramarcos.php'); ?>
 
   <!-- Newsletter -->
   <?php include_once('includes/newsletter.inc'); ?>

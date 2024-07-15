@@ -117,12 +117,12 @@
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Medidas:</span> <br>
-          Cada tira mide 135 mm de ancho x 2750mm de alto
+          Cada tira mide 135 mm de ancho x 2750mm de alto.
         </p>
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Espesor:</span> <br>
-          9 mm
+          9 mm.
         </p>
 
         <p class="wow fadeInUp">
@@ -161,8 +161,8 @@
   </section>
   <!-- Descripcion Producto end -->
 
-  <!-- Otros Productos -->
-  <?php include_once('includes/otros-productos.inc'); ?>
+  <!-- Linea Revestimientos -->
+  <?php include_once('./includes/linea-revestimientos.php'); ?>
 
   <!-- Newsletter -->
   <?php include_once('includes/newsletter.inc'); ?>

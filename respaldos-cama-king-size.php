@@ -163,8 +163,8 @@
   </section>
   <!-- Descripcion Producto end -->
 
-  <!-- Otros Productos -->
-  <?php include_once('includes/otros-productos.inc'); ?>
+  <!-- Línea de Resplados de Cama -->
+  <?php include_once('./includes/linea-respaldo-cama.php'); ?>
 
   <!-- Newsletter -->
   <?php include_once('includes/newsletter.inc'); ?>
