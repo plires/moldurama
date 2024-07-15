@@ -164,7 +164,7 @@
 
       <div class="wow fadeInUp col-md-3 col-6 text-center mb-3">
         <div class="card">
-          <a class="transition" href="wall-panel-wpfn.php">
+          <a class="transition" href="wall-panel-ranurados.php">
             <img
               class="card-img-top"
               src="img/productos/wall-panel-wpfn.gif"
@@ -180,7 +180,7 @@
 
       <div class="wow fadeInUp col-md-3 col-6 text-center mb-3">
         <div class="card">
-          <a class="transition" href="wall-panel-wpfp.php">
+          <a class="transition" href="wall-panel-acanalado.php">
             <img
               class="card-img-top"
               src="img/productos/wall-panel-wpfp.gif"

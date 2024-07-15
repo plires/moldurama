@@ -22,10 +22,15 @@
         />
         <div class="carousel-caption carousel-caption_add carousel-caption_mdf">
           <div class="row">
-            <div id="text_primer_slide" class="slide_wallpanel_ranurado col-sm-9 col-md-10">
+            <div
+              id="text_primer_slide"
+              class="slide_wallpanel_ranurado col-sm-9 col-md-10"
+            >
               <h1>WALL PANEL RANURADO MDF</h1>
               <p>Para tu espacio más cómodo.</p>
-              <a href="./wall-panel-wpfn.php" class="transition btn btn-slide"
+              <a
+                href="./wall-panel-ranurados.php"
+                class="transition btn btn-slide"
                 ><i class="transition fas fa-plus"></i>&nbsp;Info</a
               >
             </div>
@@ -44,7 +49,9 @@
             <div class="slide_wallpanel_acanalado col-sm-9 col-md-10">
               <h1>WALL PANEL ACANALADO MDF</h1>
               <p>Para tu espacio más cómodo.</p>
-              <a href="./wall-panel-wpfp.php" class="transition btn btn-slide"
+              <a
+                href="./wall-panel-acanalado.php"
+                class="transition btn btn-slide"
                 ><i class="transition fas fa-plus"></i>&nbsp;Info</a
               >
             </div>
@@ -63,7 +70,9 @@
             <div class="slide_respaldo_cama col-sm-9 col-md-10">
               <h1>RESPALDOS DE CAMA MDF</h1>
               <p>Para tu espacio más cómodo.</p>
-              <a href="./respaldos-cama-1-plaza.php" class="transition btn btn-slide"
+              <a
+                href="./respaldos-cama-1-plaza.php"
+                class="transition btn btn-slide"
                 ><i class="transition fas fa-plus"></i>&nbsp;Info</a
               >
             </div>

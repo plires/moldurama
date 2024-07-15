@@ -11,8 +11,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="wall pannel en MDF Fabricados en MDF prepintado blanco. Cada tira mide 110mm de ancho x 2750mm de alto y 9mm de espesor.
-Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.">
+  <meta name="description" content="Cada tira mide 110mm de ancho x 2750mm de alto y 9mm de espesor. Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="img/apple-icon.png">
@@ -55,33 +54,51 @@ Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.">
   <?php include_once('includes/header.inc'); ?>
 
   <!-- Descripcion Producto -->
-  <section class="container mb-5 mt-5">
+  <section class="container product_description mb-5 mt-5">
 
     <div class="row">
 
       <div class="col-lg-6 mb-5 parent-container">
 
-        <a class="transition productos_mini popup-img"
-          href="img/productos/wall-panel-wpfp/wall-panel-wpfp-principal.jpg" title="WALL PANEL - WPFP">
-          <img id="principal" class="wow fadeInUp img-fluid"
-            src="img/productos/wall-panel-wpfp/wall-panel-wpfp-principal.jpg" alt="WALL PANEL - Principal">
+        <a class="transition productos_mini popup-img" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-principal.jpg" title="WALL PANEL - Acanalado">
+          <img id="principal" class="wow fadeInUp img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-principal.jpg" alt="WALL PANEL - ACANALADO Principal">
         </a>
 
         <div class="row">
 
-          <div class="col-4 offset-2">
-            <a class="transition productos_mini popup-img" title="WALL PANEL - WPFP"
-              href="img/productos/wall-panel-wpfp/wall-panel-wpfp-perfil.jpg">
-              <img id="perfil" class="wow fadeInRight img-fluid"
-                src="img/productos/wall-panel-wpfp/wall-panel-wpfp-perfil.jpg" alt="WALL PANEL - perfil">
+          <div class="col-4 mb-4">
+            <a class="transition productos_mini popup-img" title="WALL PANEL - ACANALADO" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-1.gif">
+              <img class="wow fadeInRight img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-1.gif" alt="WALL PANEL - ACANALADO 1">
+            </a>
+          </div>
+
+          <div class="col-4 mb-4">
+            <a class="transition productos_mini popup-img" title="WALL PANEL - ACANALADO" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-2.jpg">
+              <img class="wow fadeInRight img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-2.jpg" alt="WALL PANEL - ACANALADO 2">
+            </a>
+          </div>
+
+          <div class="col-4 mb-4">
+            <a class="transition productos_mini popup-img" title="WALL PANEL - ACANALADO" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-3.jpg">
+              <img class="wow fadeInRight img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-3.jpg" alt="WALL PANEL - ACANALADO 3">
             </a>
           </div>
 
           <div class="col-4">
-            <a class="transition productos_mini popup-img" title="WALL PANEL - WPFP"
-              href="img/productos/wall-panel-wpfp/wall-panel-wpfp-render.jpg">
-              <img id="render" class="wow fadeInRight img-fluid"
-                src="img/productos/wall-panel-wpfp/wall-panel-wpfp-render.jpg" alt="WALL PANEL - render">
+            <a class="transition productos_mini popup-img" title="WALL PANEL - ACANALADO" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-4.jpg">
+              <img class="wow fadeInRight img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-4.jpg" alt="WALL PANEL - ACANALADO 4">
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a class="transition productos_mini popup-img" title="WALL PANEL - ACANALADO" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-5.jpg">
+              <img class="wow fadeInRight img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-5.jpg" alt="WALL PANEL - ACANALADO 5">
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a class="transition productos_mini popup-img" title="WALL PANEL - ACANALADO" href="img/productos/wall-panel-acanalado/wall-panel-acanalado-6.jpg">
+              <img class="wow fadeInRight img-fluid" src="img/productos/wall-panel-acanalado/wall-panel-acanalado-6.jpg" alt="WALL PANEL - ACANALADO 6">
             </a>
           </div>
 
@@ -90,8 +107,8 @@ Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.">
       </div>
 
       <div class="productos col-lg-5 offset-lg-1 mb-5">
-        <h1 class="wow fadeInUp">WALL PANEL MDF</h1>
-        <h2 class="wow fadeInLeft">WPFP</h2>
+        <h1 class="wow fadeInUp">WALL PANEL ACANALADO</h1>
+        <h2 class="wow fadeInLeft">MDF</h2>
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Descripción:</span> <br>
           Fabricados en MDF <br>
@@ -100,7 +117,7 @@ Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.">
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Medidas:</span> <br>
-          Cada tira mide 110mm de ancho x 2750mm de alto
+          Cada tira mide 135 mm de ancho x 2750mm de alto
         </p>
 
         <p class="wow fadeInUp">
@@ -110,18 +127,21 @@ Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.">
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Presentación:</span> <br>
-          Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.
+          Cada empaque contiene 10 tiras de revestimiento que cubren 3,50 m2.
         </p>
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Colores:</span> <br>
-          Prepintado
+          Prepintado y Natural
         </p>
 
         <div class="row">
 
           <div class="wow fadeInUp content_colors col-md-12">
             <div class="colors bg-blank">
+              &nbsp;
+            </div>
+            <div class="colors bg-natural">
               &nbsp;
             </div>
           </div>
