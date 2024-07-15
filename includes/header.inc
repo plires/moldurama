@@ -133,12 +133,12 @@
                 >
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./contramarco-recto-cfr.php"
+                    <a class="dropdown-item" href="./contramarco-recto.php"
                       >Recto</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./contramarco-curvo-cfc.php"
+                    <a class="dropdown-item" href="./contramarco-curvo.php"
                       >Curvo</a
                     >
                   </li>

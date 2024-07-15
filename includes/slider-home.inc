@@ -134,9 +134,7 @@
             <div id="text_tercer_slide" class="col-sm-6">
               <h2>CONTRAMARCOS EN MDF</h2>
               <p>Detalles que diferencian tus ambientes</p>
-              <a
-                href="contramarco-recto-cfr.php"
-                class="transition btn btn-slide"
+              <a href="contramarco-recto.php" class="transition btn btn-slide"
                 ><i class="transition fas fa-plus"></i>&nbsp;Info</a
               >
             </div>

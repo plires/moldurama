@@ -108,7 +108,7 @@
 
       <div class="wow fadeInUp col-md-3 col-6 text-center mb-3">
         <div class="card">
-          <a class="transition" href="contramarco-recto-cfr.php">
+          <a class="transition" href="contramarco-recto.php">
             <img
               class="card-img-top"
               src="img/productos/contramarco-cfr.gif"
