@@ -494,6 +494,7 @@ a.btn-slide {
   color: white;
   background-color: #2374ab;
   margin-bottom: 15px;
+  display: inline-block;
 }
 .mdf_blancos p {
   color: #868687;
@@ -1491,6 +1492,15 @@ footer .content_phone {
   .carrusel_home .nuevo_desktop {
     margin-right: 0;
     margin-bottom: 30px;
+  }
+
+  .carrusel_home .link_to_product {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .carrusel_home .link_to_product:hover {
+    opacity: 0.8;
   }
   /* Home - Carrusel de productos end */
 }
