@@ -66,7 +66,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Products
+              Productos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li class="dropdown-submenu">
