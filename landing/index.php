@@ -1,92 +1,91 @@
 <?php
-	include_once('includes/config.inc.php');
-	include_once('includes/funciones_validar.php');
-	require_once("clases/repositorioSQL.php");
-	require_once("clases/app.php");
+include_once('includes/config.inc.php');
+include_once('includes/funciones_validar.php');
+require_once("clases/repositorioSQL.php");
+require_once("clases/app.php");
 
-	$db = new RepositorioSQL();
-	$errors = [];
-	$name = '';
-	$email = '';
-	$phone = '';
-	$comments = '';
-  $rubro = 'Zocalos';
+$db = new RepositorioSQL();
+$errors = [];
+$name = '';
+$email = '';
+$phone = '';
+$comments = '';
+$rubro = 'Zocalos';
 
-	if ( isset($_GET['utm_source']) ) {
-		$origin = $_GET['utm_source'];
-	} else {
-		$origin = "google";
-	}
+if (isset($_GET['utm_source'])) {
+  $origin = $_GET['utm_source'];
+} else {
+  $origin = "google";
+}
 
-	if ( isset($_GET['utm_campaign']) ) {
-		$campaign = $_GET['utm_campaign'];
-	} else {
-		$campaign = "landing-zocalos";
-	}
+if (isset($_GET['utm_campaign'])) {
+  $campaign = $_GET['utm_campaign'];
+} else {
+  $campaign = "landing-zocalos";
+}
 
-	// Envio del formulario de contacto
-	if (isset($_POST["send"])) {
+// Envio del formulario de contacto
+if (isset($_POST["send"])) {
 
-		if(isset($_POST['g-recaptcha-response'])){$captcha=$_POST['g-recaptcha-response'];}
-	  $secretKey = RECAPTCHA_SECRET_KEY;
-	  $ip = $_SERVER['REMOTE_ADDR'];
-	  $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
-	  $responseKeys = json_decode($response,true);
+  if (isset($_POST['g-recaptcha-response'])) {
+    $captcha = $_POST['g-recaptcha-response'];
+  }
+  $secretKey = RECAPTCHA_SECRET_KEY;
+  $ip = $_SERVER['REMOTE_ADDR'];
+  $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=" . $ip);
+  $responseKeys = json_decode($response, true);
 
-	  if ($responseKeys['success']) {
-	  
-	    // Verificamos si hay errores en el formulario
-	    if (campoVacio($_POST['name'])){
-	      $errors['name']='Ingresa tu nombre';
-	    } else {
-	      $name = $_POST['name'];
-	    }
+  if ($responseKeys['success']) {
 
-	    if (!comprobar_email($_POST['email'])){
-	      $errors['email']='Ingresa el mail :(';
-	    } else {
-	      $email = $_POST['email'];
-	    }
+    // Verificamos si hay errores en el formulario
+    if (campoVacio($_POST['name'])) {
+      $errors['name'] = 'Ingresa tu nombre';
+    } else {
+      $name = $_POST['name'];
+    }
 
-	    if (campoVacio($_POST['comments'])){
-	      $errors['comments']='Ingresa tus comentarios';
-	    } else {
-	      $comments = $_POST['comments'];
-	    }
+    if (!comprobar_email($_POST['email'])) {
+      $errors['email'] = 'Ingresa el mail :(';
+    } else {
+      $email = $_POST['email'];
+    }
 
-	  } else {
-	    $errors['recaptcha'] = 'Error al validar el recaptcha';
-	  }
+    if (campoVacio($_POST['comments'])) {
+      $errors['comments'] = 'Ingresa tus comentarios';
+    } else {
+      $comments = $_POST['comments'];
+    }
+  } else {
+    $errors['recaptcha'] = 'Error al validar el recaptcha';
+  }
 
-	  if (!$errors) {
+  if (!$errors) {
 
-	  	//grabamos en la base de datos
-	    $save = $db->getRepositorioContacts()->saveInBDD($_POST);
+    //grabamos en la base de datos
+    $save = $db->getRepositorioContacts()->saveInBDD($_POST);
 
-	    //Enviamos los mails al cliente y usuario
-	    $app = new App;
+    //Enviamos los mails al cliente y usuario
+    $app = new App;
 
-	    // Registramos en Mailchimp el contacto
-      $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST, $rubro);
+    // Registramos en Mailchimp el contacto
+    $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST, $rubro);
 
-      $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST, $rubro);
+    $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST, $rubro);
 
-      $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST, $rubro);
+    $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST, $rubro);
 
-	    if ($sendClient) {
-	      // Redirigimos a la pagina de gracias
-	      ?>
-<script type="text/javascript">
-window.location = 'gracias.php';
-</script>
+    if ($sendClient) {
+      // Redirigimos a la pagina de gracias
+?>
+      <script type="text/javascript">
+        window.location = 'gracias.php';
+      </script>
 <?php
-	    } else {
-	      exit('Error al enviar la consulta, por favor intente nuevamente');
-	    }
-	    
-	  }
-
-	}
+    } else {
+      exit('Error al enviar la consulta, por favor intente nuevamente');
+    }
+  }
+}
 
 ?>
 
@@ -140,10 +139,19 @@ window.location = 'gracias.php';
         <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
-            <div class="carousel-item active">
+            <div class="carousel-item slide_promo active">
+              <img src="img/slide-promo.jpg" class="d-block w-100" alt="zocalos en mdf blancos promocion">
+              <img src="img/slide-zocalos-abajo.png" class="slide_zocalo img-fluid" alt="zocalos en mdf blancos promocion detalle">
+              <div id="frase_0" class="data wow fadeInUp">
+                <h1><span class="mega_sale"><span class="mega">MEGA</span> SALE</span><br><span class="h1_zocalos">EN ZÓCALOS RECTOS</span><br><span class="h1_cuotas"> 3 CUOTAS SIN INTERÉS</span></h1>
+                <p class="p_cuotas">3 CUOTAS SIN INTERÉS | compras mayores a 100 metros</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
               <img src="img/slide-1.jpg" class="d-block w-100" alt="zocalos en mdf blancos">
               <div id="frase_1" class="data wow fadeInUp">
-                <h1>Zócalos en MDF</h1>
+                <h2>Zócalos en MDF</h2>
                 <p>BRINDAMOS ASESORAMIENTO INTEGRAL A: <br><span>CONSTRUCTORAS - ARQUITECTOS - CONSUMIDOR FINAL</span>
                 </p>
               </div>
@@ -204,17 +212,17 @@ window.location = 'gracias.php';
 
         <!-- Errores Formulario -->
         <?php if ($errors): ?>
-        <div id="error" class="alert alert-danger alert-dismissible fade show fadeInLeft" role="alert">
-          <strong>¡Por favor verificá los datos!</strong>
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <ul style="padding: 0;">
-            <?php foreach ($errors as $error) { ?>
-            <li>- <?php echo $error; ?></li>
-            <?php } ?>
-          </ul>
-        </div>
+          <div id="error" class="alert alert-danger alert-dismissible fade show fadeInLeft" role="alert">
+            <strong>¡Por favor verificá los datos!</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <ul style="padding: 0;">
+              <?php foreach ($errors as $error) { ?>
+                <li>- <?php echo $error; ?></li>
+              <?php } ?>
+            </ul>
+          </div>
         <?php endif ?>
         <!-- Errores Formulario end -->
         <p>¿NECESITAS ASESORAMIENTO?<br>
