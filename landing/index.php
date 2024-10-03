@@ -139,16 +139,7 @@ if (isset($_POST["send"])) {
         <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
-            <div class="carousel-item slide_promo active">
-              <img src="img/slide-promo.jpg" class="d-block w-100" alt="zocalos en mdf blancos promocion">
-              <img src="img/slide-zocalos-abajo.png" class="slide_zocalo img-fluid" alt="zocalos en mdf blancos promocion detalle">
-              <div id="frase_0" class="data wow fadeInUp">
-                <h1><span class="mega_sale"><span class="mega">MEGA</span> SALE</span><br><span class="h1_zocalos">EN ZÓCALOS RECTOS</span><br><span class="h1_cuotas"> 3 CUOTAS SIN INTERÉS</span></h1>
-                <p class="p_cuotas">3 CUOTAS SIN INTERÉS | compras mayores a 100 metros</p>
-              </div>
-            </div>
-
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <img src="img/slide-1.jpg" class="d-block w-100" alt="zocalos en mdf blancos">
               <div id="frase_1" class="data wow fadeInUp">
                 <h2>Zócalos en MDF</h2>

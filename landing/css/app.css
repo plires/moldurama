@@ -66,24 +66,6 @@ header i {
 }
 /* Header end */
 
-/* Slide Promo */
-.slide_promo {
-  position: relative;
-}
-
-.slide_promo .slide_zocalo {
-  position: absolute;
-  bottom: 25%;
-  left: 15%;
-  max-width: 35%;
-}
-
-.slide_promo h1 br,
-.slide_promo .h1_zocalos {
-  display: none;
-}
-/* Slide Promo end */
-
 /* Slide */
 .slide {
   position: relative;
@@ -632,70 +614,6 @@ footer a:hover {
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-  /* Slide Promo */
-  .slide_promo .slide_zocalo {
-    bottom: 11%;
-    left: 2%;
-    max-width: 20%;
-  }
-
-  .slide_promo #frase_0 {
-    position: absolute;
-    left: 2%;
-    top: 2%;
-  }
-
-  .slide_promo .mega_sale {
-    background: white;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    padding: 2px 10px 2px 10px;
-  }
-
-  .slide_promo .mega {
-    color: #6e90ac;
-  }
-
-  .slide_promo .mega_sale {
-    display: inline-block;
-    margin-bottom: 5px;
-  }
-
-  .slide_promo h1 br,
-  .slide_promo .h1_zocalos,
-  .slide_promo .p_cuotas {
-    display: inline-block !important;
-  }
-
-  .slide_promo .p_cuotas {
-    margin-bottom: 0;
-    background: #6e90ac !important;
-    padding: 2px 10px;
-    color: white !important;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    font-size: 0.85rem;
-  }
-
-  .slide_promo h1 {
-    position: relative !important;
-    left: initial !important;
-    bottom: initial !important;
-    margin-bottom: 5px !important;
-  }
-
-  .slide_promo .h1_cuotas {
-    display: none;
-  }
-
-  /* Slide Promo end */
-
   /* Slide */
   .slide .carousel-item .datos .col-12 {
     justify-content: center;
@@ -837,20 +755,6 @@ footer a:hover {
     margin-bottom: 0;
   }
   /* Slide end */
-
-  /* Slide Promo */
-  .slide_promo h1 {
-    position: initial !important;
-    border: none !important;
-    font-size: 2rem;
-  }
-
-  .slide_promo .p_cuotas {
-    position: relative !important;
-    left: initial !important;
-    bottom: initial;
-  }
-  /* Slide Promo */
 
   /* Formulario */
   .content_formulario form {
@@ -1023,18 +927,6 @@ footer a:hover {
   }
   /* Slide end */
 
-  /* Slide Promo */
-  .slide_promo h1 {
-    background: none;
-    padding: 0;
-    font-size: 2.4rem;
-  }
-
-  .slide_promo #frase_0 {
-    top: 5%;
-  }
-  /* Slide Promo end */
-
   /* Formulario */
   .content_formulario {
     position: absolute;
@@ -1156,16 +1048,6 @@ footer a:hover {
   }
   /* Slide end */
 
-  /* Slide Promo */
-  .slide_promo h1 {
-    font-size: 3.1rem;
-  }
-
-  .slide_promo .p_cuotas {
-    font-size: 1.125rem !important;
-  }
-  /* Slide Promo end */
-
   /* Línea de Zócalos Completa */
   .content_line .perfil {
     min-width: 160px;
@@ -1254,20 +1136,6 @@ footer a:hover {
     left: 28%;
   }
   /* Slide end */
-
-  /* Slide Promo */
-  .slide_promo h1 {
-    font-size: 4rem;
-  }
-
-  .slide_promo #frase_0 {
-    top: 10%;
-  }
-
-  .slide_promo .p_cuotas {
-    font-size: 1.47rem !important;
-  }
-  /* Slide Promo end */
 
   /* Formulario */
   .content_formulario {
