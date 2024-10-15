@@ -147,12 +147,12 @@ window.location = 'gracias-wall-panel.php';
             <div class="carousel-inner">
 
               <div class="carousel-item active">
-                <img src="img/wall-panel/header-wall-panel-promo.jpg" class="d-block w-100" alt="wall panel en mdf">
-                <!-- <div id="frase_1" class="data wow fadeInUp">
+                <img src="img/wall-panel/header-wall-panel.jpg" class="d-block w-100" alt="wall panel en mdf">
+                <div id="frase_1" class="data wow fadeInUp">
                   <h1>Wall Panel MDF</h1>
                   <p>Dale personalidad a tus espacios.
                   </p>
-                </div> -->
+                </div>
               </div>
 
             </div>
