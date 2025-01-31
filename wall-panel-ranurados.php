@@ -109,30 +109,38 @@
       <div class="productos col-lg-5 offset-lg-1 mb-5">
         <h1 class="wow fadeInUp">WALL PANEL RANURADO</h1>
         <h2 class="wow fadeInLeft">MDF</h2>
+
         <p class="wow fadeInUp">
-          <span class="font-weight-bold">Descripción:</span> <br>
-          Fabricados en MDF. <br>
-          prepintado blanco.
+          <span class="font-weight-bold">Material:</span> <br>
+          Revestimiento de madera MDF
+        </p>
+
+        <p class="wow fadeInUp">
+          <span class="font-weight-bold">Terminación:</span> <br>
+          Crudo o prepintado blanco.
+        </p>
+
+        <p class="wow fadeInUp">
+          <span class="font-weight-bold">Uso:</span> <br>
+          Interior.
+        </p>
+
+        <p class="wow fadeInUp">
+          <span class="font-weight-bold">Colocación:</span> <br>
+          Encastre.
+        </p>
+
+        <p class="wow fadeInUp">
+          <span class="font-weight-bold">Pegado:</span> <br>
+          Silicona.
         </p>
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Medidas:</span> <br>
-          Cada tira mide 135 mm de ancho x 2750mm de alto.
-        </p>
-
-        <p class="wow fadeInUp">
-          <span class="font-weight-bold">Espesor:</span> <br>
-          9 mm.
-        </p>
-
-        <p class="wow fadeInUp">
-          <span class="font-weight-bold">Presentación:</span> <br>
-          Cada empaque contiene 10 tiras de revestimiento que cubren 3,50 m2.
-        </p>
-
-        <p class="wow fadeInUp">
-          <span class="font-weight-bold">Colores:</span> <br>
-          Prepintado y Natural
+          Ancho 13.5 cm Encastrado 12.9 cm. <br>
+          Espesor 0.9 cm. <br>
+          Alto 275 cm. <br>
+          Cubre: 0.35 m2 Aproximado.
         </p>
 
         <div class="row">
