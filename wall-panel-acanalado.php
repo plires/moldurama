@@ -151,6 +151,12 @@
             <div class="colors bg-natural">
               &nbsp;
             </div>
+            <div class="colors bg-negro">
+              &nbsp;
+            </div>
+            <div class="colors bg-gris-new">
+              &nbsp;
+            </div>
           </div>
 
         </div>
