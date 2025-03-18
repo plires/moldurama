@@ -383,7 +383,7 @@ if (isset($_POST["send"])) {
               </div>
 
               <div class="perfil">
-                <img class="img-fluid" src="img/zocalo-zff.png" alt="zocalo de MDF zff">
+                <img class="img-fluid" src="img/zocalo-zfc.png" alt="zocalo de MDF zrc">
                 <p class="title">ZFC</p>
                 <p class="description">Zócalo con Calle</p>
               </div>
