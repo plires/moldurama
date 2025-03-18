@@ -38,7 +38,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="css/app.css">
 
-  <title>Wall pannel en MDF Fabricados en MDF prepintado blanco.</title>
+  <title>Wall pannel ranurados en MDF Fabricados en MDF prepintado blanco, gris o negro.</title>
 </head>
 
 <body>
@@ -117,7 +117,7 @@
 
         <p class="wow fadeInUp">
           <span class="font-weight-bold">Terminación:</span> <br>
-          Crudo o prepintado blanco.
+          Crudo, prepintado blanco, gris o negro.
         </p>
 
         <p class="wow fadeInUp">
@@ -143,8 +143,10 @@
           Cubre: 0.35 m2 Aproximado.
         </p>
 
+        <p class="wow fadeInUp">
+          <span class="font-weight-bold">Colores:</span>
+        </p>
         <div class="row">
-
           <div class="wow fadeInUp content_colors col-md-12">
             <div class="colors bg-blank">
               &nbsp;
