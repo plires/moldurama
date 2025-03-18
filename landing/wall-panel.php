@@ -1,93 +1,92 @@
 <?php
 
-	include_once('./includes/config.inc.php');
-	include_once('./includes/funciones_validar.php');
-	require_once('./clases/repositorioSQL.php');
-	require_once('./clases/app.php');
+include_once('./includes/config.inc.php');
+include_once('./includes/funciones_validar.php');
+require_once('./clases/repositorioSQL.php');
+require_once('./clases/app.php');
 
-	$db = new RepositorioSQL();
-	$errors = [];
-	$name = '';
-	$email = '';
-	$phone = '';
-	$comments = '';
-	$rubro = 'Wall Panel';
+$db = new RepositorioSQL();
+$errors = [];
+$name = '';
+$email = '';
+$phone = '';
+$comments = '';
+$rubro = 'Wall Panel';
 
-	if ( isset($_GET['utm_source']) ) {
-		$origin = $_GET['utm_source'];
-	} else {
-		$origin = "no set";
-	}
+if (isset($_GET['utm_source'])) {
+  $origin = $_GET['utm_source'];
+} else {
+  $origin = "no set";
+}
 
-	if ( isset($_GET['utm_campaign']) ) {
-		$campaign = $_GET['utm_campaign'];
-	} else {
-		$campaign = "no set";
-	}
+if (isset($_GET['utm_campaign'])) {
+  $campaign = $_GET['utm_campaign'];
+} else {
+  $campaign = "no set";
+}
 
-	// Envio del formulario de contacto
-	if (isset($_POST["send"])) {
+// Envio del formulario de contacto
+if (isset($_POST["send"])) {
 
-		if(isset($_POST['g-recaptcha-response'])){$captcha=$_POST['g-recaptcha-response'];}
-	  $secretKey = RECAPTCHA_SECRET_KEY;
-	  $ip = $_SERVER['REMOTE_ADDR'];
-	  $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
-	  $responseKeys = json_decode($response,true);
+  if (isset($_POST['g-recaptcha-response'])) {
+    $captcha = $_POST['g-recaptcha-response'];
+  }
+  $secretKey = RECAPTCHA_SECRET_KEY;
+  $ip = $_SERVER['REMOTE_ADDR'];
+  $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=" . $ip);
+  $responseKeys = json_decode($response, true);
 
-	  if ($responseKeys['success']) {
-	  
-	    // Verificamos si hay errores en el formulario
-	    if (campoVacio($_POST['name'])){
-	      $errors['name']='Ingresa tu nombre';
-	    } else {
-	      $name = $_POST['name'];
-	    }
+  if ($responseKeys['success']) {
 
-	    if (!comprobar_email($_POST['email'])){
-	      $errors['email']='Ingresa el mail :(';
-	    } else {
-	      $email = $_POST['email'];
-	    }
+    // Verificamos si hay errores en el formulario
+    if (campoVacio($_POST['name'])) {
+      $errors['name'] = 'Ingresa tu nombre';
+    } else {
+      $name = $_POST['name'];
+    }
 
-	    if (campoVacio($_POST['comments'])){
-	      $errors['comments']='Ingresa tus comentarios';
-	    } else {
-	      $comments = $_POST['comments'];
-	    }
+    if (!comprobar_email($_POST['email'])) {
+      $errors['email'] = 'Ingresa el mail :(';
+    } else {
+      $email = $_POST['email'];
+    }
 
-	  } else {
-	    $errors['recaptcha'] = 'Error al validar el recaptcha';
-	  }
+    if (campoVacio($_POST['comments'])) {
+      $errors['comments'] = 'Ingresa tus comentarios';
+    } else {
+      $comments = $_POST['comments'];
+    }
+  } else {
+    $errors['recaptcha'] = 'Error al validar el recaptcha';
+  }
 
-	  if (!$errors) {
+  if (!$errors) {
 
-	  	//grabamos en la base de datos
-	    $save = $db->getRepositorioContacts()->saveInBDD($_POST);
+    //grabamos en la base de datos
+    $save = $db->getRepositorioContacts()->saveInBDD($_POST);
 
-	    //Enviamos los mails al cliente y usuario
-	    $app = new App;
+    //Enviamos los mails al cliente y usuario
+    $app = new App;
 
-	    // Registramos en Mailchimp el contacto
-	    $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST, $rubro);
+    // Registramos en Mailchimp el contacto
+    $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST, $rubro);
 
-	    $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST, $rubro);
+    $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST, $rubro);
 
-	    $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST, $rubro);
+    $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST, $rubro);
 
-	    if ($sendClient) {
-	      // Redirigimos a la pagina de gracias
-	      ?>
-<script type="text/javascript">
-window.location = 'gracias-wall-panel.php';
-</script>
+    if ($sendClient) {
+      // Redirigimos a la pagina de gracias
+?>
+      <script type="text/javascript">
+        window.location = 'gracias-wall-panel.php';
+      </script>
 <?php
-	    } else {
-	      exit('Error al enviar la consulta, por favor intente nuevamente');
-	    }
-	    
-	  }
-
-	}
+    } else {
+      exit('Error al enviar la consulta, por favor intente nuevamente');
+    }
+  }
+}
 
 ?>
 
@@ -159,14 +158,6 @@ window.location = 'gracias-wall-panel.php';
 
           </div>
 
-          <!-- <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a> -->
         </div>
 
       </div>
@@ -178,17 +169,17 @@ window.location = 'gracias-wall-panel.php';
 
           <!-- Errores Formulario -->
           <?php if ($errors): ?>
-          <div id="error" class="alert alert-danger alert-dismissible fade show fadeInLeft" role="alert">
-            <strong>¡Por favor verificá los datos!</strong>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <ul style="padding: 0;">
-              <?php foreach ($errors as $error) { ?>
-              <li>- <?php echo $error; ?></li>
-              <?php } ?>
-            </ul>
-          </div>
+            <div id="error" class="alert alert-danger alert-dismissible fade show fadeInLeft" role="alert">
+              <strong>¡Por favor verificá los datos!</strong>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <ul style="padding: 0;">
+                <?php foreach ($errors as $error) { ?>
+                  <li>- <?php echo $error; ?></li>
+                <?php } ?>
+              </ul>
+            </div>
           <?php endif ?>
           <!-- Errores Formulario end -->
           <p>¿NECESITAS ASESORAMIENTO?<br>
@@ -315,7 +306,7 @@ window.location = 'gracias-wall-panel.php';
                 MEDIDAS ESTÁNDAR: <br>
                 <span>Cada tira mide 110mm de ancho x 2750mm de alto y 9mm de espesor.
                   Cada empaque contiene 10 tiras de revestimiento que cubren 2,90 m2.</span> <br>
-                Colores: <br><span> Prepintado y Natural</span>
+                Colores: <br><span> Prepintado, Natural, Negro y Gris</span>
               </p>
             </div>
 
